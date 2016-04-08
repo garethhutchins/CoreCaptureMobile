@@ -3,8 +3,27 @@
     Copyright (c) 2013-2015 EMC Corporation.  All rights reserved.
 </Copyright>
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">  
-    <PreferenceCategory 
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="@string/snap_settings"
+        android:title="@string/snap_settings">
+        <EditTextPreference
+            android:key="@string/SNAP_USER"
+            android:title="@string/SNAP_USER_TITLE"
+            android:summary="@string/SNAP_USER_SUMMARY"
+            android:defaultValue="" />
+        <EditTextPreference
+            android:key="@string/SNAP_PASSWORD"
+            android:title="@string/SNAP_PASSWORD_TITLE"
+            android:summary="@string/SNAP_PASSWORD_SUMMARY"
+            android:defaultValue="" />
+        <EditTextPreference
+            android:key="@string/SNAP_URL"
+            android:title="@string/SNAP_URL_TITLE"
+            android:summary="@string/SNAP_URL_SUMMARY"
+            android:defaultValue="" />
+    </PreferenceCategory>
+    <PreferenceCategory
         android:key="@string/GPREF_CAPTURE_GROUP"
         android:title="@string/GPREF_CAPTURE_GROUP_TITLE">
         <EditTextPreference
@@ -217,20 +236,6 @@
                 android:title="@string/GPREF_QUAD_CROP_SHADE_BACKGROUND_TITLE"
                 android:summary="@string/GPREF_QUAD_CROP_SHADE_BACKGROUND_SUMMARY"
                 android:defaultValue="true" />
-    </PreferenceCategory>
-    <PreferenceCategory
-            android:key="@string/GPREF_APPLICATION_SETTINGS_KEY"
-            android:title="@string/GPREF_APPLICATION_SETTINGS_TITLE">
-        <EditTextPreference
-            android:key="@string/GPREF_APPLICATIONID"
-            android:title="@string/GPREF_APPLICATIONID_TITLE"
-            android:summary="@string/GPREF_APPLICATIONID_SUMMARY"
-            android:defaultValue="" />                           
-        <EditTextPreference
-            android:key="@string/GPREF_LICENSE"
-            android:title="@string/GPREF_LICENSE_TITLE"
-            android:summary="@string/GPREF_LICENSE_SUMMARY"
-            android:defaultValue="" />                   
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/GPREF_CAPTURE_CUSTOM"

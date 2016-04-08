@@ -39,7 +39,7 @@ public final class R {
 		public static final int id_quadcropview = 0x7f070007;
 	}
 	public static final class layout {
-		public static final int activity_quadrilateral_crop = 0x7f030004;
+		public static final int activity_quadrilateral_crop = 0x7f030005;
 	}
 	public static final class string {
 		public static final int Button_Back = 0x7f080003;

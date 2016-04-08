@@ -1,22 +1,26 @@
 [
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quadrilateral_crop.xml",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\layout\\activity_quadrilateral_crop.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enhance_image.xml",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\layout\\activity_enhance_image.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quadrilateral_crop.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\layout\\activity_quadrilateral_crop.xml"
     },
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_imageinfo.xml",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\layout\\activity_imageinfo.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first_screen.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_first_screen.xml"
     },
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enhance_image_crop.xml",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\layout\\activity_enhance_image_crop.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enhance_image_crop.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_enhance_image_crop.xml"
     },
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enhance_image.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_enhance_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_imageinfo.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_imageinfo.xml"
     }
 ]

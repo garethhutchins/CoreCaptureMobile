@@ -19,12 +19,10 @@ android {
     // language version though... so if a later/current Java language version is required, use a
     // more current SDK version.
     compileSdkVersion 22
-
     // Note that the build tools version supports a lesser compiler version.
     buildToolsVersion "22.0.1"
-
     defaultConfig {
-        applicationId "emc.captiva.mobile.sdksampleapp"
+        applicationId 'emc.captiva.mobile.emcworldsnap'
         // Bumped the minimum to API 16 (Jelly Bean). API 16 captures 88% of Android users as of July 2015.
         minSdkVersion 16
 
@@ -34,7 +32,6 @@ android {
         versionCode 1
         versionName "1.0"
     }
-
     // We will want to use the same keystore from the old to new version of the application so
     // that upgrades are possible (instead of a side-by-side installation).
     signingConfigs {
@@ -45,7 +42,6 @@ android {
             keyPassword 'sdksampleappreleasekeystorepassword'
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -56,5 +52,7 @@ android {
             //noinspection GroovyAssignabilityCheck
             signingConfig signingConfigs.release
         }
+    }
+    productFlavors {
     }
 }

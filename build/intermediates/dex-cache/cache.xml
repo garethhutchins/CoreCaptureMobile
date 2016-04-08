@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="D:\CaptivaMobileSDK2.5.0\Android\SdkSampleApp\app\build\intermediates\exploded-aar\captivamobilesdk\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="897e69d2d59b3f4daacb6e95bfd5956d15fe0c78">
-        <dex dex="D:\CaptivaMobileSDK2.5.0\Android\SdkSampleApp\app\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-captivamobilesdk_4f503b3a47c42254500083c1bec255602f875d21.jar" />
-    </item>
-
-</items>

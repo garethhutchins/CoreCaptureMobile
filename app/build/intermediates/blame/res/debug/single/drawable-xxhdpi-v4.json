@@ -1,14 +1,14 @@
 [
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quadcrop.png",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xxhdpi\\quadcrop.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quadback.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xxhdpi\\quadback.png"
     },
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quadback.png",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xxhdpi\\quadback.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quadcrop.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xxhdpi\\quadcrop.png"
     },
     {
-        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\overlay_quality.png",
-        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xxhdpi\\overlay_quality.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\overlay_quality.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xxhdpi\\overlay_quality.png"
     }
 ]

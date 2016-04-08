@@ -198,7 +198,7 @@
     <string name="MainPage_Settings">Settings</string>
     <string name="MainPage_TakeContinuousPictures">Take Continuous Pictures</string>
     <string name="MainPage_TakePicture">Take Picture</string>
-    <string name="MainPage_Title">SDK Sample 2.5</string>
+    <string name="MainPage_Title">EMC World Snap</string>
     <string name="Menu_AutoCrop">Auto Crop</string>
     <string name="Menu_BlackWhite">Black-White</string>
     <string name="Menu_Crop">Crop</string>
@@ -218,10 +218,21 @@
     <string name="Menu_Rotate180">Rotate 180</string>
     <string name="Menu_RotateLeft">Rotate Left</string>
     <string name="Menu_RotateRight">Rotate Right</string>
+    <string name="SNAP_PASSWORD">Snap Password</string>
+    <string name="SNAP_PASSWORD_SUMMARY">Enter your Snap Password</string>
+    <string name="SNAP_PASSWORD_TITLE">Your Snap Password</string>
+    <string name="SNAP_URL">Snap URL</string>
+    <string name="SNAP_URL_SUMMARY">Enter Your Snap URL</string>
+    <string name="SNAP_URL_TITLE">Your Snap URL</string>
+    <string name="SNAP_USER">Snap User</string>
+    <string name="SNAP_USER_SUMMARY">Enter your Snap Username</string>
+    <string name="SNAP_USER_TITLE">Your Snap Username</string>
     <string name="Undo_Error_Disabled">Undo disabled.</string>
     <string name="Undo_Error_Empty">Nothing left to undo.</string>
     <string name="Undo_Error_Generic">Undo failed.</string>
-    <string name="app_name">Captiva SDK Sample 2.5</string>
+    <string name="app_name">EMC World Snap</string>
+    <string name="snap_settings">Snap Connection</string>
+    <string name="title_activity_first_screen">First Screen</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

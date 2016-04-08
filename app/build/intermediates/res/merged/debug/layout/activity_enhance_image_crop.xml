@@ -27,7 +27,7 @@
 			 	android:layout_centerInParent="true"
 			 	android:gravity="center" 
 		 		android:background="@android:color/transparent" />   		    
-		   	<emc.captiva.mobile.sdksampleapp.CropView
+		   	<emc.captiva.mobile.emcworldsnap.CropView
 		        android:id="@+id/CropView"
 		       	android:layout_width="match_parent"       	
 			 	android:layout_height="match_parent"
