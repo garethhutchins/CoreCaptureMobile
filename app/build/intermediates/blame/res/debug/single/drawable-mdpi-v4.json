@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_movementred.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_movementred.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\appicon.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\drawable-mdpi\\appicon.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quadcrop.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\quadcrop.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quadback.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\quadback.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_levelred.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_levelred.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_lightred.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_lightred.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_torch.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_torch.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_back.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_back.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_camera.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_camera.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\check.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\drawable-mdpi\\check.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_focusred.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_focusred.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\overlay_quality.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-mdpi\\overlay_quality.png"
+    },
+    {
+        "merged": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_next.png",
+        "source": "D:\\CaptivaMobileSDK2.5.0\\Android\\SdkSampleApp\\app\\src\\main\\res\\drawable-mdpi\\ic_next.png"
+    }
+]

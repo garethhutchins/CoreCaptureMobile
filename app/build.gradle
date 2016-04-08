@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+
+dependencies {
+    // This is the dependency that utilizes the Captiva Mobile SDK.
+    compile(name: 'captivamobilesdk', ext: 'aar')
+}
+
+// This is required to compile AAR files from the libs folder.
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+android {
+    // This represents the API version of Android that is being compiled against.  It can be as
+    // low as the API requirement of the highest feature in the code.  It does affect the Java
+    // language version though... so if a later/current Java language version is required, use a
+    // more current SDK version.
+    compileSdkVersion 22
+
+    // Note that the build tools version supports a lesser compiler version.
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "emc.captiva.mobile.sdksampleapp"
+        // Bumped the minimum to API 16 (Jelly Bean). API 16 captures 88% of Android users as of July 2015.
+        minSdkVersion 16
+
+        // This is the highest version that the code has been tested to run on.  The code will run
+        // on higher versions, but this is the version that has been tested/certified as the target.
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    // We will want to use the same keystore from the old to new version of the application so
+    // that upgrades are possible (instead of a side-by-side installation).
+    signingConfigs {
+        release {
+            storeFile file('sdk-sample-app-release.keystore')
+            keyAlias 'sdk_sample_app'
+            storePassword 'sdksampleappreleasekeystorepassword'
+            keyPassword 'sdksampleappreleasekeystorepassword'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // Get rid of linter 'cannot infer argument types' warning with noinspection directive.
+            //noinspection GroovyAssignabilityCheck
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // Get rid of linter 'cannot infer argument types' warning with noinspection directive.
+            //noinspection GroovyAssignabilityCheck
+            signingConfig signingConfigs.release
+        }
+    }
+}

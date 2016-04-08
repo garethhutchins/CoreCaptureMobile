@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/BuildAgent/work/d5dbe65ce2e4c4e2/Build/Src/Emc.Captiva/Mobile/Android/Sdk/res/values/id.xml -->
+    <eat-comment/>
+    <item name="id_buttonlayout" type="id"/>
+    <item name="id_capturebutton" type="id"/>
+    <item name="id_centerspace" type="id"/>
+    <item name="id_guidelinesview" type="id"/>
+    <item name="id_quadcropbackbutton" type="id"/>
+    <item name="id_quadcropbuttonspace" type="id"/>
+    <item name="id_quadcropcropbutton" type="id"/>
+    <item name="id_quadcropview" type="id"/>
+    <!-- From: file:/D:/BuildAgent/work/d5dbe65ce2e4c4e2/Build/Src/Emc.Captiva/Mobile/Android/Sdk/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Button_Back">Back</string>
+    <string name="Button_Crop">Crop</string>
+    <string name="General_Image">Image</string>
+</resources>
