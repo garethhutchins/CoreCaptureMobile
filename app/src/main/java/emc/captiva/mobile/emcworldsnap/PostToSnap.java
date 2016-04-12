@@ -1,9 +1,12 @@
 package emc.captiva.mobile.emcworldsnap;
 
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 
 
@@ -14,9 +17,13 @@ import android.provider.MediaStore;
 import android.util.Base64;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.NetworkResponse;
 import com.android.volley.RequestQueue;
+import com.android.volley.RetryPolicy;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
@@ -88,26 +95,28 @@ public class PostToSnap extends AsyncTask {
         public String value;
         public String contentType;
     }
-    private class filesResponse {
-        String name;
-        String value;
-        String src;
-        String contentType;
+    private class ClassifyExtractPageRequest {
+        public serviceProps serviceProps[] = new serviceProps[1];
+        public requestItems requestItems[] = new requestItems[1];
     }
+    private RequestQueue queue;
 
 
     public PostToSnap(Context context) {
         dialog = new ProgressDialog(context);
         this.context = context;
+        //Start the Request Queue
+        HttpsTrustManager.allowAllSSL();
+        queue = Volley.newRequestQueue(context);
+        queue.start();
     }
 
 
     private void login() {
         String url;
-        String User;
-        String Password;
 
-        HttpsTrustManager.allowAllSSL();
+        dialog.setMessage("Logging in to Snap");
+
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         loginRequest Login = new loginRequest();
         Login.username = gprefs.getString("Snap User","");
@@ -115,16 +124,14 @@ public class PostToSnap extends AsyncTask {
         url = gprefs.getString("Snap URL", "");
         url = url + "/cp-rest/Session";
         Gson gson = new Gson();
-        String json = gson.toJson(Login);
+        String Strjson = gson.toJson(Login);
         JSONObject JLogin = null;
         try {
-            JLogin = new JSONObject(json);
+            JLogin = new JSONObject(Strjson);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        RequestQueue queue = Volley.newRequestQueue(context);
 
-        queue.start();
         JsonObjectRequest req = new JsonObjectRequest(url, JLogin,
                     new Response.Listener<JSONObject>() {
                         @Override
@@ -140,10 +147,26 @@ public class PostToSnap extends AsyncTask {
                     }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
-                    String StrResponse = "";
-                    StrResponse = error.toString();
+                    Log.d("Login Error",error.toString());
+                    NetworkResponse response = error.networkResponse;
+                    if(response != null && response.data != null){
+                        String json = null;
+                        json = new String(response.data);
+                        JSONObject obj = null;
+                        try {
+                            obj = new JSONObject(json);
+                            json = obj.getString("message");
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        if(json != null) {
+                            Log.d("Login Error",json);
+                            ShowDialog("Login Error",json);
+                            //Go back to Image Enhancement
+
+                    }
                 }
-            });
+            }});
 
         queue.add(req);
 
@@ -151,7 +174,7 @@ public class PostToSnap extends AsyncTask {
 
     private void ProcessImage() {
         ProcessImageRequest processImageRequest = new ProcessImageRequest();
-
+        dialog.setMessage("Posting & Enhancing Image");
         //Set the Profile
         serviceProps Profile = new serviceProps();
         Profile.name = "Profile";
@@ -226,11 +249,6 @@ public class PostToSnap extends AsyncTask {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        HttpsTrustManager.allowAllSSL();
-
-        RequestQueue queue = Volley.newRequestQueue(context);
-
-        queue.start();
 
         JsonObjectRequest Imgreq = new JsonObjectRequest(url, JImage,
                 new Response.Listener<JSONObject>() {
@@ -242,9 +260,11 @@ public class PostToSnap extends AsyncTask {
                         try {
                             JSONArray mainjsonArray= response.getJSONArray("resultItems").getJSONObject(0).getJSONArray("files");
                             String fileID = mainjsonArray.getJSONObject(0).getString("value");
+                            String name = mainjsonArray.getJSONObject(0).getString("name");
+                            String contentType = mainjsonArray.getJSONObject(0).getString("contentType");
                             Log.d("File ID",fileID);
                             //Now pass the fileID to ClassifyExtractPage
-                            ClassifyExtract(fileID);
+                            ClassifyExtract(name,fileID,contentType);
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -252,12 +272,25 @@ public class PostToSnap extends AsyncTask {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                // handle error
-                Log.d("Upload Error",error.toString());
-                Integer i = error.networkResponse.statusCode;
-                Log.d("Upload Error Message",i.toString());
+                Log.d("Login Error",error.toString());
+                NetworkResponse response = error.networkResponse;
+                if(response != null && response.data != null){
+                    String json = null;
+                    json = new String(response.data);
+                    JSONObject obj = null;
+                    try {
+                        obj = new JSONObject(json);
+                        json = obj.getString("message");
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    if(json != null) {
+                        Log.d("Process Image Error",json);
+                        ShowDialog("Process Image Error",json);
+                        //Go back to Image Enhancement
 
-            }
+                    }
+                } }
         })
 
         {
@@ -274,6 +307,9 @@ public class PostToSnap extends AsyncTask {
                 return headers;
             }
         };
+        int socketTimeout = 30000;//30 seconds - change to what you want
+        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        Imgreq.setRetryPolicy(policy);
         queue.add(Imgreq);
     }
 
@@ -292,16 +328,18 @@ public class PostToSnap extends AsyncTask {
         return null;
     }
 
-    private void ClassifyExtract(String FileID) {
+    private void ClassifyExtract(String name,String fileID,String contentType) {
         //Now call the Classify extract service
+        //Change the dialog
+        dialog.setMessage("Classifying & Extracting");
 
     }
 
     @Override
     protected void onPostExecute(Object result) {
-        if (dialog.isShowing()) {
-            dialog.dismiss();
-        }
+        //if (dialog.isShowing()) {
+        //    dialog.dismiss();
+       // }
 
     }
 
@@ -317,5 +355,29 @@ public class PostToSnap extends AsyncTask {
                     fileExtension.toLowerCase());
         }
         return mimeType;
+    }
+
+    private void ShowDialog (String title, String message) {
+        AlertDialog alertDialog = new AlertDialog.Builder(
+                context).create();
+
+        // Setting Dialog Title
+        alertDialog.setTitle(title);
+
+        // Setting Dialog Message
+        alertDialog.setMessage(message);
+
+
+        // Setting OK Button
+        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,"OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // Write your code here to execute after dialog closed
+                Intent intent = new Intent(context, FirstScreen.class);
+                context.startActivity(intent);
+            }
+        });
+
+        // Showing Alert Message
+        alertDialog.show();
     }
 }
