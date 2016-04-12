@@ -48,6 +48,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	private Menu _menu = null;
 	private RelativeLayout _enhanceLayout = null;
 	private int _numOfFiltersApplied = 0;
+	private String _newFileName = "";
 
 	/**
 	 * Called when the quadrilateral crop operation is complete.
@@ -239,6 +240,20 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		// Cancel any edits, reload the image, and tell the view to refresh.
 		undoAll();
 	}
+	public void onSendToSnap(View view) {
+
+		PostToSnap Snap = new PostToSnap(this);
+
+		if (_newFileName.equals("")) {
+			Snap.FileName = _filename;
+		}
+		else {
+			Snap.FileName = _newFileName;
+		}
+
+		Snap.execute();
+
+	}
 
 	/**
      * The Undo button handler. This will the last change made (one level undo only).
@@ -272,7 +287,8 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		 // If the image has been edited, then save a copy of the image under a new filename to the gallery.
 	     try {	        
             String fullpath = saveCurrentImage();
-            
+			_newFileName = fullpath;
+
             // Let Android know so that it shows immediately in the image gallery. Note that TIFF
             // images cannot be viewed by the Android gallery viewer as of 4.2.2. However, if you 
             // save a TIFF image to the gallery storage folder, it will still save and you can 

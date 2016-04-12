@@ -16,10 +16,13 @@
         android:scaleType="centerInside"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="7dp"
-        android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_above="@+id/BottomBar" />
 
     <RelativeLayout
         android:id="@+id/BottomBar"
@@ -41,17 +44,32 @@
                 android:visibility="invisible"
                 android:onClick="onUndoAll" />
         <Button
+            android:id="@+id/btn_SendToSnap"
+            android:text="Send To Snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_button"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:onClick="onSendToSnap"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
                 android:id="@+id/UndoButton"
                 android:text="@string/Button_Undo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:background="@drawable/black_button"
+            android:background="@drawable/black_button"
                 android:textColor="#FFFFFF"
                 android:padding="10dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:visibility="invisible"
-                android:onClick="onUndo" />
+                android:onClick="onUndo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 
     <ProgressBar

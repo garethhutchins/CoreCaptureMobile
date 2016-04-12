@@ -231,6 +231,8 @@
     <string name="Undo_Error_Empty">Nothing left to undo.</string>
     <string name="Undo_Error_Generic">Undo failed.</string>
     <string name="app_name">EMC World Snap</string>
+    <string name="applicationId">APP9733-S507-6772</string>
+    <string name="licenseKey">LICE036-S0PN-5110</string>
     <string name="snap_settings">Snap Connection</string>
     <string name="title_activity_first_screen">First Screen</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">

@@ -32,11 +32,7 @@
             android:name=".MainActivity"
             android:label="@string/MainPage_Title"
             android:theme="@android:style/Theme.Holo">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".EnhanceImageActivity"
@@ -65,10 +61,9 @@
             android:theme="@android:style/Theme.Holo"></activity>
         <activity
             android:name=".FirstScreen"
-            android:label="@string/title_activity_first_screen">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

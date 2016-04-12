@@ -14,12 +14,12 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 211,
+                        "startLine": 213,
                         "startColumn": 4,
-                        "startOffset": 18559,
-                        "endLine": 215,
+                        "startOffset": 18678,
+                        "endLine": 217,
                         "endColumn": 19,
-                        "endOffset": 18834
+                        "endOffset": 18953
                     }
                 }
             },
@@ -224,11 +224,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 761,
+                        "startOffset": 880,
                         "endColumn": 85,
-                        "endOffset": 842
+                        "endOffset": 961
                     }
                 }
             },
@@ -243,11 +243,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 67,
+                        "startLine": 69,
                         "startColumn": 4,
-                        "startOffset": 3846,
+                        "startOffset": 3965,
                         "endColumn": 62,
-                        "endOffset": 3904
+                        "endOffset": 4023
                     }
                 }
             },
@@ -262,11 +262,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 68,
+                        "startLine": 70,
                         "startColumn": 4,
-                        "startOffset": 3910,
+                        "startOffset": 4029,
                         "endColumn": 50,
-                        "endOffset": 3956
+                        "endOffset": 4075
                     }
                 }
             },
@@ -319,11 +319,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 47,
+                        "startLine": 49,
                         "startColumn": 4,
-                        "startOffset": 2737,
+                        "startOffset": 2856,
                         "endColumn": 57,
-                        "endOffset": 2790
+                        "endOffset": 2909
                     }
                 }
             },
@@ -338,11 +338,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 43,
+                        "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 2493,
+                        "startOffset": 2612,
                         "endColumn": 49,
-                        "endOffset": 2538
+                        "endOffset": 2657
                     }
                 }
             },
@@ -357,11 +357,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 42,
+                        "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 2440,
+                        "startOffset": 2559,
                         "endColumn": 51,
-                        "endOffset": 2487
+                        "endOffset": 2606
                     }
                 }
             },
@@ -376,11 +376,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1239,
+                        "startOffset": 1358,
                         "endColumn": 61,
-                        "endOffset": 1296
+                        "endOffset": 1415
                     }
                 }
             },
@@ -395,11 +395,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1302,
+                        "startOffset": 1421,
                         "endColumn": 70,
-                        "endOffset": 1368
+                        "endOffset": 1487
                     }
                 }
             },
@@ -414,11 +414,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1177,
+                        "startOffset": 1296,
                         "endColumn": 60,
-                        "endOffset": 1233
+                        "endOffset": 1352
                     }
                 }
             },
@@ -433,11 +433,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 198,
+                        "startLine": 200,
                         "startColumn": 4,
-                        "startOffset": 17540,
+                        "startOffset": 17659,
                         "endColumn": 67,
-                        "endOffset": 17603
+                        "endOffset": 17722
                     }
                 }
             },
@@ -452,11 +452,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 200,
+                        "startLine": 202,
                         "startColumn": 4,
-                        "startOffset": 17687,
+                        "startOffset": 17806,
                         "endColumn": 98,
-                        "endOffset": 17781
+                        "endOffset": 17900
                     }
                 }
             },
@@ -471,11 +471,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 199,
+                        "startLine": 201,
                         "startColumn": 4,
-                        "startOffset": 17609,
+                        "startOffset": 17728,
                         "endColumn": 76,
-                        "endOffset": 17681
+                        "endOffset": 17800
                     }
                 }
             },
@@ -490,11 +490,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 196,
+                        "startLine": 198,
                         "startColumn": 4,
-                        "startOffset": 17370,
+                        "startOffset": 17489,
                         "endColumn": 85,
-                        "endOffset": 17451
+                        "endOffset": 17570
                     }
                 }
             },
@@ -509,11 +509,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 197,
+                        "startLine": 199,
                         "startColumn": 4,
-                        "startOffset": 17457,
+                        "startOffset": 17576,
                         "endColumn": 81,
-                        "endOffset": 17534
+                        "endOffset": 17653
                     }
                 }
             },
@@ -528,11 +528,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 152,
+                        "startLine": 154,
                         "startColumn": 4,
-                        "startOffset": 12681,
+                        "startOffset": 12800,
                         "endColumn": 63,
-                        "endOffset": 12740
+                        "endOffset": 12859
                     }
                 }
             },
@@ -547,11 +547,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 154,
+                        "startLine": 156,
                         "startColumn": 4,
-                        "startOffset": 12819,
+                        "startOffset": 12938,
                         "endColumn": 160,
-                        "endOffset": 12975
+                        "endOffset": 13094
                     }
                 }
             },
@@ -566,11 +566,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 153,
+                        "startLine": 155,
                         "startColumn": 4,
-                        "startOffset": 12746,
+                        "startOffset": 12865,
                         "endColumn": 71,
-                        "endOffset": 12813
+                        "endOffset": 12932
                     }
                 }
             },
@@ -585,11 +585,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 217,
+                        "startLine": 219,
                         "startColumn": 4,
-                        "startOffset": 18917,
+                        "startOffset": 19036,
                         "endColumn": 67,
-                        "endOffset": 18980
+                        "endOffset": 19099
                     }
                 }
             },
@@ -604,11 +604,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 220,
+                        "startLine": 222,
                         "startColumn": 4,
-                        "startOffset": 19150,
+                        "startOffset": 19269,
                         "endColumn": 57,
-                        "endOffset": 19203
+                        "endOffset": 19322
                     }
                 }
             },
@@ -623,11 +623,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 219,
+                        "startLine": 221,
                         "startColumn": 4,
-                        "startOffset": 19055,
+                        "startOffset": 19174,
                         "endColumn": 93,
-                        "endOffset": 19144
+                        "endOffset": 19263
                     }
                 }
             },
@@ -642,11 +642,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 218,
+                        "startLine": 220,
                         "startColumn": 4,
-                        "startOffset": 18986,
+                        "startOffset": 19105,
                         "endColumn": 67,
-                        "endOffset": 19049
+                        "endOffset": 19168
                     }
                 }
             },
@@ -661,11 +661,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 216,
+                        "startLine": 218,
                         "startColumn": 4,
-                        "startOffset": 18840,
+                        "startOffset": 18959,
                         "endColumn": 75,
-                        "endOffset": 18911
+                        "endOffset": 19030
                     }
                 }
             },
@@ -680,11 +680,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 221,
+                        "startLine": 223,
                         "startColumn": 4,
-                        "startOffset": 19209,
+                        "startOffset": 19328,
                         "endColumn": 65,
-                        "endOffset": 19270
+                        "endOffset": 19389
                     }
                 }
             },
@@ -699,11 +699,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 223,
+                        "startLine": 225,
                         "startColumn": 4,
-                        "startOffset": 19344,
+                        "startOffset": 19463,
                         "endColumn": 93,
-                        "endOffset": 19433
+                        "endOffset": 19552
                     }
                 }
             },
@@ -718,11 +718,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 222,
+                        "startLine": 224,
                         "startColumn": 4,
-                        "startOffset": 19276,
+                        "startOffset": 19395,
                         "endColumn": 66,
-                        "endOffset": 19338
+                        "endOffset": 19457
                     }
                 }
             },
@@ -737,11 +737,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 125,
+                        "startLine": 127,
                         "startColumn": 4,
-                        "startOffset": 9894,
+                        "startOffset": 10013,
                         "endColumn": 53,
-                        "endOffset": 9943
+                        "endOffset": 10062
                     }
                 }
             },
@@ -756,11 +756,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 127,
+                        "startLine": 129,
                         "startColumn": 4,
-                        "startOffset": 10019,
+                        "startOffset": 10138,
                         "endColumn": 110,
-                        "endOffset": 10125
+                        "endOffset": 10244
                     }
                 }
             },
@@ -775,11 +775,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 126,
+                        "startLine": 128,
                         "startColumn": 4,
-                        "startOffset": 9949,
+                        "startOffset": 10068,
                         "endColumn": 68,
-                        "endOffset": 10013
+                        "endOffset": 10132
                     }
                 }
             },
@@ -794,11 +794,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 146,
+                        "startLine": 148,
                         "startColumn": 4,
-                        "startOffset": 12079,
+                        "startOffset": 12198,
                         "endColumn": 65,
-                        "endOffset": 12140
+                        "endOffset": 12259
                     }
                 }
             },
@@ -813,11 +813,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 148,
+                        "startLine": 150,
                         "startColumn": 4,
-                        "startOffset": 12214,
+                        "startOffset": 12333,
                         "endColumn": 151,
-                        "endOffset": 12361
+                        "endOffset": 12480
                     }
                 }
             },
@@ -832,11 +832,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 147,
+                        "startLine": 149,
                         "startColumn": 4,
-                        "startOffset": 12146,
+                        "startOffset": 12265,
                         "endColumn": 66,
-                        "endOffset": 12208
+                        "endOffset": 12327
                     }
                 }
             },
@@ -851,11 +851,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 134,
+                        "startLine": 136,
                         "startColumn": 4,
-                        "startOffset": 10600,
+                        "startOffset": 10719,
                         "endColumn": 65,
-                        "endOffset": 10661
+                        "endOffset": 10780
                     }
                 }
             },
@@ -870,11 +870,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 136,
+                        "startLine": 138,
                         "startColumn": 4,
-                        "startOffset": 10735,
+                        "startOffset": 10854,
                         "endColumn": 177,
-                        "endOffset": 10908
+                        "endOffset": 11027
                     }
                 }
             },
@@ -889,11 +889,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 135,
+                        "startLine": 137,
                         "startColumn": 4,
-                        "startOffset": 10667,
+                        "startOffset": 10786,
                         "endColumn": 66,
-                        "endOffset": 10729
+                        "endOffset": 10848
                     }
                 }
             },
@@ -908,11 +908,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 143,
+                        "startLine": 145,
                         "startColumn": 4,
-                        "startOffset": 11727,
+                        "startOffset": 11846,
                         "endColumn": 75,
-                        "endOffset": 11798
+                        "endOffset": 11917
                     }
                 }
             },
@@ -927,11 +927,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 145,
+                        "startLine": 147,
                         "startColumn": 4,
-                        "startOffset": 11882,
+                        "startOffset": 12001,
                         "endColumn": 195,
-                        "endOffset": 12073
+                        "endOffset": 12192
                     }
                 }
             },
@@ -946,11 +946,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 144,
+                        "startLine": 146,
                         "startColumn": 4,
-                        "startOffset": 11804,
+                        "startOffset": 11923,
                         "endColumn": 76,
-                        "endOffset": 11876
+                        "endOffset": 11995
                     }
                 }
             },
@@ -965,11 +965,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 140,
+                        "startLine": 142,
                         "startColumn": 4,
-                        "startOffset": 11355,
+                        "startOffset": 11474,
                         "endColumn": 69,
-                        "endOffset": 11420
+                        "endOffset": 11539
                     }
                 }
             },
@@ -984,11 +984,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 142,
+                        "startLine": 144,
                         "startColumn": 4,
-                        "startOffset": 11498,
+                        "startOffset": 11617,
                         "endColumn": 227,
-                        "endOffset": 11721
+                        "endOffset": 11840
                     }
                 }
             },
@@ -1003,11 +1003,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 141,
+                        "startLine": 143,
                         "startColumn": 4,
-                        "startOffset": 11426,
+                        "startOffset": 11545,
                         "endColumn": 70,
-                        "endOffset": 11492
+                        "endOffset": 11611
                     }
                 }
             },
@@ -1022,11 +1022,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 204,
+                        "startLine": 206,
                         "startColumn": 4,
-                        "startOffset": 18037,
+                        "startOffset": 18156,
                         "endColumn": 67,
-                        "endOffset": 18100
+                        "endOffset": 18219
                     }
                 }
             },
@@ -1041,11 +1041,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 206,
+                        "startLine": 208,
                         "startColumn": 4,
-                        "startOffset": 18186,
+                        "startOffset": 18305,
                         "endColumn": 77,
-                        "endOffset": 18259
+                        "endOffset": 18378
                     }
                 }
             },
@@ -1060,11 +1060,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 209,
+                        "startLine": 211,
                         "startColumn": 4,
-                        "startOffset": 18413,
+                        "startOffset": 18532,
                         "endColumn": 70,
-                        "endOffset": 18479
+                        "endOffset": 18598
                     }
                 }
             },
@@ -1079,11 +1079,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 208,
+                        "startLine": 210,
                         "startColumn": 4,
-                        "startOffset": 18345,
+                        "startOffset": 18464,
                         "endColumn": 66,
-                        "endOffset": 18407
+                        "endOffset": 18526
                     }
                 }
             },
@@ -1098,11 +1098,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 210,
+                        "startLine": 212,
                         "startColumn": 4,
-                        "startOffset": 18485,
+                        "startOffset": 18604,
                         "endColumn": 72,
-                        "endOffset": 18553
+                        "endOffset": 18672
                     }
                 }
             },
@@ -1117,11 +1117,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 207,
+                        "startLine": 209,
                         "startColumn": 4,
-                        "startOffset": 18265,
+                        "startOffset": 18384,
                         "endColumn": 78,
-                        "endOffset": 18339
+                        "endOffset": 18458
                     }
                 }
             },
@@ -1136,11 +1136,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 205,
+                        "startLine": 207,
                         "startColumn": 4,
-                        "startOffset": 18106,
+                        "startOffset": 18225,
                         "endColumn": 78,
-                        "endOffset": 18180
+                        "endOffset": 18299
                     }
                 }
             },
@@ -1155,11 +1155,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 69,
+                        "startLine": 71,
                         "startColumn": 4,
-                        "startOffset": 3962,
+                        "startOffset": 4081,
                         "endColumn": 67,
-                        "endOffset": 4025
+                        "endOffset": 4144
                     }
                 }
             },
@@ -1174,11 +1174,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 70,
+                        "startLine": 72,
                         "startColumn": 4,
-                        "startOffset": 4031,
+                        "startOffset": 4150,
                         "endColumn": 70,
-                        "endOffset": 4097
+                        "endOffset": 4216
                     }
                 }
             },
@@ -1193,11 +1193,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 77,
+                        "startLine": 79,
                         "startColumn": 4,
-                        "startOffset": 4561,
+                        "startOffset": 4680,
                         "endColumn": 69,
-                        "endOffset": 4626
+                        "endOffset": 4745
                     }
                 }
             },
@@ -1212,11 +1212,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 79,
+                        "startLine": 81,
                         "startColumn": 4,
-                        "startOffset": 4704,
+                        "startOffset": 4823,
                         "endColumn": 104,
-                        "endOffset": 4804
+                        "endOffset": 4923
                     }
                 }
             },
@@ -1231,11 +1231,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 78,
+                        "startLine": 80,
                         "startColumn": 4,
-                        "startOffset": 4632,
+                        "startOffset": 4751,
                         "endColumn": 70,
-                        "endOffset": 4698
+                        "endOffset": 4817
                     }
                 }
             },
@@ -1250,11 +1250,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 74,
+                        "startLine": 76,
                         "startColumn": 4,
-                        "startOffset": 4326,
+                        "startOffset": 4445,
                         "endColumn": 63,
-                        "endOffset": 4385
+                        "endOffset": 4504
                     }
                 }
             },
@@ -1269,11 +1269,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 76,
+                        "startLine": 78,
                         "startColumn": 4,
-                        "startOffset": 4457,
+                        "startOffset": 4576,
                         "endColumn": 102,
-                        "endOffset": 4555
+                        "endOffset": 4674
                     }
                 }
             },
@@ -1288,11 +1288,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 75,
+                        "startLine": 77,
                         "startColumn": 4,
-                        "startOffset": 4391,
+                        "startOffset": 4510,
                         "endColumn": 64,
-                        "endOffset": 4451
+                        "endOffset": 4570
                     }
                 }
             },
@@ -1307,11 +1307,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 137,
+                        "startLine": 139,
                         "startColumn": 4,
-                        "startOffset": 10914,
+                        "startOffset": 11033,
                         "endColumn": 95,
-                        "endOffset": 11005
+                        "endOffset": 11124
                     }
                 }
             },
@@ -1326,11 +1326,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 139,
+                        "startLine": 141,
                         "startColumn": 4,
-                        "startOffset": 11111,
+                        "startOffset": 11230,
                         "endColumn": 242,
-                        "endOffset": 11349
+                        "endOffset": 11468
                     }
                 }
             },
@@ -1345,11 +1345,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 138,
+                        "startLine": 140,
                         "startColumn": 4,
-                        "startOffset": 11011,
+                        "startOffset": 11130,
                         "endColumn": 98,
-                        "endOffset": 11105
+                        "endOffset": 11224
                     }
                 }
             },
@@ -1364,11 +1364,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 161,
+                        "startLine": 163,
                         "startColumn": 4,
-                        "startOffset": 13611,
+                        "startOffset": 13730,
                         "endColumn": 49,
-                        "endOffset": 13656
+                        "endOffset": 13775
                     }
                 }
             },
@@ -1383,11 +1383,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 163,
+                        "startLine": 165,
                         "startColumn": 4,
-                        "startOffset": 13720,
+                        "startOffset": 13839,
                         "endColumn": 188,
-                        "endOffset": 13904
+                        "endOffset": 14023
                     }
                 }
             },
@@ -1402,11 +1402,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 162,
+                        "startLine": 164,
                         "startColumn": 4,
-                        "startOffset": 13662,
+                        "startOffset": 13781,
                         "endColumn": 56,
-                        "endOffset": 13714
+                        "endOffset": 13833
                     }
                 }
             },
@@ -1421,11 +1421,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 164,
+                        "startLine": 166,
                         "startColumn": 4,
-                        "startOffset": 13910,
+                        "startOffset": 14029,
                         "endColumn": 49,
-                        "endOffset": 13955
+                        "endOffset": 14074
                     }
                 }
             },
@@ -1440,11 +1440,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 166,
+                        "startLine": 168,
                         "startColumn": 4,
-                        "startOffset": 14019,
+                        "startOffset": 14138,
                         "endColumn": 186,
-                        "endOffset": 14201
+                        "endOffset": 14320
                     }
                 }
             },
@@ -1459,11 +1459,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 165,
+                        "startLine": 167,
                         "startColumn": 4,
-                        "startOffset": 13961,
+                        "startOffset": 14080,
                         "endColumn": 56,
-                        "endOffset": 14013
+                        "endOffset": 14132
                     }
                 }
             },
@@ -1478,11 +1478,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 71,
+                        "startLine": 73,
                         "startColumn": 4,
-                        "startOffset": 4103,
+                        "startOffset": 4222,
                         "endColumn": 59,
-                        "endOffset": 4158
+                        "endOffset": 4277
                     }
                 }
             },
@@ -1497,11 +1497,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 73,
+                        "startLine": 75,
                         "startColumn": 4,
-                        "startOffset": 4226,
+                        "startOffset": 4345,
                         "endColumn": 98,
-                        "endOffset": 4320
+                        "endOffset": 4439
                     }
                 }
             },
@@ -1516,11 +1516,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 72,
+                        "startLine": 74,
                         "startColumn": 4,
-                        "startOffset": 4164,
+                        "startOffset": 4283,
                         "endColumn": 60,
-                        "endOffset": 4220
+                        "endOffset": 4339
                     }
                 }
             },
@@ -1535,11 +1535,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 172,
+                        "startLine": 174,
                         "startColumn": 4,
-                        "startOffset": 14734,
+                        "startOffset": 14853,
                         "endColumn": 105,
-                        "endOffset": 14835
+                        "endOffset": 14954
                     }
                 }
             },
@@ -1554,11 +1554,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 174,
+                        "startLine": 176,
                         "startColumn": 4,
-                        "startOffset": 14937,
+                        "startOffset": 15056,
                         "endColumn": 342,
-                        "endOffset": 15275
+                        "endOffset": 15394
                     }
                 }
             },
@@ -1573,11 +1573,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 173,
+                        "startLine": 175,
                         "startColumn": 4,
-                        "startOffset": 14841,
+                        "startOffset": 14960,
                         "endColumn": 94,
-                        "endOffset": 14931
+                        "endOffset": 15050
                     }
                 }
             },
@@ -1592,11 +1592,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 169,
+                        "startLine": 171,
                         "startColumn": 4,
-                        "startOffset": 14363,
+                        "startOffset": 14482,
                         "endColumn": 97,
-                        "endOffset": 14456
+                        "endOffset": 14575
                     }
                 }
             },
@@ -1611,11 +1611,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 171,
+                        "startLine": 173,
                         "startColumn": 4,
-                        "startOffset": 14556,
+                        "startOffset": 14675,
                         "endColumn": 176,
-                        "endOffset": 14728
+                        "endOffset": 14847
                     }
                 }
             },
@@ -1630,11 +1630,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 170,
+                        "startLine": 172,
                         "startColumn": 4,
-                        "startOffset": 14462,
+                        "startOffset": 14581,
                         "endColumn": 92,
-                        "endOffset": 14550
+                        "endOffset": 14669
                     }
                 }
             },
@@ -1649,11 +1649,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 175,
+                        "startLine": 177,
                         "startColumn": 4,
-                        "startOffset": 15281,
+                        "startOffset": 15400,
                         "endColumn": 79,
-                        "endOffset": 15356
+                        "endOffset": 15475
                     }
                 }
             },
@@ -1668,11 +1668,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 177,
+                        "startLine": 179,
                         "startColumn": 4,
-                        "startOffset": 15440,
+                        "startOffset": 15559,
                         "endColumn": 179,
-                        "endOffset": 15615
+                        "endOffset": 15734
                     }
                 }
             },
@@ -1687,11 +1687,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 176,
+                        "startLine": 178,
                         "startColumn": 4,
-                        "startOffset": 15362,
+                        "startOffset": 15481,
                         "endColumn": 76,
-                        "endOffset": 15434
+                        "endOffset": 15553
                     }
                 }
             },
@@ -1706,11 +1706,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 181,
+                        "startLine": 183,
                         "startColumn": 4,
-                        "startOffset": 15899,
+                        "startOffset": 16018,
                         "endColumn": 77,
-                        "endOffset": 15972
+                        "endOffset": 16091
                     }
                 }
             },
@@ -1725,11 +1725,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 183,
+                        "startLine": 185,
                         "startColumn": 4,
-                        "startOffset": 16050,
+                        "startOffset": 16169,
                         "endColumn": 109,
-                        "endOffset": 16155
+                        "endOffset": 16274
                     }
                 }
             },
@@ -1744,11 +1744,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 182,
+                        "startLine": 184,
                         "startColumn": 4,
-                        "startOffset": 15978,
+                        "startOffset": 16097,
                         "endColumn": 70,
-                        "endOffset": 16044
+                        "endOffset": 16163
                     }
                 }
             },
@@ -1763,11 +1763,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 178,
+                        "startLine": 180,
                         "startColumn": 4,
-                        "startOffset": 15621,
+                        "startOffset": 15740,
                         "endColumn": 79,
-                        "endOffset": 15696
+                        "endOffset": 15815
                     }
                 }
             },
@@ -1782,11 +1782,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 180,
+                        "startLine": 182,
                         "startColumn": 4,
-                        "startOffset": 15776,
+                        "startOffset": 15895,
                         "endColumn": 121,
-                        "endOffset": 15893
+                        "endOffset": 16012
                     }
                 }
             },
@@ -1801,11 +1801,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 179,
+                        "startLine": 181,
                         "startColumn": 4,
-                        "startOffset": 15702,
+                        "startOffset": 15821,
                         "endColumn": 72,
-                        "endOffset": 15770
+                        "endOffset": 15889
                     }
                 }
             },
@@ -1820,11 +1820,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 167,
+                        "startLine": 169,
                         "startColumn": 4,
-                        "startOffset": 14207,
+                        "startOffset": 14326,
                         "endColumn": 75,
-                        "endOffset": 14278
+                        "endOffset": 14397
                     }
                 }
             },
@@ -1839,11 +1839,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 168,
+                        "startLine": 170,
                         "startColumn": 4,
-                        "startOffset": 14284,
+                        "startOffset": 14403,
                         "endColumn": 77,
-                        "endOffset": 14357
+                        "endOffset": 14476
                     }
                 }
             },
@@ -1858,11 +1858,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 98,
+                        "startLine": 100,
                         "startColumn": 4,
-                        "startOffset": 6806,
+                        "startOffset": 6925,
                         "endColumn": 61,
-                        "endOffset": 6863
+                        "endOffset": 6982
                     }
                 }
             },
@@ -1877,11 +1877,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 100,
+                        "startLine": 102,
                         "startColumn": 4,
-                        "startOffset": 6940,
+                        "startOffset": 7059,
                         "endColumn": 108,
-                        "endOffset": 7044
+                        "endOffset": 7163
                     }
                 }
             },
@@ -1896,11 +1896,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 99,
+                        "startLine": 101,
                         "startColumn": 4,
-                        "startOffset": 6869,
+                        "startOffset": 6988,
                         "endColumn": 69,
-                        "endOffset": 6934
+                        "endOffset": 7053
                     }
                 }
             },
@@ -1915,11 +1915,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 155,
+                        "startLine": 157,
                         "startColumn": 4,
-                        "startOffset": 12981,
+                        "startOffset": 13100,
                         "endColumn": 63,
-                        "endOffset": 13040
+                        "endOffset": 13159
                     }
                 }
             },
@@ -1934,11 +1934,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 157,
+                        "startLine": 159,
                         "startColumn": 4,
-                        "startOffset": 13123,
+                        "startOffset": 13242,
                         "endColumn": 150,
-                        "endOffset": 13269
+                        "endOffset": 13388
                     }
                 }
             },
@@ -1953,11 +1953,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 156,
+                        "startLine": 158,
                         "startColumn": 4,
-                        "startOffset": 13046,
+                        "startOffset": 13165,
                         "endColumn": 75,
-                        "endOffset": 13117
+                        "endOffset": 13236
                     }
                 }
             },
@@ -1972,11 +1972,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 158,
+                        "startLine": 160,
                         "startColumn": 4,
-                        "startOffset": 13275,
+                        "startOffset": 13394,
                         "endColumn": 61,
-                        "endOffset": 13332
+                        "endOffset": 13451
                     }
                 }
             },
@@ -1991,11 +1991,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 160,
+                        "startLine": 162,
                         "startColumn": 4,
-                        "startOffset": 13402,
+                        "startOffset": 13521,
                         "endColumn": 207,
-                        "endOffset": 13605
+                        "endOffset": 13724
                     }
                 }
             },
@@ -2010,11 +2010,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 159,
+                        "startLine": 161,
                         "startColumn": 4,
-                        "startOffset": 13338,
+                        "startOffset": 13457,
                         "endColumn": 62,
-                        "endOffset": 13396
+                        "endOffset": 13515
                     }
                 }
             },
@@ -2029,11 +2029,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 201,
+                        "startLine": 203,
                         "startColumn": 4,
-                        "startOffset": 17787,
+                        "startOffset": 17906,
                         "endColumn": 55,
-                        "endOffset": 17838
+                        "endOffset": 17957
                     }
                 }
             },
@@ -2048,11 +2048,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 203,
+                        "startLine": 205,
                         "startColumn": 4,
-                        "startOffset": 17913,
+                        "startOffset": 18032,
                         "endColumn": 122,
-                        "endOffset": 18031
+                        "endOffset": 18150
                     }
                 }
             },
@@ -2067,11 +2067,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 202,
+                        "startLine": 204,
                         "startColumn": 4,
-                        "startOffset": 17844,
+                        "startOffset": 17963,
                         "endColumn": 67,
-                        "endOffset": 17907
+                        "endOffset": 18026
                     }
                 }
             },
@@ -2086,11 +2086,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 149,
+                        "startLine": 151,
                         "startColumn": 4,
-                        "startOffset": 12367,
+                        "startOffset": 12486,
                         "endColumn": 69,
-                        "endOffset": 12432
+                        "endOffset": 12551
                     }
                 }
             },
@@ -2105,11 +2105,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 151,
+                        "startLine": 153,
                         "startColumn": 4,
-                        "startOffset": 12522,
+                        "startOffset": 12641,
                         "endColumn": 157,
-                        "endOffset": 12675
+                        "endOffset": 12794
                     }
                 }
             },
@@ -2124,11 +2124,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 150,
+                        "startLine": 152,
                         "startColumn": 4,
-                        "startOffset": 12438,
+                        "startOffset": 12557,
                         "endColumn": 82,
-                        "endOffset": 12516
+                        "endOffset": 12635
                     }
                 }
             },
@@ -2143,11 +2143,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 101,
+                        "startLine": 103,
                         "startColumn": 4,
-                        "startOffset": 7050,
+                        "startOffset": 7169,
                         "endColumn": 65,
-                        "endOffset": 7111
+                        "endOffset": 7230
                     }
                 }
             },
@@ -2162,11 +2162,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 113,
+                        "startLine": 115,
                         "startColumn": 4,
-                        "startOffset": 8250,
+                        "startOffset": 8369,
                         "endColumn": 93,
-                        "endOffset": 8339
+                        "endOffset": 8458
                     }
                 }
             },
@@ -2181,11 +2181,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 115,
+                        "startLine": 117,
                         "startColumn": 4,
-                        "startOffset": 8451,
+                        "startOffset": 8570,
                         "endColumn": 131,
-                        "endOffset": 8578
+                        "endOffset": 8697
                     }
                 }
             },
@@ -2200,11 +2200,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 114,
+                        "startLine": 116,
                         "startColumn": 4,
-                        "startOffset": 8345,
+                        "startOffset": 8464,
                         "endColumn": 104,
-                        "endOffset": 8445
+                        "endOffset": 8564
                     }
                 }
             },
@@ -2219,11 +2219,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 110,
+                        "startLine": 112,
                         "startColumn": 4,
-                        "startOffset": 7922,
+                        "startOffset": 8041,
                         "endColumn": 91,
-                        "endOffset": 8009
+                        "endOffset": 8128
                     }
                 }
             },
@@ -2238,11 +2238,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 112,
+                        "startLine": 114,
                         "startColumn": 4,
-                        "startOffset": 8119,
+                        "startOffset": 8238,
                         "endColumn": 129,
-                        "endOffset": 8244
+                        "endOffset": 8363
                     }
                 }
             },
@@ -2257,11 +2257,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 111,
+                        "startLine": 113,
                         "startColumn": 4,
-                        "startOffset": 8015,
+                        "startOffset": 8134,
                         "endColumn": 102,
-                        "endOffset": 8113
+                        "endOffset": 8232
                     }
                 }
             },
@@ -2276,11 +2276,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 104,
+                        "startLine": 106,
                         "startColumn": 4,
-                        "startOffset": 7328,
+                        "startOffset": 7447,
                         "endColumn": 77,
-                        "endOffset": 7401
+                        "endOffset": 7520
                     }
                 }
             },
@@ -2295,11 +2295,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 106,
+                        "startLine": 108,
                         "startColumn": 4,
-                        "startOffset": 7497,
+                        "startOffset": 7616,
                         "endColumn": 102,
-                        "endOffset": 7595
+                        "endOffset": 7714
                     }
                 }
             },
@@ -2314,11 +2314,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 105,
+                        "startLine": 107,
                         "startColumn": 4,
-                        "startOffset": 7407,
+                        "startOffset": 7526,
                         "endColumn": 88,
-                        "endOffset": 7491
+                        "endOffset": 7610
                     }
                 }
             },
@@ -2333,11 +2333,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 103,
+                        "startLine": 105,
                         "startColumn": 4,
-                        "startOffset": 7203,
+                        "startOffset": 7322,
                         "endColumn": 123,
-                        "endOffset": 7322
+                        "endOffset": 7441
                     }
                 }
             },
@@ -2352,11 +2352,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 102,
+                        "startLine": 104,
                         "startColumn": 4,
-                        "startOffset": 7117,
+                        "startOffset": 7236,
                         "endColumn": 84,
-                        "endOffset": 7197
+                        "endOffset": 7316
                     }
                 }
             },
@@ -2371,11 +2371,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 107,
+                        "startLine": 109,
                         "startColumn": 4,
-                        "startOffset": 7601,
+                        "startOffset": 7720,
                         "endColumn": 93,
-                        "endOffset": 7690
+                        "endOffset": 7809
                     }
                 }
             },
@@ -2390,11 +2390,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 109,
+                        "startLine": 111,
                         "startColumn": 4,
-                        "startOffset": 7802,
+                        "startOffset": 7921,
                         "endColumn": 118,
-                        "endOffset": 7916
+                        "endOffset": 8035
                     }
                 }
             },
@@ -2409,11 +2409,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 108,
+                        "startLine": 110,
                         "startColumn": 4,
-                        "startOffset": 7696,
+                        "startOffset": 7815,
                         "endColumn": 104,
-                        "endOffset": 7796
+                        "endOffset": 7915
                     }
                 }
             },
@@ -2428,11 +2428,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 190,
+                        "startLine": 192,
                         "startColumn": 4,
-                        "startOffset": 16724,
+                        "startOffset": 16843,
                         "endColumn": 87,
-                        "endOffset": 16807
+                        "endOffset": 16926
                     }
                 }
             },
@@ -2447,11 +2447,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 192,
+                        "startLine": 194,
                         "startColumn": 4,
-                        "startOffset": 16911,
+                        "startOffset": 17030,
                         "endColumn": 123,
-                        "endOffset": 17030
+                        "endOffset": 17149
                     }
                 }
             },
@@ -2466,11 +2466,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 191,
+                        "startLine": 193,
                         "startColumn": 4,
-                        "startOffset": 16813,
+                        "startOffset": 16932,
                         "endColumn": 96,
-                        "endOffset": 16905
+                        "endOffset": 17024
                     }
                 }
             },
@@ -2485,11 +2485,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 184,
+                        "startLine": 186,
                         "startColumn": 4,
-                        "startOffset": 16161,
+                        "startOffset": 16280,
                         "endColumn": 71,
-                        "endOffset": 16228
+                        "endOffset": 16347
                     }
                 }
             },
@@ -2504,11 +2504,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 186,
+                        "startLine": 188,
                         "startColumn": 4,
-                        "startOffset": 16316,
+                        "startOffset": 16435,
                         "endColumn": 112,
-                        "endOffset": 16424
+                        "endOffset": 16543
                     }
                 }
             },
@@ -2523,11 +2523,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 185,
+                        "startLine": 187,
                         "startColumn": 4,
-                        "startOffset": 16234,
+                        "startOffset": 16353,
                         "endColumn": 80,
-                        "endOffset": 16310
+                        "endOffset": 16429
                     }
                 }
             },
@@ -2542,11 +2542,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 187,
+                        "startLine": 189,
                         "startColumn": 4,
-                        "startOffset": 16430,
+                        "startOffset": 16549,
                         "endColumn": 81,
-                        "endOffset": 16507
+                        "endOffset": 16626
                     }
                 }
             },
@@ -2561,11 +2561,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 189,
+                        "startLine": 191,
                         "startColumn": 4,
-                        "startOffset": 16605,
+                        "startOffset": 16724,
                         "endColumn": 117,
-                        "endOffset": 16718
+                        "endOffset": 16837
                     }
                 }
             },
@@ -2580,11 +2580,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 188,
+                        "startLine": 190,
                         "startColumn": 4,
-                        "startOffset": 16513,
+                        "startOffset": 16632,
                         "endColumn": 90,
-                        "endOffset": 16599
+                        "endOffset": 16718
                     }
                 }
             },
@@ -2599,11 +2599,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 193,
+                        "startLine": 195,
                         "startColumn": 4,
-                        "startOffset": 17036,
+                        "startOffset": 17155,
                         "endColumn": 93,
-                        "endOffset": 17125
+                        "endOffset": 17244
                     }
                 }
             },
@@ -2618,11 +2618,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 195,
+                        "startLine": 197,
                         "startColumn": 4,
-                        "startOffset": 17235,
+                        "startOffset": 17354,
                         "endColumn": 133,
-                        "endOffset": 17364
+                        "endOffset": 17483
                     }
                 }
             },
@@ -2637,11 +2637,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 194,
+                        "startLine": 196,
                         "startColumn": 4,
-                        "startOffset": 17131,
+                        "startOffset": 17250,
                         "endColumn": 102,
-                        "endOffset": 17229
+                        "endOffset": 17348
                     }
                 }
             },
@@ -2656,11 +2656,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 92,
+                        "startLine": 94,
                         "startColumn": 4,
-                        "startOffset": 6147,
+                        "startOffset": 6266,
                         "endColumn": 65,
-                        "endOffset": 6208
+                        "endOffset": 6327
                     }
                 }
             },
@@ -2675,11 +2675,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 94,
+                        "startLine": 96,
                         "startColumn": 4,
-                        "startOffset": 6285,
+                        "startOffset": 6404,
                         "endColumn": 151,
-                        "endOffset": 6432
+                        "endOffset": 6551
                     }
                 }
             },
@@ -2694,11 +2694,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 93,
+                        "startLine": 95,
                         "startColumn": 4,
-                        "startOffset": 6214,
+                        "startOffset": 6333,
                         "endColumn": 69,
-                        "endOffset": 6279
+                        "endOffset": 6398
                     }
                 }
             },
@@ -2713,11 +2713,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 80,
+                        "startLine": 82,
                         "startColumn": 4,
-                        "startOffset": 4810,
+                        "startOffset": 4929,
                         "endColumn": 65,
-                        "endOffset": 4871
+                        "endOffset": 4990
                     }
                 }
             },
@@ -2732,11 +2732,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 82,
+                        "startLine": 84,
                         "startColumn": 4,
-                        "startOffset": 4948,
+                        "startOffset": 5067,
                         "endColumn": 130,
-                        "endOffset": 5074
+                        "endOffset": 5193
                     }
                 }
             },
@@ -2751,11 +2751,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 81,
+                        "startLine": 83,
                         "startColumn": 4,
-                        "startOffset": 4877,
+                        "startOffset": 4996,
                         "endColumn": 69,
-                        "endOffset": 4942
+                        "endOffset": 5061
                     }
                 }
             },
@@ -2770,11 +2770,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 83,
+                        "startLine": 85,
                         "startColumn": 4,
-                        "startOffset": 5080,
+                        "startOffset": 5199,
                         "endColumn": 77,
-                        "endOffset": 5153
+                        "endOffset": 5272
                     }
                 }
             },
@@ -2789,11 +2789,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 85,
+                        "startLine": 87,
                         "startColumn": 4,
-                        "startOffset": 5237,
+                        "startOffset": 5356,
                         "endColumn": 214,
-                        "endOffset": 5447
+                        "endOffset": 5566
                     }
                 }
             },
@@ -2808,11 +2808,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 84,
+                        "startLine": 86,
                         "startColumn": 4,
-                        "startOffset": 5159,
+                        "startOffset": 5278,
                         "endColumn": 76,
-                        "endOffset": 5231
+                        "endOffset": 5350
                     }
                 }
             },
@@ -2827,11 +2827,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 86,
+                        "startLine": 88,
                         "startColumn": 4,
-                        "startOffset": 5453,
+                        "startOffset": 5572,
                         "endColumn": 67,
-                        "endOffset": 5516
+                        "endOffset": 5635
                     }
                 }
             },
@@ -2846,11 +2846,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 88,
+                        "startLine": 90,
                         "startColumn": 4,
-                        "startOffset": 5595,
+                        "startOffset": 5714,
                         "endColumn": 152,
-                        "endOffset": 5743
+                        "endOffset": 5862
                     }
                 }
             },
@@ -2865,11 +2865,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 87,
+                        "startLine": 89,
                         "startColumn": 4,
-                        "startOffset": 5522,
+                        "startOffset": 5641,
                         "endColumn": 71,
-                        "endOffset": 5589
+                        "endOffset": 5708
                     }
                 }
             },
@@ -2884,11 +2884,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 89,
+                        "startLine": 91,
                         "startColumn": 4,
-                        "startOffset": 5749,
+                        "startOffset": 5868,
                         "endColumn": 79,
-                        "endOffset": 5824
+                        "endOffset": 5943
                     }
                 }
             },
@@ -2903,11 +2903,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 91,
+                        "startLine": 93,
                         "startColumn": 4,
-                        "startOffset": 5910,
+                        "startOffset": 6029,
                         "endColumn": 235,
-                        "endOffset": 6141
+                        "endOffset": 6260
                     }
                 }
             },
@@ -2922,11 +2922,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 90,
+                        "startLine": 92,
                         "startColumn": 4,
-                        "startOffset": 5830,
+                        "startOffset": 5949,
                         "endColumn": 78,
-                        "endOffset": 5904
+                        "endOffset": 6023
                     }
                 }
             },
@@ -2941,11 +2941,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 95,
+                        "startLine": 97,
                         "startColumn": 4,
-                        "startOffset": 6438,
+                        "startOffset": 6557,
                         "endColumn": 69,
-                        "endOffset": 6503
+                        "endOffset": 6622
                     }
                 }
             },
@@ -2960,11 +2960,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 118,
+                        "startLine": 120,
                         "startColumn": 4,
-                        "startOffset": 8759,
+                        "startOffset": 8878,
                         "endColumn": 191,
-                        "endOffset": 8946
+                        "endOffset": 9065
                     }
                 }
             },
@@ -2979,11 +2979,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 117,
+                        "startLine": 119,
                         "startColumn": 4,
-                        "startOffset": 8679,
+                        "startOffset": 8798,
                         "endColumn": 78,
-                        "endOffset": 8753
+                        "endOffset": 8872
                     }
                 }
             },
@@ -2998,11 +2998,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 116,
+                        "startLine": 118,
                         "startColumn": 4,
-                        "startOffset": 8584,
+                        "startOffset": 8703,
                         "endColumn": 93,
-                        "endOffset": 8673
+                        "endOffset": 8792
                     }
                 }
             },
@@ -3017,11 +3017,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 121,
+                        "startLine": 123,
                         "startColumn": 4,
-                        "startOffset": 9151,
+                        "startOffset": 9270,
                         "endColumn": 261,
-                        "endOffset": 9408
+                        "endOffset": 9527
                     }
                 }
             },
@@ -3036,11 +3036,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 120,
+                        "startLine": 122,
                         "startColumn": 4,
-                        "startOffset": 9059,
+                        "startOffset": 9178,
                         "endColumn": 90,
-                        "endOffset": 9145
+                        "endOffset": 9264
                     }
                 }
             },
@@ -3055,11 +3055,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 119,
+                        "startLine": 121,
                         "startColumn": 4,
-                        "startOffset": 8952,
+                        "startOffset": 9071,
                         "endColumn": 105,
-                        "endOffset": 9053
+                        "endOffset": 9172
                     }
                 }
             },
@@ -3074,11 +3074,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 124,
+                        "startLine": 126,
                         "startColumn": 4,
-                        "startOffset": 9621,
+                        "startOffset": 9740,
                         "endColumn": 271,
-                        "endOffset": 9888
+                        "endOffset": 10007
                     }
                 }
             },
@@ -3093,11 +3093,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 123,
+                        "startLine": 125,
                         "startColumn": 4,
-                        "startOffset": 9525,
+                        "startOffset": 9644,
                         "endColumn": 94,
-                        "endOffset": 9615
+                        "endOffset": 9734
                     }
                 }
             },
@@ -3112,11 +3112,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 122,
+                        "startLine": 124,
                         "startColumn": 4,
-                        "startOffset": 9414,
+                        "startOffset": 9533,
                         "endColumn": 109,
-                        "endOffset": 9519
+                        "endOffset": 9638
                     }
                 }
             },
@@ -3131,11 +3131,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 97,
+                        "startLine": 99,
                         "startColumn": 4,
-                        "startOffset": 6584,
+                        "startOffset": 6703,
                         "endColumn": 220,
-                        "endOffset": 6800
+                        "endOffset": 6919
                     }
                 }
             },
@@ -3150,11 +3150,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 96,
+                        "startLine": 98,
                         "startColumn": 4,
-                        "startOffset": 6509,
+                        "startOffset": 6628,
                         "endColumn": 73,
-                        "endOffset": 6578
+                        "endOffset": 6697
                     }
                 }
             },
@@ -3169,11 +3169,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 131,
+                        "startLine": 133,
                         "startColumn": 4,
-                        "startOffset": 10385,
+                        "startOffset": 10504,
                         "endColumn": 51,
-                        "endOffset": 10432
+                        "endOffset": 10551
                     }
                 }
             },
@@ -3188,11 +3188,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 128,
+                        "startLine": 130,
                         "startColumn": 4,
-                        "startOffset": 10131,
+                        "startOffset": 10250,
                         "endColumn": 65,
-                        "endOffset": 10192
+                        "endOffset": 10311
                     }
                 }
             },
@@ -3207,11 +3207,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 130,
+                        "startLine": 132,
                         "startColumn": 4,
-                        "startOffset": 10273,
+                        "startOffset": 10392,
                         "endColumn": 110,
-                        "endOffset": 10379
+                        "endOffset": 10498
                     }
                 }
             },
@@ -3226,11 +3226,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 129,
+                        "startLine": 131,
                         "startColumn": 4,
-                        "startOffset": 10198,
+                        "startOffset": 10317,
                         "endColumn": 73,
-                        "endOffset": 10267
+                        "endOffset": 10386
                     }
                 }
             },
@@ -3245,11 +3245,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 133,
+                        "startLine": 135,
                         "startColumn": 4,
-                        "startOffset": 10499,
+                        "startOffset": 10618,
                         "endColumn": 99,
-                        "endOffset": 10594
+                        "endOffset": 10713
                     }
                 }
             },
@@ -3264,11 +3264,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 132,
+                        "startLine": 134,
                         "startColumn": 4,
-                        "startOffset": 10438,
+                        "startOffset": 10557,
                         "endColumn": 59,
-                        "endOffset": 10493
+                        "endOffset": 10612
                     }
                 }
             },
@@ -3283,11 +3283,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 40,
+                        "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 2342,
+                        "startOffset": 2461,
                         "endColumn": 45,
-                        "endOffset": 2383
+                        "endOffset": 2502
                     }
                 }
             },
@@ -3302,11 +3302,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 39,
+                        "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 2293,
+                        "startOffset": 2412,
                         "endColumn": 47,
-                        "endOffset": 2336
+                        "endOffset": 2455
                     }
                 }
             },
@@ -3321,11 +3321,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 36,
+                        "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 2136,
+                        "startOffset": 2255,
                         "endColumn": 45,
-                        "endOffset": 2177
+                        "endOffset": 2296
                     }
                 }
             },
@@ -3340,11 +3340,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 38,
+                        "startLine": 40,
                         "startColumn": 4,
-                        "startOffset": 2238,
+                        "startOffset": 2357,
                         "endColumn": 53,
-                        "endOffset": 2287
+                        "endOffset": 2406
                     }
                 }
             },
@@ -3359,11 +3359,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 37,
+                        "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 2183,
+                        "startOffset": 2302,
                         "endColumn": 53,
-                        "endOffset": 2232
+                        "endOffset": 2351
                     }
                 }
             },
@@ -3378,11 +3378,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 41,
+                        "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 2389,
+                        "startOffset": 2508,
                         "endColumn": 49,
-                        "endOffset": 2434
+                        "endOffset": 2553
                     }
                 }
             },
@@ -3397,11 +3397,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 29,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 1680,
+                        "startOffset": 1799,
                         "endColumn": 74,
-                        "endOffset": 1750
+                        "endOffset": 1869
                     }
                 }
             },
@@ -3416,11 +3416,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1614,
+                        "startOffset": 1733,
                         "endColumn": 64,
-                        "endOffset": 1674
+                        "endOffset": 1793
                     }
                 }
             },
@@ -3435,11 +3435,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1431,
+                        "startOffset": 1550,
                         "endColumn": 59,
-                        "endOffset": 1486
+                        "endOffset": 1605
                     }
                 }
             },
@@ -3454,11 +3454,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 31,
+                        "startLine": 33,
                         "startColumn": 4,
-                        "startOffset": 1814,
+                        "startOffset": 1933,
                         "endColumn": 52,
-                        "endOffset": 1862
+                        "endOffset": 1981
                     }
                 }
             },
@@ -3473,11 +3473,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1552,
+                        "startOffset": 1671,
                         "endColumn": 60,
-                        "endOffset": 1608
+                        "endOffset": 1727
                     }
                 }
             },
@@ -3492,11 +3492,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 35,
+                        "startLine": 37,
                         "startColumn": 4,
-                        "startOffset": 2073,
+                        "startOffset": 2192,
                         "endColumn": 61,
-                        "endOffset": 2130
+                        "endOffset": 2249
                     }
                 }
             },
@@ -3511,11 +3511,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 1938,
+                        "startOffset": 2057,
                         "endColumn": 64,
-                        "endOffset": 1998
+                        "endOffset": 2117
                     }
                 }
             },
@@ -3530,11 +3530,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 34,
                         "startColumn": 4,
-                        "startOffset": 1868,
+                        "startOffset": 1987,
                         "endColumn": 68,
-                        "endOffset": 1932
+                        "endOffset": 2051
                     }
                 }
             },
@@ -3549,11 +3549,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1374,
+                        "startOffset": 1493,
                         "endColumn": 55,
-                        "endOffset": 1425
+                        "endOffset": 1544
                     }
                 }
             },
@@ -3568,11 +3568,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 34,
+                        "startLine": 36,
                         "startColumn": 4,
-                        "startOffset": 2004,
+                        "startOffset": 2123,
                         "endColumn": 67,
-                        "endOffset": 2067
+                        "endOffset": 2186
                     }
                 }
             },
@@ -3587,11 +3587,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1756,
+                        "startOffset": 1875,
                         "endColumn": 56,
-                        "endOffset": 1808
+                        "endOffset": 1927
                     }
                 }
             },
@@ -3606,11 +3606,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1492,
+                        "startOffset": 1611,
                         "endColumn": 58,
-                        "endOffset": 1546
+                        "endOffset": 1665
                     }
                 }
             },
@@ -3625,11 +3625,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1056,
+                        "startOffset": 1175,
                         "endColumn": 63,
-                        "endOffset": 1115
+                        "endOffset": 1234
                     }
                 }
             },
@@ -3644,11 +3644,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1121,
+                        "startOffset": 1240,
                         "endColumn": 54,
-                        "endOffset": 1171
+                        "endOffset": 1290
                     }
                 }
             },
@@ -3663,11 +3663,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 970,
+                        "startOffset": 1089,
                         "endColumn": 84,
-                        "endOffset": 1050
+                        "endOffset": 1169
                     }
                 }
             },
@@ -3682,11 +3682,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 907,
+                        "startOffset": 1026,
                         "endColumn": 61,
-                        "endOffset": 964
+                        "endOffset": 1083
                     }
                 }
             },
@@ -3701,11 +3701,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 848,
+                        "startOffset": 967,
                         "endColumn": 57,
-                        "endOffset": 901
+                        "endOffset": 1020
                     }
                 }
             },
@@ -3720,11 +3720,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 56,
+                        "startLine": 58,
                         "startColumn": 4,
-                        "startOffset": 3224,
+                        "startOffset": 3343,
                         "endColumn": 51,
-                        "endOffset": 3271
+                        "endOffset": 3390
                     }
                 }
             },
@@ -3739,11 +3739,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 49,
+                        "startLine": 51,
                         "startColumn": 4,
-                        "startOffset": 2853,
+                        "startOffset": 2972,
                         "endColumn": 55,
-                        "endOffset": 2904
+                        "endOffset": 3023
                     }
                 }
             },
@@ -3758,11 +3758,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 54,
+                        "startLine": 56,
                         "startColumn": 4,
-                        "startOffset": 3118,
+                        "startOffset": 3237,
                         "endColumn": 42,
-                        "endOffset": 3156
+                        "endOffset": 3275
                     }
                 }
             },
@@ -3777,11 +3777,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 60,
+                        "startLine": 62,
                         "startColumn": 4,
-                        "startOffset": 3433,
+                        "startOffset": 3552,
                         "endColumn": 46,
-                        "endOffset": 3475
+                        "endOffset": 3594
                     }
                 }
             },
@@ -3796,11 +3796,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 62,
+                        "startLine": 64,
                         "startColumn": 4,
-                        "startOffset": 3550,
+                        "startOffset": 3669,
                         "endColumn": 67,
-                        "endOffset": 3613
+                        "endOffset": 3732
                     }
                 }
             },
@@ -3815,11 +3815,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 57,
+                        "startLine": 59,
                         "startColumn": 4,
-                        "startOffset": 3277,
+                        "startOffset": 3396,
                         "endColumn": 46,
-                        "endOffset": 3319
+                        "endOffset": 3438
                     }
                 }
             },
@@ -3834,11 +3834,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 51,
+                        "startLine": 53,
                         "startColumn": 4,
-                        "startOffset": 2954,
+                        "startOffset": 3073,
                         "endColumn": 46,
-                        "endOffset": 2996
+                        "endOffset": 3115
                     }
                 }
             },
@@ -3853,11 +3853,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 66,
+                        "startLine": 68,
                         "startColumn": 4,
-                        "startOffset": 3781,
+                        "startOffset": 3900,
                         "endColumn": 63,
-                        "endOffset": 3840
+                        "endOffset": 3959
                     }
                 }
             },
@@ -3872,11 +3872,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 58,
+                        "startLine": 60,
                         "startColumn": 4,
-                        "startOffset": 3325,
+                        "startOffset": 3444,
                         "endColumn": 56,
-                        "endOffset": 3377
+                        "endOffset": 3496
                     }
                 }
             },
@@ -3891,11 +3891,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 50,
+                        "startLine": 52,
                         "startColumn": 4,
-                        "startOffset": 2910,
+                        "startOffset": 3029,
                         "endColumn": 42,
-                        "endOffset": 2948
+                        "endOffset": 3067
                     }
                 }
             },
@@ -3910,11 +3910,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 48,
+                        "startLine": 50,
                         "startColumn": 4,
-                        "startOffset": 2796,
+                        "startOffset": 2915,
                         "endColumn": 55,
-                        "endOffset": 2847
+                        "endOffset": 2966
                     }
                 }
             },
@@ -3929,11 +3929,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 61,
+                        "startLine": 63,
                         "startColumn": 4,
-                        "startOffset": 3481,
+                        "startOffset": 3600,
                         "endColumn": 67,
-                        "endOffset": 3544
+                        "endOffset": 3663
                     }
                 }
             },
@@ -3948,11 +3948,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 59,
+                        "startLine": 61,
                         "startColumn": 4,
-                        "startOffset": 3383,
+                        "startOffset": 3502,
                         "endColumn": 48,
-                        "endOffset": 3427
+                        "endOffset": 3546
                     }
                 }
             },
@@ -3967,11 +3967,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 55,
+                        "startLine": 57,
                         "startColumn": 4,
-                        "startOffset": 3162,
+                        "startOffset": 3281,
                         "endColumn": 60,
-                        "endOffset": 3218
+                        "endOffset": 3337
                     }
                 }
             },
@@ -3986,11 +3986,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 63,
+                        "startLine": 65,
                         "startColumn": 4,
-                        "startOffset": 3619,
+                        "startOffset": 3738,
                         "endColumn": 57,
-                        "endOffset": 3672
+                        "endOffset": 3791
                     }
                 }
             },
@@ -4005,11 +4005,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 64,
+                        "startLine": 66,
                         "startColumn": 4,
-                        "startOffset": 3678,
+                        "startOffset": 3797,
                         "endColumn": 46,
-                        "endOffset": 3720
+                        "endOffset": 3839
                     }
                 }
             },
@@ -4024,11 +4024,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 65,
+                        "startLine": 67,
                         "startColumn": 4,
-                        "startOffset": 3726,
+                        "startOffset": 3845,
                         "endColumn": 53,
-                        "endOffset": 3775
+                        "endOffset": 3894
                     }
                 }
             },
@@ -4043,11 +4043,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 52,
+                        "startLine": 54,
                         "startColumn": 4,
-                        "startOffset": 3002,
+                        "startOffset": 3121,
                         "endColumn": 55,
-                        "endOffset": 3053
+                        "endOffset": 3172
                     }
                 }
             },
@@ -4062,11 +4062,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 53,
+                        "startLine": 55,
                         "startColumn": 4,
-                        "startOffset": 3059,
+                        "startOffset": 3178,
                         "endColumn": 57,
-                        "endOffset": 3112
+                        "endOffset": 3231
                     }
                 }
             },
@@ -4081,11 +4081,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 277,
+                        "startOffset": 396,
                         "endColumn": 55,
-                        "endOffset": 328
+                        "endOffset": 447
                     }
                 }
             },
@@ -4100,11 +4100,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 402,
+                        "startOffset": 521,
                         "endColumn": 74,
-                        "endOffset": 472
+                        "endOffset": 591
                     }
                 }
             },
@@ -4119,11 +4119,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 334,
+                        "startOffset": 453,
                         "endColumn": 66,
-                        "endOffset": 396
+                        "endOffset": 515
                     }
                 }
             },
@@ -4138,11 +4138,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 478,
+                        "startOffset": 597,
                         "endColumn": 45,
-                        "endOffset": 519
+                        "endOffset": 638
                     }
                 }
             },
@@ -4157,11 +4157,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 583,
+                        "startOffset": 702,
                         "endColumn": 64,
-                        "endOffset": 643
+                        "endOffset": 762
                     }
                 }
             },
@@ -4176,11 +4176,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 525,
+                        "startOffset": 644,
                         "endColumn": 56,
-                        "endOffset": 577
+                        "endOffset": 696
                     }
                 }
             },
@@ -4195,11 +4195,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 92,
+                        "startOffset": 211,
                         "endColumn": 47,
-                        "endOffset": 135
+                        "endOffset": 254
                     }
                 }
             },
@@ -4214,11 +4214,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 205,
+                        "startOffset": 324,
                         "endColumn": 70,
-                        "endOffset": 271
+                        "endOffset": 390
                     }
                 }
             },
@@ -4233,11 +4233,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 141,
+                        "startOffset": 260,
                         "endColumn": 62,
-                        "endOffset": 199
+                        "endOffset": 318
                     }
                 }
             },
@@ -4252,11 +4252,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 45,
+                        "startLine": 47,
                         "startColumn": 4,
-                        "startOffset": 2612,
+                        "startOffset": 2731,
                         "endColumn": 62,
-                        "endOffset": 2670
+                        "endOffset": 2789
                     }
                 }
             },
@@ -4271,11 +4271,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 44,
+                        "startLine": 46,
                         "startColumn": 4,
-                        "startOffset": 2544,
+                        "startOffset": 2663,
                         "endColumn": 66,
-                        "endOffset": 2606
+                        "endOffset": 2725
                     }
                 }
             },
@@ -4290,11 +4290,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 46,
+                        "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 2676,
+                        "startOffset": 2795,
                         "endColumn": 59,
-                        "endOffset": 2731
+                        "endOffset": 2850
                     }
                 }
             },
@@ -4309,11 +4309,11 @@
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 708,
+                        "startOffset": 827,
                         "endColumn": 51,
-                        "endOffset": 755
+                        "endOffset": 874
                     }
                 }
             },
@@ -4322,17 +4322,17 @@
                     "startLine": 233,
                     "startColumn": 4,
                     "startOffset": 19700,
-                    "endColumn": 57,
-                    "endOffset": 19753
+                    "endColumn": 59,
+                    "endOffset": 19755
                 },
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 649,
-                        "endColumn": 57,
-                        "endOffset": 702
+                        "startOffset": 150,
+                        "endColumn": 59,
+                        "endOffset": 205
                     }
                 }
             },
@@ -4340,18 +4340,18 @@
                 "to": {
                     "startLine": 234,
                     "startColumn": 4,
-                    "startOffset": 19758,
-                    "endColumn": 68,
-                    "endOffset": 19822
+                    "startOffset": 19760,
+                    "endColumn": 56,
+                    "endOffset": 19812
                 },
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 224,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 19439,
-                        "endColumn": 68,
-                        "endOffset": 19503
+                        "startOffset": 92,
+                        "endColumn": 56,
+                        "endOffset": 144
                     }
                 }
             },
@@ -4359,10 +4359,48 @@
                 "to": {
                     "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 19827,
-                    "endLine": 241,
+                    "startOffset": 19817,
+                    "endColumn": 57,
+                    "endOffset": 19870
+                },
+                "from": {
+                    "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 768,
+                        "endColumn": 57,
+                        "endOffset": 821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 19875,
+                    "endColumn": 68,
+                    "endOffset": 19939
+                },
+                "from": {
+                    "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 226,
+                        "startColumn": 4,
+                        "startOffset": 19558,
+                        "endColumn": 68,
+                        "endOffset": 19622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 19944,
+                    "endLine": 243,
                     "endColumn": 12,
-                    "endOffset": 20113
+                    "endOffset": 20230
                 },
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\styles.xml",
@@ -4378,12 +4416,12 @@
             },
             {
                 "to": {
-                    "startLine": 242,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 20118,
-                    "endLine": 244,
+                    "startOffset": 20235,
+                    "endLine": 246,
                     "endColumn": 12,
-                    "endOffset": 20273
+                    "endOffset": 20390
                 },
                 "from": {
                     "file": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\values\\styles.xml",

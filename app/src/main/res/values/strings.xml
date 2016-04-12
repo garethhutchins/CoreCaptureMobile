@@ -2,6 +2,8 @@
 * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  -->
 <resources>
+    <string name="licenseKey">LICE036-S0PN-5110</string>
+    <string name="applicationId">APP9733-S507-6772</string>
     <string name="SNAP_USER">Snap User</string>
     <string name="SNAP_USER_TITLE">Your Snap Username</string>
     <string name="SNAP_USER_SUMMARY">Enter your Snap Username</string>

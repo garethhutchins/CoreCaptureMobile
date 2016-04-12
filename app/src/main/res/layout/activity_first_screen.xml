@@ -7,6 +7,53 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="emc.captiva.mobile.emcworldsnap.FirstScreen">
+    tools:context=".FirstScreen">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/emclogo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Picture"
+        android:id="@+id/btn_takepicture"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="#2c95dd"
+        android:height="76dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/btn_takepicture"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/camera"
+        android:layout_alignBottom="@+id/btn_takepicture"
+        android:layout_marginLeft="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/btn_settings"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#2c95dd"
+        android:height="76dp"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_below="@id/btn_takepicture" />
 </RelativeLayout>
