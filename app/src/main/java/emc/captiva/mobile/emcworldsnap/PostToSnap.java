@@ -13,11 +13,9 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
-import android.provider.MediaStore;
 import android.util.Base64;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
-import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -46,8 +44,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
-import java.security.PublicKey;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -96,7 +92,7 @@ public class PostToSnap extends AsyncTask {
         public String contentType;
     }
     private class ClassifyExtractPageRequest {
-        public serviceProps serviceProps[] = new serviceProps[1];
+        public serviceProps serviceProps[] = new serviceProps[2];
         public requestItems requestItems[] = new requestItems[1];
     }
     private RequestQueue queue;
@@ -322,9 +318,7 @@ public class PostToSnap extends AsyncTask {
 
     @Override
     protected Object doInBackground(Object[] objects) {
-
         login();
-
         return null;
     }
 
@@ -332,9 +326,129 @@ public class PostToSnap extends AsyncTask {
         //Now call the Classify extract service
         //Change the dialog
         dialog.setMessage("Classifying & Extracting");
+        ClassifyExtractPageRequest ceRequest = new ClassifyExtractPageRequest();
+        serviceProps Project = new serviceProps();
+        //project
+        Project.name = "Project";
+        Project.value = "Default";
+        //env
+        serviceProps Env = new serviceProps();
+        Env.name = "Env";
+        Env.value = "D";
+        ceRequest.serviceProps[0] = Project;
+        ceRequest.serviceProps[1] = Env;
+        requestItems requestItem = new requestItems();
+        requestItem.nodeID = 1;
+        files uploadfile = new files();
+
+        uploadfile.value = fileID;
+        uploadfile.name = name;
+        uploadfile.contentType = contentType;
+
+        requestItem.files[0] = uploadfile;
+        ceRequest.requestItems[0] = requestItem;
+
+        //Now do the posting
+        SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
+        String url = gprefs.getString("Snap URL", "");
+        url = url + "/cp-rest/session/services/classifyextractpage";
+
+        Gson gson = new Gson();
+        String json = gson.toJson(ceRequest);
+        Log.d("JSONString",json);
+        JSONObject JImage = null;
+        try {
+            JImage = new JSONObject(json);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        JsonObjectRequest Classreq = new JsonObjectRequest(url, JImage,
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        // handle response
+                        Log.d("Classify OK",response.toString());
+                        //Get the response back
+                        try {
+                            //First get the JSON Object for the UIM Data
+                            JSONObject uimObject= response.getJSONArray("resultItems").getJSONObject(0).getJSONArray("values").getJSONObject(1).getJSONObject("value");
+                            Log.d("UIM",uimObject.toString());
+                            //Now pass this information into a new function
+                            PrepareUIM(uimObject);
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            //If it fails look for the error message
+                            try {
+                                String ErrorMessage= response.getJSONArray("resultItems").getJSONObject(0).getString("errorMessage");
+                                ShowDialog("Error Reading File",ErrorMessage);
+                                //G0 back to the main menu
+                            } catch (JSONException e1) {
+                                e1.printStackTrace();
+                            }
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                NetworkResponse response = error.networkResponse;
+                if(response != null && response.data != null){
+                    String json = null;
+                    json = new String(response.data);
+                    JSONObject obj = null;
+                    try {
+                        obj = new JSONObject(json);
+                        json = obj.getString("message");
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    if(json != null) {
+                        Log.d("Classify Extract Error",json);
+                        ShowDialog("Classify Extract Error",json);
+                        //Go back to Image Enhancement
+
+                    }
+                } }
+        })
+
+        {
+            @Override
+            public String getBodyContentType()
+            {
+                return "application/vnd.emc.captiva+json; charset=utf-8";
+            }
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                HashMap<String, String> headers = new HashMap<String, String>();
+                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                return headers;
+            }
+        };
+        int socketTimeout = 30000;//30 seconds - change to what you want
+        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        Classreq.setRetryPolicy(policy);
+        queue.add(Classreq);
 
     }
 
+    private void PrepareUIM(JSONObject uimObject) {
+        try {
+            String documentType = uimObject.getJSONObject("value").getString("docType");
+            JSONArray DocValues = uimObject.getJSONObject("value").getJSONArray("nodeList");
+            for(int i = 0; i < DocValues.length(); i++){
+                String name = DocValues.getJSONObject(i).getString("labelText");
+                String value = DocValues.getJSONObject(i).getJSONArray("Data").getJSONObject(0).getString("value");
+                Log.d(name,value);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+    }
     @Override
     protected void onPostExecute(Object result) {
         //if (dialog.isShowing()) {
