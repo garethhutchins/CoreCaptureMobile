@@ -16,6 +16,10 @@
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_enhance_image_crop.xml"
     },
     {
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_snap_results.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_snap_results.xml"
+    },
+    {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enhance_image.xml",
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\layout\\activity_enhance_image.xml"
     },

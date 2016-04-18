@@ -8,27 +8,27 @@ package emc.captiva.mobile.sdk;
 
 public final class R {
 	public static final class drawable {
-		public static final int check = 0x7f020003;
-		public static final int overlay_back = 0x7f020009;
-		public static final int overlay_camera = 0x7f02000a;
-		public static final int overlay_focusred = 0x7f02000b;
-		public static final int overlay_levelred = 0x7f02000c;
-		public static final int overlay_lightred = 0x7f02000d;
-		public static final int overlay_movementred = 0x7f02000e;
-		public static final int overlay_quality = 0x7f02000f;
-		public static final int overlay_torch = 0x7f020010;
-		public static final int quadback = 0x7f020011;
-		public static final int quadcrop = 0x7f020012;
+		public static final int check = 0x7f020002;
+		public static final int overlay_back = 0x7f020008;
+		public static final int overlay_camera = 0x7f020009;
+		public static final int overlay_focusred = 0x7f02000a;
+		public static final int overlay_levelred = 0x7f02000b;
+		public static final int overlay_lightred = 0x7f02000c;
+		public static final int overlay_movementred = 0x7f02000d;
+		public static final int overlay_quality = 0x7f02000e;
+		public static final int overlay_torch = 0x7f02000f;
+		public static final int quadback = 0x7f020010;
+		public static final int quadcrop = 0x7f020011;
 	}
 	public static final class id {
 		public static final int BottomBar = 0x7f08000a;
-		public static final int CropBackButton = 0x7f08001e;
-		public static final int CropButtonSpace = 0x7f08001d;
+		public static final int CropBackButton = 0x7f08001f;
+		public static final int CropButtonSpace = 0x7f08001e;
 		public static final int CropSubmitButton = 0x7f080011;
 		public static final int ImageBar = 0x7f08000f;
 		public static final int ImageView = 0x7f080009;
-		public static final int QuadrilateralCropLayout = 0x7f08001b;
-		public static final int QuadrilateralCropView = 0x7f08001c;
+		public static final int QuadrilateralCropLayout = 0x7f08001c;
+		public static final int QuadrilateralCropView = 0x7f08001d;
 		public static final int id_buttonlayout = 0x7f080000;
 		public static final int id_capturebutton = 0x7f080001;
 		public static final int id_centerspace = 0x7f080002;

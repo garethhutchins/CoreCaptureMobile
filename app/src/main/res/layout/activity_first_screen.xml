@@ -41,9 +41,10 @@
         android:layout_alignTop="@+id/btn_takepicture"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/camera"
+        android:src="@android:drawable/ic_menu_camera"
         android:layout_alignBottom="@+id/btn_takepicture"
-        android:layout_marginLeft="10dp" />
+        android:layout_marginLeft="10dp"
+        android:visibility="visible" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,4 +57,16 @@
         android:textColor="#FFFFFF"
         android:textSize="25dp"
         android:layout_below="@id/btn_takepicture" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/btn_settings"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@android:drawable/ic_menu_preferences"
+        android:layout_alignBottom="@+id/btn_settings"
+        android:layout_marginLeft="10dp"
+        android:visibility="visible" />
 </RelativeLayout>

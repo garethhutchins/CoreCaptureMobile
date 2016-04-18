@@ -38,8 +38,7 @@
         <activity
             android:name="emc.captiva.mobile.emcworldsnap.MainActivity"
             android:label="@string/MainPage_Title"
-            android:theme="@android:style/Theme.Holo" >
-        </activity>
+            android:theme="@android:style/Theme.Holo" />
         <activity
             android:name="emc.captiva.mobile.emcworldsnap.EnhanceImageActivity"
             android:label="@string/EnhanceImage_Title"
@@ -74,6 +73,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="emc.captiva.mobile.emcworldsnap.SnapResults" />
     </application>
 
 </manifest>

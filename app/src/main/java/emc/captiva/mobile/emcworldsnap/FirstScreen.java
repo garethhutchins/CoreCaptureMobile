@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.StrictMode;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
@@ -34,6 +35,8 @@ public class FirstScreen extends Activity implements PictureCallback {
         setContentView(R.layout.activity_first_screen);
         //License the Application
         CoreHelper.license(this);
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
         //Add a listener for the take picture
         Button _takepicture = (Button) findViewById(R.id.btn_takepicture);
 

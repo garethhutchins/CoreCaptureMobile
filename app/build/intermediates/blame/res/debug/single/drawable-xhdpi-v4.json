@@ -54,9 +54,5 @@
     {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emclogo.png",
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-xhdpi\\emclogo.png"
-    },
-    {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\camera.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-xhdpi\\camera.png"
     }
 ]

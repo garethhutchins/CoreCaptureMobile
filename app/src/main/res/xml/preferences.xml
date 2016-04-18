@@ -11,17 +11,34 @@
             android:key="@string/SNAP_USER"
             android:title="@string/SNAP_USER_TITLE"
             android:summary="@string/SNAP_USER_SUMMARY"
-            android:defaultValue="" />
+            android:defaultValue=""
+            android:inputType="textEmailAddress"/>
         <EditTextPreference
             android:key="@string/SNAP_PASSWORD"
             android:title="@string/SNAP_PASSWORD_TITLE"
             android:summary="@string/SNAP_PASSWORD_SUMMARY"
-            android:defaultValue="" />
+            android:defaultValue=""
+            android:inputType="textPassword"/>
         <EditTextPreference
             android:key="@string/SNAP_URL"
             android:title="@string/SNAP_URL_TITLE"
             android:summary="@string/SNAP_URL_SUMMARY"
+            android:defaultValue="http://captivadev.emcond.com"
+            android:inputType="textUri"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/snap_profiles"
+        android:title="@string/snap_profiles">
+        <EditTextPreference
+            android:key="@string/SNAP_CAPTURE_PROFILE"
+            android:title="@string/SNAP_CAPTURE_PROFILE_TITLE"
+            android:summary="@string/SNAP_CAPTURE_PROFILE_SUMMARY"
             android:defaultValue="" />
+        <EditTextPreference
+            android:key="@string/SNAP_RECOGNITION_PROJECT"
+            android:title="@string/SNAP_RECOGNITION_PROJECT_TITLE"
+            android:summary="@string/SNAP_RECOGNITION_PROJECT_SUMMARY"
+            android:defaultValue="Default" />
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/GPREF_CAPTURE_GROUP"

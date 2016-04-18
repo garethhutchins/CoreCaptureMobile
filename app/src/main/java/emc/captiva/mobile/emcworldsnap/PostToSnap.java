@@ -10,12 +10,16 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.util.Log;
+import android.view.View;
 import android.webkit.MimeTypeMap;
+import android.widget.ImageView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -44,6 +48,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,6 +61,7 @@ public class PostToSnap extends AsyncTask {
     private ProgressDialog dialog;
     private String _ticket;
     public String FileName;
+    private WeakReference<SnapResults> SnapResultsWeakReference;
     private class loginRequest {
         public String culture = "en-US";
         public String licenseKey = context.getResources().getString(R.string.licenseKey);
@@ -145,6 +151,7 @@ public class PostToSnap extends AsyncTask {
                 public void onErrorResponse(VolleyError error) {
                     Log.d("Login Error",error.toString());
                     NetworkResponse response = error.networkResponse;
+
                     if(response != null && response.data != null){
                         String json = null;
                         json = new String(response.data);
@@ -168,13 +175,14 @@ public class PostToSnap extends AsyncTask {
 
     }
 
-    private void ProcessImage() {
+    private void ProcessImage()     {
+        SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         ProcessImageRequest processImageRequest = new ProcessImageRequest();
         dialog.setMessage("Posting & Enhancing Image");
         //Set the Profile
         serviceProps Profile = new serviceProps();
         Profile.name = "Profile";
-        Profile.value = "PID";
+        Profile.value = gprefs.getString("Capture Profile","");
         processImageRequest.serviceProps[0] = Profile;
 
         //Set the Environment
@@ -192,8 +200,6 @@ public class PostToSnap extends AsyncTask {
         String encodedString = "";
         String filename = "";
         String mime = "";
-
-
         try {
             inputStream = new FileInputStream(FileName);
             byte[] bytes;
@@ -231,7 +237,7 @@ public class PostToSnap extends AsyncTask {
         processImageRequest.requestItems[0] = requestItem;
 
         //Now do the posting
-        SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
+
         String url = gprefs.getString("Snap URL", "");
         url = url + "/cp-rest/session/services/processimage";
 
@@ -263,6 +269,16 @@ public class PostToSnap extends AsyncTask {
                             ClassifyExtract(name,fileID,contentType);
                         } catch (JSONException e) {
                             e.printStackTrace();
+                            //Look for error if the configuration isn't found
+                            Log.d("Image Processing Error",response.toString());
+                            try {
+                                JSONObject JSONError = response.getJSONArray("resultItems").getJSONObject(0);
+                                String ErrorMSG = JSONError.getString("errorMessage");
+                                ShowDialog("Image Processing Error",ErrorMSG);
+                            } catch (JSONException e1) {
+                                e1.printStackTrace();
+                            }
+
                         }
                     }
                 }, new Response.ErrorListener() {
@@ -318,19 +334,21 @@ public class PostToSnap extends AsyncTask {
 
     @Override
     protected Object doInBackground(Object[] objects) {
+
         login();
         return null;
     }
 
-    private void ClassifyExtract(String name,String fileID,String contentType) {
+    private void ClassifyExtract(final String name, final String fileID, final String contentType) {
         //Now call the Classify extract service
         //Change the dialog
         dialog.setMessage("Classifying & Extracting");
+        SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         ClassifyExtractPageRequest ceRequest = new ClassifyExtractPageRequest();
         serviceProps Project = new serviceProps();
         //project
         Project.name = "Project";
-        Project.value = "Default";
+        Project.value = gprefs.getString("Recognition Project","");
         //env
         serviceProps Env = new serviceProps();
         Env.name = "Env";
@@ -349,7 +367,6 @@ public class PostToSnap extends AsyncTask {
         ceRequest.requestItems[0] = requestItem;
 
         //Now do the posting
-        SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         String url = gprefs.getString("Snap URL", "");
         url = url + "/cp-rest/session/services/classifyextractpage";
 
@@ -373,11 +390,17 @@ public class PostToSnap extends AsyncTask {
                         //Get the response back
                         try {
                             //First get the JSON Object for the UIM Data
-                            JSONObject uimObject= response.getJSONArray("resultItems").getJSONObject(0).getJSONArray("values").getJSONObject(1).getJSONObject("value");
-                            Log.d("UIM",uimObject.toString());
-                            //Now pass this information into a new function
-                            PrepareUIM(uimObject);
-
+                            JSONObject uimObject= response.getJSONArray("resultItems").getJSONObject(0).getJSONArray("values").getJSONObject(3).getJSONObject("value");
+                            Log.d("UIM Object",uimObject.toString());
+                            //Pass the UIM Data to a new Activity
+                            Intent ViewSnapRestuls = new Intent(context,SnapResults.class);
+                            ViewSnapRestuls.putExtra("FileName",FileName);
+                            ViewSnapRestuls.putExtra("UIM",uimObject.toString());
+                            ViewSnapRestuls.putExtra("Ticket",_ticket);
+                            ViewSnapRestuls.putExtra("fileID",fileID);
+                            ViewSnapRestuls.putExtra("SnapFileName",name);
+                            ViewSnapRestuls.putExtra("contentType",contentType);
+                            context.startActivity(ViewSnapRestuls);
                         } catch (JSONException e) {
                             e.printStackTrace();
                             //If it fails look for the error message
@@ -432,23 +455,9 @@ public class PostToSnap extends AsyncTask {
         RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
         Classreq.setRetryPolicy(policy);
         queue.add(Classreq);
-
     }
 
-    private void PrepareUIM(JSONObject uimObject) {
-        try {
-            String documentType = uimObject.getJSONObject("value").getString("docType");
-            JSONArray DocValues = uimObject.getJSONObject("value").getJSONArray("nodeList");
-            for(int i = 0; i < DocValues.length(); i++){
-                String name = DocValues.getJSONObject(i).getString("labelText");
-                String value = DocValues.getJSONObject(i).getJSONArray("Data").getJSONObject(0).getString("value");
-                Log.d(name,value);
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
 
-    }
     @Override
     protected void onPostExecute(Object result) {
         //if (dialog.isShowing()) {

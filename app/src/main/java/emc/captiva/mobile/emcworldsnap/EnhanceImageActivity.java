@@ -244,11 +244,39 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 
 		PostToSnap Snap = new PostToSnap(this);
 
-		if (_newFileName.equals("")) {
+		// If the image has not been edited, then leave without saving.
+		if (!_imgEdited)
+		{
 			Snap.FileName = _filename;
 		}
-		else {
-			Snap.FileName = _newFileName;
+
+		// If the image has been edited, then save a copy of the image under a new filename to the gallery.
+		try {
+			String fullpath = saveCurrentImage();
+			_newFileName = fullpath;
+
+			// Let Android know so that it shows immediately in the image gallery. Note that TIFF
+			// images cannot be viewed by the Android gallery viewer as of 4.2.2. However, if you
+			// save a TIFF image to the gallery storage folder, it will still save and you can
+			// verify that it is there by using the Android "My Files" application if available
+			// on your device, or the Android Debug Bridge (adb). You can get the path to the file
+			// by debugging this application's save function.
+			if (fullpath != null) {
+				sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(new File(fullpath))));
+				Snap.FileName = _newFileName;
+			}
+		}
+		catch (CaptureException e) {
+			// If an exception happens we finish this activity and send back the cancel result when the error dialog is dimissed.
+			DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
+				@Override
+				public void onClick(DialogInterface dialog, int which) {
+					dialog.dismiss();
+					completeAndReturn(RESULT_CANCELED);
+				}
+			};
+
+			CoreHelper.displayError(this, e, listener);
 		}
 
 		Snap.execute();
