@@ -394,12 +394,14 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		//super.onCreate(savedInstanceState);
+		super.onCreate(null);
 		setContentView(R.layout.activity_enhance_image);
 		
 		// Get filename to load.
 		Bundle b = getIntent().getExtras();
 		_filename = b.getString("Filename");
+		b.clear();
 		
 		// Populate members.
 		_imageView = (PZImageView) findViewById(R.id.ImageView);
@@ -407,6 +409,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		_undoButton = (Button) findViewById(R.id.UndoButton);
 		_undoAllButton = (Button) findViewById(R.id.UndoAllButton);
 		_enhanceLayout = (RelativeLayout) findViewById(R.id.EnhanceLayout);
+		undoAll();
 		
 		// Determine whether we are being launched for the first time or have been rotated
 		// and then set the appropriate edit mode from the start.

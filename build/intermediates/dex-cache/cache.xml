@@ -1,3 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_0cf3d10c35e3a85c12847a4ae04cc53252341eed\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="8195f273a36d8374b3081c1bb7186a3ec6a2c153">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4804f2b20dd50f77a2ce1779ed5386c26d9542d5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\exploded-aar\captivamobilesdk\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="897e69d2d59b3f4daacb6e95bfd5956d15fe0c78">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-captivamobilesdk_b5d47abbb248419296c7af976f543c7ccf3d5b09\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="801c57cb8fc313a7948c516e2fdb6047645ba039">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6214f0fb3540e0a072940fbd3aab82cc93305d13\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_e048e8e3ae5bb5b653b35c326c7907fa28f68d0e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_d5fc11ec752e404923d7a371673ee5d2c6ed4e01\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\libs\volley.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_5769fad47c68b1d63a8412f5ca858f929620c99a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\EMCWorldMobileApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_447e8892411cdbe23416d727f563d40ab793e19f\classes.dex" />
+    </item>
+
+</items>

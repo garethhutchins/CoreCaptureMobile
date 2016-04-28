@@ -54,7 +54,7 @@ int id DeviceIDLabel 0x7f080017
 int id EnhanceLayout 0x7f080008
 int id ImageBar 0x7f08000f
 int id ImageView 0x7f080009
-int id LinearResults 0x7f080023
+int id LinearResults 0x7f080024
 int id ProgressStatusBar 0x7f08000e
 int id QuadrilateralCropLayout 0x7f08001c
 int id QuadrilateralCropView 0x7f08001d
@@ -63,7 +63,7 @@ int id SettingsButton 0x7f08001b
 int id UndoAllButton 0x7f08000b
 int id UndoButton 0x7f08000d
 int id btnFinish 0x7f080025
-int id btnPDF 0x7f080024
+int id btnPDF 0x7f080022
 int id btn_SendToSnap 0x7f08000c
 int id btn_settings 0x7f080015
 int id btn_takepicture 0x7f080013
@@ -80,7 +80,7 @@ int id imageView 0x7f080012
 int id imageView2 0x7f080016
 int id imageView3 0x7f080014
 int id scrollContainer 0x7f080021
-int id scrollView 0x7f080022
+int id scrollView 0x7f080023
 int id takecontinuouspicturesbtn 0x7f080019
 int id takepicturebtn 0x7f080018
 int layout activity_enhance_image 0x7f030000

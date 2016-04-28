@@ -8,12 +8,12 @@
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xhdpi\\overlay_quality.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overlay_movementred.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xhdpi\\overlay_movementred.png"
-    },
-    {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overlay_back.png",
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xhdpi\\overlay_back.png"
+    },
+    {
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overlay_movementred.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-xhdpi\\overlay_movementred.png"
     },
     {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\overlay_camera.png",

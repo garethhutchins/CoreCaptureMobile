@@ -28,12 +28,12 @@
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-hdpi\\quadcrop.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_next.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-hdpi\\ic_next.png"
-    },
-    {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\overlay_lightred.png",
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-hdpi\\overlay_lightred.png"
+    },
+    {
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_next.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-hdpi\\ic_next.png"
     },
     {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quadback.png",

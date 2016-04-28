@@ -199,7 +199,7 @@
     <string name="MainPage_Settings">Settings</string>
     <string name="MainPage_TakeContinuousPictures">Take Continuous Pictures</string>
     <string name="MainPage_TakePicture">Take Picture</string>
-    <string name="MainPage_Title">EMC World Snap</string>
+    <string name="MainPage_Title">EMC World Mobile</string>
     <string name="Menu_AutoCrop">Auto Crop</string>
     <string name="Menu_BlackWhite">Black-White</string>
     <string name="Menu_Crop">Crop</string>
@@ -237,7 +237,7 @@
     <string name="Undo_Error_Disabled">Undo disabled.</string>
     <string name="Undo_Error_Empty">Nothing left to undo.</string>
     <string name="Undo_Error_Generic">Undo failed.</string>
-    <string name="app_name">EMC World Snap</string>
+    <string name="app_name">EMC World Mobile</string>
     <string name="applicationId">APP9733-S507-6772</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"

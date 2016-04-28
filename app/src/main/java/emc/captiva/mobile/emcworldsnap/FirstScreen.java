@@ -31,7 +31,7 @@ public class FirstScreen extends Activity implements PictureCallback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(null);
         setContentView(R.layout.activity_first_screen);
         //License the Application
         CoreHelper.license(this);

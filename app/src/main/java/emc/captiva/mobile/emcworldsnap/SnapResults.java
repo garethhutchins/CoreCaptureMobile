@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -109,11 +110,22 @@ public class SnapResults extends Activity {
                 final EditText rowEditText = new EditText(this);
 
                 String name = DocValues.getJSONObject(i).getString("labelText");
+                String Fieldtype = DocValues.getJSONObject(i).getString("indexFieldType");
                 rowTextView.setText(name);
                 LView.addView(rowTextView);
                 myTextViews[i] = rowTextView;
                 String value = DocValues.getJSONObject(i).getJSONArray("data").getJSONObject(0).getString("value");
                 rowEditText.setText(value);
+                Log.d("Field Type",Fieldtype);
+                if (Fieldtype.equals("DateTime")) {
+                    Log.d("Field Type",Fieldtype);
+                    //remove the time characters
+                    value = value.replace("T00:00:00.0000000","");
+                    Log.d("New Date Value",value);
+                    rowEditText.setText(value);
+                    //rowEditText.setInputType(InputType.TYPE_DATETIME_VARIATION_DATE);
+                    rowTextView.setInputType(InputType.TYPE_CLASS_DATETIME | InputType.TYPE_DATETIME_VARIATION_DATE);
+                }
                 LView.addView(rowEditText);
                 myEditText[i] = rowEditText;
                 Log.d(name,value);

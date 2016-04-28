@@ -11,13 +11,13 @@
             android:key="@string/SNAP_USER"
             android:title="@string/SNAP_USER_TITLE"
             android:summary="@string/SNAP_USER_SUMMARY"
-            android:defaultValue=""
+            android:defaultValue="Gareth.Hutchins@emc.com"
             android:inputType="textEmailAddress"/>
         <EditTextPreference
             android:key="@string/SNAP_PASSWORD"
             android:title="@string/SNAP_PASSWORD_TITLE"
             android:summary="@string/SNAP_PASSWORD_SUMMARY"
-            android:defaultValue=""
+            android:defaultValue="EMCWorld2016"
             android:inputType="textPassword"/>
         <EditTextPreference
             android:key="@string/SNAP_URL"
@@ -33,7 +33,7 @@
             android:key="@string/SNAP_CAPTURE_PROFILE"
             android:title="@string/SNAP_CAPTURE_PROFILE_TITLE"
             android:summary="@string/SNAP_CAPTURE_PROFILE_SUMMARY"
-            android:defaultValue="" />
+            android:defaultValue="EMCWorld" />
         <EditTextPreference
             android:key="@string/SNAP_RECOGNITION_PROJECT"
             android:title="@string/SNAP_RECOGNITION_PROJECT_TITLE"
@@ -62,7 +62,7 @@
             android:key="@string/GPREF_SENSOR_LIGHT"
             android:title="@string/GPREF_SENSOR_LIGHT_TITLE"
             android:summary="@string/GPREF_SENSOR_LIGHT_SUMMARY"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
         <EditTextPreference
             android:key="@string/GPREF_SENSOR_LIGHT_VALUE"
             android:title="@string/GPREF_SENSOR_LIGHT_VALUE_TITLE"
@@ -72,7 +72,7 @@
             android:key="@string/GPREF_SENSOR_MOTION"
             android:title="@string/GPREF_SENSOR_MOTION_TITLE"
             android:summary="@string/GPREF_SENSOR_MOTION_SUMMARY"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
         <EditTextPreference
             android:key="@string/GPREF_SENSOR_MOTION_VALUE"
             android:title="@string/GPREF_SENSOR_MOTION_VALUE_TITLE"
@@ -82,7 +82,7 @@
             android:key="@string/GPREF_SENSOR_FOCUS"
             android:title="@string/GPREF_SENSOR_FOCUS_TITLE"
             android:summary="@string/GPREF_SENSOR_FOCUS_SUMMARY"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
         <CheckBoxPreference
             android:key="@string/GPREF_SENSOR_QUALITY"
@@ -128,12 +128,12 @@
             android:key="@string/GPREF_PICTURE_CROP_ASPECT_WIDTH"
             android:title="@string/GPREF_PICTURE_CROP_ASPECT_WIDTH_TITLE"
             android:summary="@string/GPREF_PICTURE_CROP_ASPECT_WIDTH_SUMMARY"
-            android:defaultValue="0" />
+            android:defaultValue="3.0" />
         <EditTextPreference
             android:key="@string/GPREF_PICTURE_CROP_ASPECT_HEIGHT"
             android:title="@string/GPREF_PICTURE_CROP_ASPECT_HEIGHT_TITLE"
             android:summary="@string/GPREF_PICTURE_CROP_ASPECT_HEIGHT_SUMMARY"
-            android:defaultValue="0" />
+            android:defaultValue="4.0" />
         <CheckBoxPreference
             android:key="@string/GPREF_CANCEL"
             android:title="@string/GPREF_CANCEL_TITLE"
@@ -178,7 +178,7 @@
             android:key="@string/GPREF_OPTIMALCONDREQ"
             android:title="@string/GPREF_OPTIMALCONDREQ_TITLE"
             android:summary="@string/GPREF_OPTIMALCONDREQ_SUMMARY"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
         <CheckBoxPreference
             android:key="@string/GPREF_AUTOCAPTURE"
             android:title="@string/GPREF_AUTOCAPTURE_TITLE"
