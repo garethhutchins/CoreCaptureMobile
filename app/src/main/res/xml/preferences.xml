@@ -17,14 +17,20 @@
             android:key="@string/SNAP_PASSWORD"
             android:title="@string/SNAP_PASSWORD_TITLE"
             android:summary="@string/SNAP_PASSWORD_SUMMARY"
-            android:defaultValue="EMCWorld2016"
+            android:defaultValue=""
             android:inputType="textPassword"/>
         <EditTextPreference
             android:key="@string/SNAP_URL"
             android:title="@string/SNAP_URL_TITLE"
             android:summary="@string/SNAP_URL_SUMMARY"
-            android:defaultValue="http://captivadev.emcond.com"
+            android:defaultValue=""
             android:inputType="textUri"/>
+        <EditTextPreference
+            android:key="@string/SNAP_SUBSCRIPTION"
+            android:title="@string/SNAP_SUBSCRIPTION_TITLE"
+            android:summary="@string/SNAP_SUBSCRIPTION_SUMMARY"
+            android:defaultValue=""
+            android:inputType="text"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/snap_profiles"

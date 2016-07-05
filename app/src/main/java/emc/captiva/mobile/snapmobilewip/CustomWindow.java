@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -53,13 +53,13 @@ public class CustomWindow extends CaptureWindow {
         // we are extending the existing SDK overlay or whether we are creating a brand new overlay.
         // Get the actual string representation for the "replace" mode to see if it matches the
         // preference that was actually specified. If not, then we don't do replace only extend.
-        String newPref = CoreHelper.getStringResource(context, R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_REPLACE);
+        String newPref = CoreHelper.getStringResource(context, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_REPLACE);
         if (pref != null && pref.compareToIgnoreCase(newPref) == 0) {
             // We are in replace mode.
             _overlayMode = OverlayMode.Replace;
         }
 
-        newPref = CoreHelper.getStringResource(context, R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_EXTEND);
+        newPref = CoreHelper.getStringResource(context, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_EXTEND);
         if (pref != null && pref.compareToIgnoreCase(newPref) == 0) {
             // We are in replace mode.
             _overlayMode = OverlayMode.Extend;

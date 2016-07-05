@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_button.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable\\white_button.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_button.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable\\green_button.xml"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black_button.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable\\black_button.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\whiteborder_button.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable\\whiteborder_button.xml"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_button.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable\\green_button.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black_button.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable\\black_button.xml"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable\\gray_button.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_button.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable\\check_button.xml"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_button.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable\\check_button.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable\\gray_button.xml"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\whiteborder_button.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable\\whiteborder_button.xml"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_button.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable\\white_button.xml"
     }
 ]

@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import java.io.File;
 import java.util.HashMap;
@@ -73,7 +73,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
         int menuID = item.getItemId();
 		try {
 			switch (menuID) {
-			    case R.id.ABInfo: {
+			    case emc.captiva.mobile.snapmobilewip.R.id.ABInfo: {
 				   // Launch the image info activity.
                     Intent intent = new Intent(this, ImageInfoActivity.class);
                     intent.putExtra("FilterError", CaptureImage.getLastError());
@@ -81,11 +81,11 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
                     break;
 				}
 
-				case R.id.ABBarcode: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABBarcode: {
 					// Run detection based on preferences.
 					SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-					int barcodeMax = CoreHelper.getInteger(gprefs.getString(getString(R.string.GPREF_BARCODE_COUNT), ""), 5);
-                    Set<String> barcodeTypesSet = gprefs.getStringSet(getString(R.string.GPREF_BARCODE_TYPE), null);
+					int barcodeMax = CoreHelper.getInteger(gprefs.getString(getString(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_COUNT), ""), 5);
+                    Set<String> barcodeTypesSet = gprefs.getStringSet(getString(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_TYPE), null);
 					String[] barcodeTypes = barcodeTypesSet == null ? new String[] {CaptureImage.BARCODE_TYPE_ALL} : barcodeTypesSet.toArray(new String[0]);
 					Map<String, Object> barcodes[] = CaptureImage.detectBarcodes(barcodeTypes, barcodeMax);
 					StringBuilder message = new StringBuilder();
@@ -109,56 +109,56 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 					}
 
 					if (barcodes.length > 0) {
-						CoreHelper.displayMessage(this, message.toString(), getString(R.string.Barcode_Title), null);
+						CoreHelper.displayMessage(this, message.toString(), getString(emc.captiva.mobile.snapmobilewip.R.string.Barcode_Title), null);
 					} else {
-						CoreHelper.displayMessage(this, getString(R.string.Barcode_NotFound), getString(R.string.Barcode_Title), null);
+						CoreHelper.displayMessage(this, getString(emc.captiva.mobile.snapmobilewip.R.string.Barcode_NotFound), getString(emc.captiva.mobile.snapmobilewip.R.string.Barcode_Title), null);
 					}
 					break;
 				}
 				
-				case R.id.ABBlackWhite: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABBlackWhite: {
 				    // Apply the adaptive black and white filter.
 					applyFilter(CaptureImage.FILTER_ADAPTIVE_BINARY, getAdaptiveThresholdParameters());					
 					break;
 				}
 				
-				case R.id.ABGray: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABGray: {
 				    // Apply the gray scale filter.
 					applyFilter(CaptureImage.FILTER_GRAYSCALE, null);
 					break;
 				}
 
-                case R.id.ABDarker:
-                case R.id.ABLighter: {
+                case emc.captiva.mobile.snapmobilewip.R.id.ABDarker:
+                case emc.captiva.mobile.snapmobilewip.R.id.ABLighter: {
                     // Apply the brightness filter.
                     HashMap<String, Object> parameters = new HashMap<>();
-                    parameters.put(CaptureImage.FILTER_PARAM_BRIGHTNESS_SCALE, menuID == R.id.ABDarker ? -16 : 16);
+                    parameters.put(CaptureImage.FILTER_PARAM_BRIGHTNESS_SCALE, menuID == emc.captiva.mobile.snapmobilewip.R.id.ABDarker ? -16 : 16);
                     applyFilter(CaptureImage.FILTER_BRIGHTNESS, parameters);
                     break;
                 }
 
-                case R.id.ABIncreaseContrast:
-                case R.id.ABDecreaseContrast: {
+                case emc.captiva.mobile.snapmobilewip.R.id.ABIncreaseContrast:
+                case emc.captiva.mobile.snapmobilewip.R.id.ABDecreaseContrast: {
                     // Apply the contrast filter.
                     HashMap<String, Object> parameters = new HashMap<>();
-                    parameters.put(CaptureImage.FILTER_PARAM_CONTRAST_SCALE, menuID == R.id.ABDecreaseContrast ? -64 : 64);
+                    parameters.put(CaptureImage.FILTER_PARAM_CONTRAST_SCALE, menuID == emc.captiva.mobile.snapmobilewip.R.id.ABDecreaseContrast ? -64 : 64);
                     applyFilter(CaptureImage.FILTER_CONTRAST, parameters);
                     break;
                 }
 
-                case R.id.ABRemoveNoise: {
+                case emc.captiva.mobile.snapmobilewip.R.id.ABRemoveNoise: {
                     // Apply the gray scale filter.
                     applyFilter(CaptureImage.FILTER_REMOVE_NOISE, getRemoveNoiseSize());
                     break;
                 }
 
-				case R.id.ABDeskew: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABDeskew: {
 				    // Apply the deskew/perspective filter.
 					applyFilter(CaptureImage.FILTER_PERSPECTIVE, null);
 					break;
 				}
 				
-				case R.id.ABResize: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABResize: {
 				    // Resize the image to minus 200 pixels.
 					HashMap<String, Object> parameters = new HashMap<>();
 					Map<String, Object> properties = CaptureImage.getImageProperties();
@@ -173,32 +173,32 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 					break;
 				}
 				
-				case R.id.ABRotate180:
-				case R.id.ABRotateLeft:
-				case R.id.ABRotateRight: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABRotate180:
+				case emc.captiva.mobile.snapmobilewip.R.id.ABRotateLeft:
+				case emc.captiva.mobile.snapmobilewip.R.id.ABRotateRight: {
 				    // Rotate the image.
 					HashMap<String, Object> parameters = new HashMap<>();
-					parameters.put(CaptureImage.FILTER_PARAM_ROTATION_DEGREE, menuID == R.id.ABRotateLeft ? 270 : (menuID == R.id.ABRotateRight ? 90 : 180));
+					parameters.put(CaptureImage.FILTER_PARAM_ROTATION_DEGREE, menuID == emc.captiva.mobile.snapmobilewip.R.id.ABRotateLeft ? 270 : (menuID == emc.captiva.mobile.snapmobilewip.R.id.ABRotateRight ? 90 : 180));
 					applyFilter(CaptureImage.FILTER_ROTATION, parameters);
 					break;
 				}
 				
-				case R.id.ABCrop: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABCrop: {
 				    // Launch image cropping activity.
 				    Intent intent = new Intent(this, EnhanceImageCropActivity.class);
-				    startActivityForResult(intent, R.id.ABCrop);
+				    startActivityForResult(intent, emc.captiva.mobile.snapmobilewip.R.id.ABCrop);
 					break;
 				}
 
-                case R.id.ABQuadCrop: {
+                case emc.captiva.mobile.snapmobilewip.R.id.ABQuadCrop: {
 					// Get the parameters to set up the quadrilateral crop.
 					SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-					String quadCropColor = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_QUAD_CROP_COLOR), "blue");
-					String temp = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_QUAD_CROP_LINE_WIDTH), "4");
+					String quadCropColor = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_COLOR), "blue");
+					String temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_LINE_WIDTH), "4");
 					Integer quadCropLineWidth = CoreHelper.getInteger(temp, 4);
-					temp = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_QUAD_CROP_CIRCLE_RADIUS), "24");
+					temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_CIRCLE_RADIUS), "24");
 					Integer quadCropCircleRadius = CoreHelper.getInteger(temp, 24);
-					Boolean quadCropShadeBackground = gprefs.getBoolean(CoreHelper.getStringResource(this, R.string.GPREF_QUAD_CROP_SHADE_BACKGROUND), true);
+					Boolean quadCropShadeBackground = gprefs.getBoolean(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_SHADE_BACKGROUND), true);
 
 					// Add the parameters to a HashMap for passing into the show call.
 					HashMap<String, Object> quadCropParams = new HashMap<>();
@@ -213,7 +213,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 					break;
                 }
 				
-				case R.id.ABAutoCrop: {
+				case emc.captiva.mobile.snapmobilewip.R.id.ABAutoCrop: {
 				    // Apply the auto-cropping operation.
 					applyFilter(CaptureImage.FILTER_CROP, getAutoCropPadding());
 					break;
@@ -351,7 +351,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 	    // Inflate the menu.
-		getMenuInflater().inflate(R.menu.activity_enhance_image, menu);	
+		getMenuInflater().inflate(emc.captiva.mobile.snapmobilewip.R.menu.activity_enhance_image, menu);
 		_menu = menu;
 		return true;
 	}
@@ -396,7 +396,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	protected void onCreate(Bundle savedInstanceState) {
 		//super.onCreate(savedInstanceState);
 		super.onCreate(null);
-		setContentView(R.layout.activity_enhance_image);
+		setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_enhance_image);
 		
 		// Get filename to load.
 		Bundle b = getIntent().getExtras();
@@ -404,11 +404,11 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		b.clear();
 		
 		// Populate members.
-		_imageView = (PZImageView) findViewById(R.id.ImageView);
-		_progressBar = (ProgressBar) findViewById(R.id.ProgressStatusBar);
-		_undoButton = (Button) findViewById(R.id.UndoButton);
-		_undoAllButton = (Button) findViewById(R.id.UndoAllButton);
-		_enhanceLayout = (RelativeLayout) findViewById(R.id.EnhanceLayout);
+		_imageView = (PZImageView) findViewById(emc.captiva.mobile.snapmobilewip.R.id.ImageView);
+		_progressBar = (ProgressBar) findViewById(emc.captiva.mobile.snapmobilewip.R.id.ProgressStatusBar);
+		_undoButton = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.UndoButton);
+		_undoAllButton = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.UndoAllButton);
+		_enhanceLayout = (RelativeLayout) findViewById(emc.captiva.mobile.snapmobilewip.R.id.EnhanceLayout);
 		undoAll();
 		
 		// Determine whether we are being launched for the first time or have been rotated
@@ -421,7 +421,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 
         // Set the enable undo of CaptureImage to that of the SdkSampleApp shared preferences.
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        _enableUndo = gprefs.getBoolean(CoreHelper.getStringResource(this, R.string.GPREF_FILTER_ENABLE_UNDO), false);
+        _enableUndo = gprefs.getBoolean(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_FILTER_ENABLE_UNDO), false);
         CaptureImage.enableUndoImage(_enableUndo);
     }
 	
@@ -432,7 +432,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	 * @param data 			Data passed back from Crop. 
 	 */
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if ((requestCode == R.id.ABCrop || requestCode == R.id.ABQuadCrop) && resultCode == RESULT_OK ) {
+        if ((requestCode == emc.captiva.mobile.snapmobilewip.R.id.ABCrop || requestCode == emc.captiva.mobile.snapmobilewip.R.id.ABQuadCrop) && resultCode == RESULT_OK ) {
         	startEdit();
         }
     }
@@ -569,7 +569,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 			    _imageView.setImageBitmap(getImage());
 				setProgressBar(false);
 				if (_menu != null) {
-				    _menu.setGroupVisible(R.id.ABMainGroup, true);
+				    _menu.setGroupVisible(emc.captiva.mobile.snapmobilewip.R.id.ABMainGroup, true);
 				}
 				
 				_enhanceLayout.setEnabled(true);
@@ -585,7 +585,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		_imageView._preventGesture = true;
 		if (_menu != null) {
 		    // This will cause slight flicker on some devices.
-		    _menu.setGroupVisible(R.id.ABMainGroup, false);
+		    _menu.setGroupVisible(emc.captiva.mobile.snapmobilewip.R.id.ABMainGroup, false);
 		}
 		
 		_enhanceLayout.setEnabled(false);
@@ -607,12 +607,12 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		try {	
 		    // Get the preferences for saving.            
             SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-            String imgFormat = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_IMAGEFORMAT), CaptureImage.SAVE_JPG);
-            String temp = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_JPGQUALITY), "95");
+            String imgFormat = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_IMAGEFORMAT), CaptureImage.SAVE_JPG);
+            String temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_JPGQUALITY), "95");
             Integer jpgQuality = CoreHelper.getInteger(temp, 95);
-            temp = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_DPIX), "0");
+            temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_DPIX), "0");
             Integer dpix = CoreHelper.getInteger(temp, 0);
-            temp = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_DPIY), "0");
+            temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_DPIY), "0");
             Integer dpiy = CoreHelper.getInteger(temp, 0);
             
             // Prepare a new filename.
@@ -658,7 +658,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	private Map<String, Object> getAutoCropPadding() {
 		HashMap<String, Object> parameters = new HashMap<>();
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String paddingText = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_FILTER_CROP_PADDING), "0.0");
+        String paddingText = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_FILTER_CROP_PADDING), "0.0");
 		float padding = CoreHelper.getFloat(paddingText, 0.0f);
 		
 		parameters.put(CaptureImage.FILTER_PARAM_CROP_PADDING, padding);
@@ -669,7 +669,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
     private Map<String, Object> getRemoveNoiseSize() {
         HashMap<String, Object> parameters = new HashMap<>();
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String noiseSizeText = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_FILTER_REMOVE_NOISE), "7");
+        String noiseSizeText = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_FILTER_REMOVE_NOISE), "7");
         int noiseSize = CoreHelper.getInteger(noiseSizeText, 7);
 
         parameters.put(CaptureImage.FILTER_PARAM_NOISE_SIZE, noiseSize);
@@ -683,11 +683,11 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	private Map<String, Object> getAdaptiveThresholdParameters() {
 		HashMap<String, Object> parameters = new HashMap<>();
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        boolean force = gprefs.getBoolean(CoreHelper.getStringResource(this, R.string.GPREF_FILTER_ADAPTIVE_BINARY_FORCE), true);
+        boolean force = gprefs.getBoolean(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_FILTER_ADAPTIVE_BINARY_FORCE), true);
 		                
 		parameters.put(CaptureImage.FILTER_PARAM_ADAPTIVE_BINARY_FORCE, force);
 
-		String blacknessText = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_FILTER_ADAPTIVE_BINARY_BLACKNESS), "6");
+		String blacknessText = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_FILTER_ADAPTIVE_BINARY_BLACKNESS), "6");
         int blackness = CoreHelper.getInteger(blacknessText, 6);
 		parameters.put(CaptureImage.FILTER_PARAM_ADAPTIVE_BINARY_BLACKNESS, blackness);
 

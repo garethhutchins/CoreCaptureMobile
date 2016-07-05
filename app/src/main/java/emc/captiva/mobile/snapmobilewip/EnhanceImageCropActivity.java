@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -68,11 +68,11 @@ public class EnhanceImageCropActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_enhance_image_crop);
+		setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_enhance_image_crop);
 		
 		// Populate members.
-		_imageView = (ImageView) findViewById(R.id.ImageView);
-		_cropView = (CropView) findViewById(R.id.CropView);	
+		_imageView = (ImageView) findViewById(emc.captiva.mobile.snapmobilewip.R.id.ImageView);
+		_cropView = (CropView) findViewById(emc.captiva.mobile.snapmobilewip.R.id.CropView);
 		
 		if (savedInstanceState != null) {
 			// Restore selection rectangle coordinates

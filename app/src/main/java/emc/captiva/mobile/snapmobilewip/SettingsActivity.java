@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import emc.captiva.mobile.sdk.CaptureImage;
 import android.content.SharedPreferences;
@@ -50,6 +50,10 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                 pref.setText(temp);
             }
             if (key.compareToIgnoreCase("SNAP_URL") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
+            if (key.compareToIgnoreCase("SNAP_SUBSCRIPTION") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
@@ -254,7 +258,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
     @SuppressWarnings("deprecation")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); 
-        addPreferencesFromResource(R.xml.preferences);
+        addPreferencesFromResource(emc.captiva.mobile.snapmobilewip.R.xml.preferences);
         addBarcodePreferences();
     }
     
@@ -335,23 +339,23 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
         MultiSelectListPreference barcodeTypes = new MultiSelectListPreference(this);
         EditTextPreference barcodeCount = new EditTextPreference(this);
 
-        category.setTitle(R.string.GPREF_BARCODE_GROUP_TITLE);
+        category.setTitle(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_GROUP_TITLE);
 
         // Count preference
-        barcodeCount.setTitle(R.string.GPREF_BARCODE_COUNT_TITLE);
-        barcodeCount.setDialogTitle(R.string.GPREF_BARCODE_COUNT_TITLE);
-        barcodeCount.setSummary(R.string.GPREF_BARCODE_COUNT_SUMMARY);
-        barcodeCount.setDefaultValue(getString(R.string.GPREF_BARCODE_COUNT_DEFAULT));
-        barcodeCount.setKey(getString(R.string.GPREF_BARCODE_COUNT));
+        barcodeCount.setTitle(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_COUNT_TITLE);
+        barcodeCount.setDialogTitle(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_COUNT_TITLE);
+        barcodeCount.setSummary(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_COUNT_SUMMARY);
+        barcodeCount.setDefaultValue(getString(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_COUNT_DEFAULT));
+        barcodeCount.setKey(getString(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_COUNT));
 
         // Type preference
-        barcodeTypes.setTitle(R.string.GPREF_BARCODE_TYPE_TITLE);
-        barcodeTypes.setDialogTitle(R.string.GPREF_BARCODE_TYPE_TITLE);
-        barcodeTypes.setSummary(R.string.GPREF_BARCODE_TYPE_SUMMARY);
+        barcodeTypes.setTitle(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_TYPE_TITLE);
+        barcodeTypes.setDialogTitle(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_TYPE_TITLE);
+        barcodeTypes.setSummary(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_TYPE_SUMMARY);
         barcodeTypes.setEntries(remove(getBarcodeTypes(), "BarcodeType"));
         barcodeTypes.setEntryValues(getBarcodeTypes());
         barcodeTypes.setDefaultValue(new HashSet<String>(Arrays.asList(CaptureImage.BARCODE_TYPE_ALL)));
-        barcodeTypes.setKey(getString(R.string.GPREF_BARCODE_TYPE));
+        barcodeTypes.setKey(getString(emc.captiva.mobile.snapmobilewip.R.string.GPREF_BARCODE_TYPE));
 
         screen.addPreference(category);
         category.addPreference(barcodeTypes);

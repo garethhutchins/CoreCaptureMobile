@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- * Copyright 2013-2016 EMC Corporation.  All rights reserved. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="emc.captiva.mobile.emcworldsnap">
+    package="emc.captiva.mobile.snapmobilewip">
 
     <uses-feature
         android:name="android.hardware.camera"

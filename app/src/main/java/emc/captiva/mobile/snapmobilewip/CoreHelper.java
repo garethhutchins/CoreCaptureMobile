@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import java.io.File;
 import java.io.FileOutputStream;

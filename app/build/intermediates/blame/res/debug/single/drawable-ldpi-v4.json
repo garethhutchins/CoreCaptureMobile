@@ -1,54 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\quadcrop.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\quadcrop.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\quadcrop.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\quadcrop.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_focusred.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_focusred.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_lightred.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_lightred.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_movementred.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_movementred.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\appicon.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable-ldpi\\appicon.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_torch.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_torch.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_camera.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_camera.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_camera.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_camera.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_quality.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_quality.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_next.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-ldpi\\ic_next.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_back.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_back.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\quadback.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\quadback.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_torch.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_torch.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_lightred.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_lightred.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_next.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable-ldpi\\ic_next.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\appicon.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-ldpi\\appicon.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_movementred.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_movementred.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_back.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_back.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_levelred.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_levelred.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\check.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\src\\main\\res\\drawable-ldpi\\check.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\check.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\src\\main\\res\\drawable-ldpi\\check.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_levelred.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_levelred.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_focusred.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_focusred.png"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\overlay_quality.png",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\EMCWorldMobileApp\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\overlay_quality.png"
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\quadback.png",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\captivamobilesdk\\res\\drawable-ldpi\\quadback.png"
     }
 ]

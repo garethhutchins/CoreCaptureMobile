@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -13,7 +13,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import emc.captiva.mobile.emcworldsnap.R;
 import emc.captiva.mobile.sdk.CaptureException;
 import emc.captiva.mobile.sdk.CaptureImage;
 

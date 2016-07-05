@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <emc.captiva.mobile.emcworldsnap.PZImageView
+    <emc.captiva.mobile.snapmobilewip.PZImageView
         android:id="@+id/ImageView"
         android:contentDescription="@string/General_Image"
         android:scaleType="centerInside"

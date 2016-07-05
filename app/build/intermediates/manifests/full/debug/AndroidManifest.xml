@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- * Copyright 2013-2016 EMC Corporation.  All rights reserved. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="emc.captiva.mobile.emcworldsnap"
+    package="emc.captiva.mobile.snapmobilewip"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -36,15 +36,15 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="emc.captiva.mobile.emcworldsnap.MainActivity"
+            android:name="emc.captiva.mobile.snapmobilewip.MainActivity"
             android:label="@string/MainPage_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.emcworldsnap.EnhanceImageActivity"
+            android:name="emc.captiva.mobile.snapmobilewip.EnhanceImageActivity"
             android:label="@string/EnhanceImage_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.emcworldsnap.EnhanceImageCropActivity"
+            android:name="emc.captiva.mobile.snapmobilewip.EnhanceImageCropActivity"
             android:label="@string/EnhanceImageCrop_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
@@ -57,15 +57,15 @@
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.emcworldsnap.ImageInfoActivity"
+            android:name="emc.captiva.mobile.snapmobilewip.ImageInfoActivity"
             android:label="@string/ImageInfo_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.emcworldsnap.SettingsActivity"
+            android:name="emc.captiva.mobile.snapmobilewip.SettingsActivity"
             android:label="@string/MainPage_Settings"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.emcworldsnap.FirstScreen"
+            android:name="emc.captiva.mobile.snapmobilewip.FirstScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,7 +73,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="emc.captiva.mobile.emcworldsnap.SnapResults" />
+        <activity android:name="emc.captiva.mobile.snapmobilewip.SnapResults" />
     </application>
 
 </manifest>

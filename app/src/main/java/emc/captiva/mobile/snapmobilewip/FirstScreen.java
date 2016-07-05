@@ -1,4 +1,4 @@
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -32,13 +32,13 @@ public class FirstScreen extends Activity implements PictureCallback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(null);
-        setContentView(R.layout.activity_first_screen);
+        setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_first_screen);
         //License the Application
         CoreHelper.license(this);
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         //Add a listener for the take picture
-        Button _takepicture = (Button) findViewById(R.id.btn_takepicture);
+        Button _takepicture = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_takepicture);
 
         _takepicture.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -47,7 +47,7 @@ public class FirstScreen extends Activity implements PictureCallback {
         });
 
         //Add a listener for the settings
-        Button _settings = (Button) findViewById(R.id.btn_settings);
+        Button _settings = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_settings);
 
         _settings.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -66,8 +66,8 @@ public class FirstScreen extends Activity implements PictureCallback {
 
         // Get the preference for CaptureWindow
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String capWndNone = CoreHelper.getStringResource(this, R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
-        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
+        String capWndNone = CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
+        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
 
         if (capWndPref.compareToIgnoreCase(capWndNone) != 0) {
             // Assign a custom CaptureWindow if specified by the prefs.

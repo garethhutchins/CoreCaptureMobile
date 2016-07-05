@@ -1,4 +1,4 @@
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;

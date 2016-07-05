@@ -1,4 +1,4 @@
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 
 import android.app.AlertDialog;
@@ -10,16 +10,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.util.Log;
-import android.view.View;
 import android.webkit.MimeTypeMap;
-import android.widget.ImageView;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -64,9 +60,9 @@ public class PostToSnap extends AsyncTask {
     private WeakReference<SnapResults> SnapResultsWeakReference;
     private class loginRequest {
         public String culture = "en-US";
-        public String licenseKey = context.getResources().getString(R.string.licenseKey);
+        public String licenseKey = context.getResources().getString(emc.captiva.mobile.snapmobilewip.R.string.licenseKey);
         public String deviceId = "Captiva Mobile Demo";
-        public String applicationId = context.getResources().getString(R.string.applicationId);
+        public String applicationId = context.getResources().getString(emc.captiva.mobile.snapmobilewip.R.string.applicationId);
         public String username;
         public String password;
     }

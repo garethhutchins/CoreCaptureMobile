@@ -25,7 +25,7 @@ android {
     // Note that the build tools version supports a lesser compiler version.
     buildToolsVersion "22.0.1"
     defaultConfig {
-        applicationId 'emc.captiva.mobile.emcworldsnap'
+        applicationId 'emc.captiva.mobile.snapmobilewip'
         // Bumped the minimum to API 16 (Jelly Bean). API 16 captures 88% of Android users as of July 2015.
         minSdkVersion 16
 

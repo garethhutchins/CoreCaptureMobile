@@ -21,7 +21,10 @@
     <string name="SNAP_URL_TITLE">Your Snap URL</string>
     <string name="SNAP_URL_SUMMARY">Enter Your Snap URL</string>
     <string name="snap_settings">Snap Connection</string>
-    <string name="app_name">EMC World Mobile</string>
+    <string name="SNAP_SUBSCRIPTION">Snap Subscription</string>
+    <string name="SNAP_SUBSCRIPTION_TITLE">Your Snap Subscription</string>
+    <string name="SNAP_SUBSCRIPTION_SUMMARY">Enter Your Snap Subscription Name</string>
+    <string name="app_name">Snap Mobile</string>
     <string name="AppCopyright">Copyright 2013&#8211;2016 by EMC Corporation</string>
     <string name="MainPage_Title">EMC World Mobile</string>
     <string name="MainPage_TakePicture">Take Picture</string>

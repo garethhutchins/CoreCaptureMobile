@@ -1,4 +1,4 @@
-package emc.captiva.mobile.emcworldsnap;
+package emc.captiva.mobile.snapmobilewip;
 
 import android.app.Activity;
 import android.content.Context;
@@ -44,7 +44,7 @@ public class SnapResults extends Activity {
         SnapFileName = bundle.getString("SnapFileName");
         contentType = bundle.getString("contentType");
 
-        setContentView(R.layout.activity_snap_results);
+        setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_snap_results);
         setPicture(FileName);
         try {
             JSONObject jsonObject = new JSONObject(UIMString);
@@ -53,7 +53,7 @@ public class SnapResults extends Activity {
             e.printStackTrace();
         }
 
-        Button _pdf = (Button) findViewById(R.id.btnPDF);
+        Button _pdf = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btnPDF);
 
         _pdf.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -62,7 +62,7 @@ public class SnapResults extends Activity {
             }
         });
 
-        Button _finish = (Button) findViewById(R.id.btnFinish);
+        Button _finish = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btnFinish);
 
         _finish.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -74,10 +74,10 @@ public class SnapResults extends Activity {
     }
     private void setPicture (String FileName) {
         Log.d("File",Uri.parse(FileName).toString());
-        LinearLayout scrollContainer = (LinearLayout)findViewById(R.id.scrollContainer);
-        ScrollView scrollView = (ScrollView)scrollContainer.findViewById(R.id.scrollView);
-        LinearLayout LinearResults = (LinearLayout)scrollView.findViewById(R.id.LinearResults);
-        ImageView imageView = (ImageView)LinearResults.findViewById(R.id.imageView);
+        LinearLayout scrollContainer = (LinearLayout)findViewById(emc.captiva.mobile.snapmobilewip.R.id.scrollContainer);
+        ScrollView scrollView = (ScrollView)scrollContainer.findViewById(emc.captiva.mobile.snapmobilewip.R.id.scrollView);
+        LinearLayout LinearResults = (LinearLayout)scrollView.findViewById(emc.captiva.mobile.snapmobilewip.R.id.LinearResults);
+        ImageView imageView = (ImageView)LinearResults.findViewById(emc.captiva.mobile.snapmobilewip.R.id.imageView);
         //Set the picture
         File file = new File(FileName);
         Bitmap d = BitmapFactory.decodeFile(file.getAbsolutePath());
@@ -91,9 +91,9 @@ public class SnapResults extends Activity {
         try {
             Log.d("UIM",uimObject.toString());
             String documentType = uimObject.getString("docType");
-            LinearLayout Container = (LinearLayout)findViewById(R.id.scrollContainer);
-            ScrollView SView = (ScrollView)Container.findViewById(R.id.scrollView);
-            LinearLayout LView = (LinearLayout) SView.findViewById(R.id.LinearResults);
+            LinearLayout Container = (LinearLayout)findViewById(emc.captiva.mobile.snapmobilewip.R.id.scrollContainer);
+            ScrollView SView = (ScrollView)Container.findViewById(emc.captiva.mobile.snapmobilewip.R.id.scrollView);
+            LinearLayout LView = (LinearLayout) SView.findViewById(emc.captiva.mobile.snapmobilewip.R.id.LinearResults);
             TextView TDocType = new TextView(this);
             TDocType.setText("Document Type");
             LView.addView(TDocType);
