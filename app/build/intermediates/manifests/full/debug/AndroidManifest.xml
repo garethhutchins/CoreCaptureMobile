@@ -74,6 +74,7 @@
             </intent-filter>
         </activity>
         <activity android:name="emc.captiva.mobile.snapmobilewip.SnapResults" />
+        <activity android:name="emc.captiva.mobile.snapmobilewip.GridActivity" />
     </application>
 
 </manifest>

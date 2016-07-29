@@ -17,14 +17,20 @@
             android:key="@string/SNAP_PASSWORD"
             android:title="@string/SNAP_PASSWORD_TITLE"
             android:summary="@string/SNAP_PASSWORD_SUMMARY"
-            android:defaultValue="EMCWorld2016"
+            android:defaultValue=""
             android:inputType="textPassword"/>
         <EditTextPreference
             android:key="@string/SNAP_URL"
             android:title="@string/SNAP_URL_TITLE"
             android:summary="@string/SNAP_URL_SUMMARY"
-            android:defaultValue="http://captivadev.emcond.com"
+            android:defaultValue=""
             android:inputType="textUri"/>
+        <EditTextPreference
+            android:key="@string/SNAP_SUBSCRIPTION"
+            android:title="@string/SNAP_SUBSCRIPTION_TITLE"
+            android:summary="@string/SNAP_SUBSCRIPTION_SUMMARY"
+            android:defaultValue=""
+            android:inputType="text"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/snap_profiles"
@@ -62,17 +68,17 @@
             android:key="@string/GPREF_SENSOR_LIGHT"
             android:title="@string/GPREF_SENSOR_LIGHT_TITLE"
             android:summary="@string/GPREF_SENSOR_LIGHT_SUMMARY"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
         <EditTextPreference
             android:key="@string/GPREF_SENSOR_LIGHT_VALUE"
             android:title="@string/GPREF_SENSOR_LIGHT_VALUE_TITLE"
             android:summary="@string/GPREF_SENSOR_LIGHT_VALUE_SUMMARY"
-            android:defaultValue="50" />
+            android:defaultValue="10" />
         <CheckBoxPreference
             android:key="@string/GPREF_SENSOR_MOTION"
             android:title="@string/GPREF_SENSOR_MOTION_TITLE"
             android:summary="@string/GPREF_SENSOR_MOTION_SUMMARY"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
         <EditTextPreference
             android:key="@string/GPREF_SENSOR_MOTION_VALUE"
             android:title="@string/GPREF_SENSOR_MOTION_VALUE_TITLE"
@@ -82,13 +88,13 @@
             android:key="@string/GPREF_SENSOR_FOCUS"
             android:title="@string/GPREF_SENSOR_FOCUS_TITLE"
             android:summary="@string/GPREF_SENSOR_FOCUS_SUMMARY"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <CheckBoxPreference
             android:key="@string/GPREF_SENSOR_QUALITY"
             android:title="@string/GPREF_SENSOR_QUALITY_TITLE"
             android:summary="@string/GPREF_SENSOR_QUALITY_SUMMARY"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
         <EditTextPreference
             android:key="@string/GPREF_SENSOR_QUALITY_GLARE_VALUE"
             android:title="@string/GPREF_SENSOR_QUALITY_GLARE_TITLE"
@@ -103,7 +109,7 @@
             android:key="@string/GPREF_SENSOR_QUALITY_QUADRILATERAL_VALUE"
             android:title="@string/GPREF_SENSOR_QUALITY_QUADRILATERAL_TITLE"
             android:summary="@string/GPREF_SENSOR_QUALITY_QUADRILATERAL_SUMMARY"
-            android:defaultValue="0" />
+            android:defaultValue="10" />
         <CheckBoxPreference
             android:key="@string/GPREF_GUIDELINES"
             android:title="@string/GPREF_GUIDELINES_TITLE"
@@ -143,12 +149,12 @@
             android:key="@string/GPREF_TORCH"
             android:title="@string/GPREF_TORCH_TITLE"
             android:summary="@string/GPREF_TORCH_SUMMARY"
-            android:defaultValue="false" />       
+            android:defaultValue="false" />
         <CheckBoxPreference
             android:key="@string/GPREF_TORCH_BUTTON"
             android:title="@string/GPREF_TORCH_BUTTON_TITLE"
             android:summary="@string/GPREF_TORCH_BUTTON_SUMMARY"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
         <EditTextPreference
             android:key="@string/GPREF_CAPTUREDELAY"
             android:title="@string/GPREF_CAPTUREDELAY_TITLE"
@@ -178,7 +184,7 @@
             android:key="@string/GPREF_OPTIMALCONDREQ"
             android:title="@string/GPREF_OPTIMALCONDREQ_TITLE"
             android:summary="@string/GPREF_OPTIMALCONDREQ_SUMMARY"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
         <CheckBoxPreference
             android:key="@string/GPREF_AUTOCAPTURE"
             android:title="@string/GPREF_AUTOCAPTURE_TITLE"

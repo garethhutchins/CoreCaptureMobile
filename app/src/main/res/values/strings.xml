@@ -95,7 +95,7 @@
     <string name="GPREF_SENSOR_LIGHT_SUMMARY">This will display the light sensor on the capture window (Default is true).</string>
     <string name="GPREF_SENSOR_LIGHT_VALUE">GPREF_SENSOR_LIGHT_VALUE</string>
     <string name="GPREF_SENSOR_LIGHT_VALUE_TITLE">Light Sensitivity</string>
-    <string name="GPREF_SENSOR_LIGHT_VALUE_SUMMARY">The is the amount of light needed to satisfy the light sensor. Acceptable integer values are 0 (no light) to 5000 (very bright light). The default is 50.</string>
+    <string name="GPREF_SENSOR_LIGHT_VALUE_SUMMARY">The is the amount of light needed to satisfy the light sensor. Acceptable integer values are 0 (no light) to 5000 (very bright light). The default is 10.</string>
     <string name="GPREF_SENSOR_MOTION">GPREF_SENSOR_MOTION</string>
     <string name="GPREF_SENSOR_MOTION_TITLE">Use Motion Sensor</string>
     <string name="GPREF_SENSOR_MOTION_SUMMARY">This will display the motion sensor (shared with focus) on the capture window (Default is true).</string>

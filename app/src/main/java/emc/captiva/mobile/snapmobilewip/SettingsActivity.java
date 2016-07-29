@@ -65,9 +65,10 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                 temp = pref.getText();
                 pref.setText(temp);
             }
+
             if (key.compareToIgnoreCase("GPREF_SENSOR_LIGHT_VALUE") == 0) {
                 temp = pref.getText();
-                i = CoreHelper.getInteger(temp, 50);
+                i = CoreHelper.getInteger(temp, 10);
                 i = Math.max(0, i);
                 i = Math.min(5000, i);
                 pref.setText(i.toString());

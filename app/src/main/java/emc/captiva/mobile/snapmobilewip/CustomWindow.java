@@ -192,7 +192,7 @@ public class CustomWindow extends CaptureWindow {
 
         if (sensor != CaptureWindow.QUALITY && !valid)
         {
-            _quadView.setVisibility(View.INVISIBLE);
+           _quadView.setVisibility(View.INVISIBLE);
         }
 
         if (sensor == CaptureWindow.QUALITY)

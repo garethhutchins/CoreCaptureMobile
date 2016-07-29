@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-72:12
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-73:12
 	package
 		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
@@ -67,7 +67,7 @@ ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\s
 	android:name
 		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:24:22-76
 application
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:26:5-70:19
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:26:5-71:19
 MERGED from [com.android.support:support-v4:22.2.1] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:29:9-41
@@ -150,9 +150,13 @@ ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\s
 	android:name
 		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:66:27-74
 activity#emc.captiva.mobile.snapmobilewip.SnapResults
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:69:9-58
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:69:9-49
 	android:name
 		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:69:19-46
+activity#emc.captiva.mobile.snapmobilewip.GridActivity
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:70:9-59
+	android:name
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:70:19-47
 uses-sdk
 INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [:captivamobilesdk:] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\captivamobilesdk\AndroidManifest.xml:8:5-10:41

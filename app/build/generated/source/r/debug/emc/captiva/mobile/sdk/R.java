@@ -22,13 +22,13 @@ public final class R {
 	}
 	public static final class id {
 		public static final int BottomBar = 0x7f08000a;
-		public static final int CropBackButton = 0x7f08001f;
-		public static final int CropButtonSpace = 0x7f08001e;
+		public static final int CropBackButton = 0x7f080022;
+		public static final int CropButtonSpace = 0x7f080021;
 		public static final int CropSubmitButton = 0x7f080011;
 		public static final int ImageBar = 0x7f08000f;
 		public static final int ImageView = 0x7f080009;
-		public static final int QuadrilateralCropLayout = 0x7f08001c;
-		public static final int QuadrilateralCropView = 0x7f08001d;
+		public static final int QuadrilateralCropLayout = 0x7f08001f;
+		public static final int QuadrilateralCropView = 0x7f080020;
 		public static final int id_buttonlayout = 0x7f080000;
 		public static final int id_capturebutton = 0x7f080001;
 		public static final int id_centerspace = 0x7f080002;
@@ -39,7 +39,7 @@ public final class R {
 		public static final int id_quadcropview = 0x7f080007;
 	}
 	public static final class layout {
-		public static final int activity_quadrilateral_crop = 0x7f030005;
+		public static final int activity_quadrilateral_crop = 0x7f030006;
 	}
 	public static final class string {
 		public static final int Button_Back = 0x7f090003;

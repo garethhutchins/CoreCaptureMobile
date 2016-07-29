@@ -10,6 +10,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
+import android.graphics.Shader;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.View;
@@ -30,7 +31,8 @@ public class QuadView extends View {
     public QuadView(Context context) {
         super(context);
 
-        _paint.setStyle(Paint.Style.STROKE);
+        //_paint.setStyle(Paint.Style.STROKE);
+        _paint.setStyle(Paint.Style.FILL);
         _paint.setAntiAlias(true);
         _paint.setStrokeWidth(5);
     }
@@ -63,6 +65,8 @@ public class QuadView extends View {
             _path.close();
 
             _paint.setColor(_valid ? Color.GREEN: Color.RED);
+
+            _paint.setAlpha(125);
             canvas.drawPath(_path, _paint);
         }
     }

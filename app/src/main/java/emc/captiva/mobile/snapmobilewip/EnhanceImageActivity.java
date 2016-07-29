@@ -5,7 +5,9 @@
 package emc.captiva.mobile.snapmobilewip;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -49,6 +51,8 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	private RelativeLayout _enhanceLayout = null;
 	private int _numOfFiltersApplied = 0;
 	private String _newFileName = "";
+	private List<String> filenames = new ArrayList<>();
+	private int picturecount = 0;
 
 	/**
 	 * Called when the quadrilateral crop operation is complete.
@@ -65,6 +69,28 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
     /* (non-Javadoc)
      * @see android.app.Activity#onOptionsItemSelected(android.view.MenuItem)
      */
+	private void QCrop(){
+		// Get the parameters to set up the quadrilateral crop.
+		SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
+		String quadCropColor = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_COLOR), "blue");
+		String temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_LINE_WIDTH), "4");
+		Integer quadCropLineWidth = CoreHelper.getInteger(temp, 4);
+		temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_CIRCLE_RADIUS), "24");
+		Integer quadCropCircleRadius = CoreHelper.getInteger(temp, 24);
+		Boolean quadCropShadeBackground = gprefs.getBoolean(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_SHADE_BACKGROUND), true);
+
+		// Add the parameters to a HashMap for passing into the show call.
+		HashMap<String, Object> quadCropParams = new HashMap<>();
+		quadCropParams.put(CaptureImage.CROP_CONTEXT, this);
+		quadCropParams.put(CaptureImage.CROP_COLOR, quadCropColor);
+		quadCropParams.put(CaptureImage.CROP_LINE_WIDTH, quadCropLineWidth);
+		quadCropParams.put(CaptureImage.CROP_CIRCLE_RADIUS, quadCropCircleRadius);
+		quadCropParams.put(CaptureImage.CROP_SHADE_BACKGROUND, quadCropShadeBackground);
+
+		// Start the Quadrilateral Crop activity.
+		CaptureImage.showQuadrilateralCrop(this, quadCropParams);
+
+	}
     @Override
 	public boolean onOptionsItemSelected(MenuItem item) {
         
@@ -191,25 +217,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 				}
 
                 case emc.captiva.mobile.snapmobilewip.R.id.ABQuadCrop: {
-					// Get the parameters to set up the quadrilateral crop.
-					SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-					String quadCropColor = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_COLOR), "blue");
-					String temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_LINE_WIDTH), "4");
-					Integer quadCropLineWidth = CoreHelper.getInteger(temp, 4);
-					temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_CIRCLE_RADIUS), "24");
-					Integer quadCropCircleRadius = CoreHelper.getInteger(temp, 24);
-					Boolean quadCropShadeBackground = gprefs.getBoolean(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_QUAD_CROP_SHADE_BACKGROUND), true);
-
-					// Add the parameters to a HashMap for passing into the show call.
-					HashMap<String, Object> quadCropParams = new HashMap<>();
-                    quadCropParams.put(CaptureImage.CROP_CONTEXT, this);
-                    quadCropParams.put(CaptureImage.CROP_COLOR, quadCropColor);
-                    quadCropParams.put(CaptureImage.CROP_LINE_WIDTH, quadCropLineWidth);
-                    quadCropParams.put(CaptureImage.CROP_CIRCLE_RADIUS, quadCropCircleRadius);
-                    quadCropParams.put(CaptureImage.CROP_SHADE_BACKGROUND, quadCropShadeBackground);
-
-					// Start the Quadrilateral Crop activity.
-                    CaptureImage.showQuadrilateralCrop(this, quadCropParams);
+					QCrop();
 					break;
                 }
 				
@@ -244,10 +252,12 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 
 		PostToSnap Snap = new PostToSnap(this);
 
+
 		// If the image has not been edited, then leave without saving.
 		if (!_imgEdited)
 		{
 			Snap.FileName = _filename;
+			filenames.add(_filename);
 		}
 
 		// If the image has been edited, then save a copy of the image under a new filename to the gallery.
@@ -264,6 +274,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 			if (fullpath != null) {
 				sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(new File(fullpath))));
 				Snap.FileName = _newFileName;
+				filenames.add(_newFileName);
 			}
 		}
 		catch (CaptureException e) {
@@ -400,6 +411,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		
 		// Get filename to load.
 		Bundle b = getIntent().getExtras();
+		picturecount = picturecount + 1;
 		_filename = b.getString("Filename");
 		b.clear();
 		
@@ -423,6 +435,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
         _enableUndo = gprefs.getBoolean(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_FILTER_ENABLE_UNDO), false);
         CaptureImage.enableUndoImage(_enableUndo);
+		QCrop();
     }
 	
 	/**
