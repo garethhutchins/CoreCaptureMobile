@@ -65,6 +65,7 @@ public class PostToSnap extends AsyncTask {
         public String applicationId = context.getResources().getString(emc.captiva.mobile.snapmobilewip.R.string.applicationId);
         public String username;
         public String password;
+        public String subscriptionName;
     }
     private class loginResponse {
         returnStatus returnStatus;
@@ -119,6 +120,7 @@ public class PostToSnap extends AsyncTask {
         loginRequest Login = new loginRequest();
         Login.username = gprefs.getString("Snap User","");
         Login.password = gprefs.getString("Snap Password","");
+        Login.subscriptionName = gprefs.getString("Snap Subscription","");
         url = gprefs.getString("Snap URL", "");
         url = url + "/cp-rest/Session";
         Gson gson = new Gson();
