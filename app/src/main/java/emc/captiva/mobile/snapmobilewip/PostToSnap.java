@@ -8,8 +8,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-
-
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
@@ -21,18 +19,12 @@ import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkResponse;
 import com.android.volley.RequestQueue;
+import com.android.volley.Response;
 import com.android.volley.RetryPolicy;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
-
-
-
-import com.android.volley.Response;
-
-import com.android.volley.VolleyError;
-
-import com.android.volley.toolbox.JsonObjectRequest;
-
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -48,6 +40,8 @@ import java.lang.ref.WeakReference;
 import java.util.HashMap;
 import java.util.Map;
 
+import static android.R.style.Theme_DeviceDefault_Light_Dialog;
+
 
 /**
  * Created by hutchg on 08/04/2016.
@@ -58,6 +52,9 @@ public class PostToSnap extends AsyncTask {
     private String _ticket;
     public String FileName;
     private WeakReference<SnapResults> SnapResultsWeakReference;
+
+
+
     private class loginRequest {
         public String culture = "en-US";
         public String licenseKey = context.getResources().getString(emc.captiva.mobile.snapmobilewip.R.string.licenseKey);
@@ -102,7 +99,12 @@ public class PostToSnap extends AsyncTask {
 
 
     public PostToSnap(Context context) {
-        dialog = new ProgressDialog(context);
+
+        dialog = new ProgressDialog(context, Theme_DeviceDefault_Light_Dialog);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        //dialog.setIndeterminate(true);
+        //dialog.setIndeterminateDrawable(drawable);
+
         this.context = context;
         //Start the Request Queue
         HttpsTrustManager.allowAllSSL();

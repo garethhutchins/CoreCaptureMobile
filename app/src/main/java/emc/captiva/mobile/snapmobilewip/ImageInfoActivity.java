@@ -4,14 +4,14 @@
 
 package emc.captiva.mobile.snapmobilewip;
 
-import java.util.Map;
-import java.util.HashMap;
-
 import android.app.Activity;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import emc.captiva.mobile.sdk.CaptureException;
 import emc.captiva.mobile.sdk.CaptureImage;

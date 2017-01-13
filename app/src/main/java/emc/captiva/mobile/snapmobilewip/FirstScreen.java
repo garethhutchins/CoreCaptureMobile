@@ -1,21 +1,20 @@
 package emc.captiva.mobile.snapmobilewip;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
-import android.app.Activity;
 import android.os.StrictMode;
 import android.preference.PreferenceManager;
+import android.support.design.widget.FloatingActionButton;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-
 
 import emc.captiva.mobile.sdk.CaptureException;
 import emc.captiva.mobile.sdk.CaptureImage;
@@ -38,15 +37,29 @@ public class FirstScreen extends Activity implements PictureCallback {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         //Add a listener for the take picture
-        Button _takepicture = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_takepicture);
-
-        _takepicture.setOnClickListener(new View.OnClickListener(){
+        FloatingActionButton takepicture = (FloatingActionButton) findViewById(R.id.floatingCamera);
+        takepicture.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 onTakePictureClick(v);
             }
         });
+        FloatingActionButton settings = (FloatingActionButton) findViewById(R.id.floatSettings);
+        settings.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                onSettingsClick(v);
+            }
+        });
+
+        //Button _takepicture = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_takepicture);
+
+       //* _takepicture.setOnClickListener(new View.OnClickListener(){
+       //     public void onClick(View v){
+        //        onTakePictureClick(v);
+         //   }
+        //});
 
         //Add a listener for the settings
+        /**
         Button _settings = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_settings);
 
         _settings.setOnClickListener(new View.OnClickListener() {
@@ -55,7 +68,7 @@ public class FirstScreen extends Activity implements PictureCallback {
                 onSettingsClick(v);
             }
         });
-
+*/
     }
 
     public void onTakePictureClick(View view) {

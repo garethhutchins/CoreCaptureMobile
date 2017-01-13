@@ -1,3 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_06b8000a3cd1a0cd3fdd3d54e0410020f33af5ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_75c09a5a02d99a530a9e2b58197686be7417b70c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_75c09a5a02d99a530a9e2b58197686be7417b70c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\libs\android-support-v7-appcompat.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6c2e7717a6b70dd702de6f8df474b4458f6a16aa">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-appcompat_139899adbbbab3ee641c072f7a1837afc91ec1bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_def6b660c8699184a0520d7bb17afce85c3bc4ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_0aacde16fd623b1bb64a5792316f0e60fc3dc95d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_def6b660c8699184a0520d7bb17afce85c3bc4ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_02baeb670494e05445d1d19bd633f25b3b7164c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_620bdd4117818a8fed140ad0a6dea55134f0a14e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_620bdd4117818a8fed140ad0a6dea55134f0a14e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_06b8000a3cd1a0cd3fdd3d54e0410020f33af5ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_b8e9edf66167b1dd29277afb8dd4b4ef5018c9be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_b8e9edf66167b1dd29277afb8dd4b4ef5018c9be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_1743b5938fba880144e41cf0fdd61e58e2efa420\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_eb4d5c76a0bd6d50fab196bd4f24bba7fac52c54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="550dfe727c54e02eb85fd909cf6d679a4cb81c3e">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ae2ce344b7d43c337aecc5f026250f4a8d1fd52c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_b8437335cba9f6c13633aca49d4ca0241167459d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a8048d4e1b7c3c53b6067872e0b202d4682d4f0">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b89a27dfc159df4a35f258fa634e5fc29926eca9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_60ad2014e9150e590dfae1f3c81a6da45cb561fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5863973b0ade57b97583e98fcd80532d1206aea7">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b89a27dfc159df4a35f258fa634e5fc29926eca9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_60ad2014e9150e590dfae1f3c81a6da45cb561fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_04ad977e560aedd9c3ba741dfb61efa03f3efa37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_02baeb670494e05445d1d19bd633f25b3b7164c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_d666b3a33a9c4a5471ff475da6da9477214ed219\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_0737305cafbef2e068b26450608db9f1e2d7716e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_ee747be55255630a673914ec23aa466f840f5ae4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_d666b3a33a9c4a5471ff475da6da9477214ed219\classes.dex" />
+    </item>
+
+</items>

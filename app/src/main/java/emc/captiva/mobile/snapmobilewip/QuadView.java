@@ -10,13 +10,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
-import android.graphics.Shader;
-import android.util.DisplayMetrics;
-import android.view.Display;
 import android.view.View;
-import android.view.WindowManager;
-
-import emc.captiva.mobile.sdk.CaptureImage;
 
 /**
  * This class draws a quad overlay

@@ -2,6 +2,16 @@
 * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  -->
 <resources>
+    <string name="snap_environment">Snap Environment</string>
+    <string name="snap_environment_summary">Enter Your Snap Environment</string>
+    <string name="snap_export_type">Snap Export Type</string>
+    <string name="snap_export_type_summary">Enter Your Snap Export Type</string>
+    <string name="snap_export_name">Snap Export Profile Name</string>
+    <string name="snap_export_name_summary">Enter Your Snap Export Profile Name</string>
+    <string name="snap_IA_server">Captiva Server</string>
+    <string name="snap_IA_server_summary">Enter Your Captiva Server Connection Name</string>
+    <string name="snap_IA_catpureflow">Captiva CaptureFlow</string>
+    <string name="snap_IA_catpureflow_summary">Enter Your Captiva CaptureFlow Name</string>
     <string name="snap_profiles">Snap Profiles</string>
     <string name="SNAP_CAPTURE_PROFILE">Capture Profile</string>
     <string name="SNAP_CAPTURE_PROFILE_TITLE">Snap Capture Profile Name</string>
@@ -24,6 +34,7 @@
     <string name="SNAP_SUBSCRIPTION">Snap Subscription</string>
     <string name="SNAP_SUBSCRIPTION_TITLE">Your Snap Subscription</string>
     <string name="SNAP_SUBSCRIPTION_SUMMARY">Enter Your Snap Subscription Name</string>
+
     <string name="app_name">Snap Mobile</string>
     <string name="AppCopyright">Copyright 2013&#8211;2016 by EMC Corporation</string>
     <string name="MainPage_Title">EMC World Mobile</string>
@@ -325,4 +336,8 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

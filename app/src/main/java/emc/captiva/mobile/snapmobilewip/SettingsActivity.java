@@ -4,11 +4,11 @@
 
 package emc.captiva.mobile.snapmobilewip;
 
-import emc.captiva.mobile.sdk.CaptureImage;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.EditTextPreference;
+import android.preference.ListPreference;
 import android.preference.MultiSelectListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
@@ -17,6 +17,8 @@ import android.preference.PreferenceScreen;
 
 import java.util.Arrays;
 import java.util.HashSet;
+
+import emc.captiva.mobile.sdk.CaptureImage;
 
 /**
  * This class handles managing all of the global preferences.
@@ -35,6 +37,23 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
 
         // Make sure our preferences conform to our allowed values.
         Preference p = findPreference(key);
+        if (p instanceof ListPreference) {
+            ListPreference L = (ListPreference)p;
+            String temp;
+            Integer i;
+            Float f;
+            if (key.compareToIgnoreCase("Snap Environment") == 0) {
+                temp = L.getValue();
+                L.setValue(temp);
+            }
+            if (key.compareToIgnoreCase("Snap Export Type") == 0) {
+                temp = L.getValue();
+                L.setValue(temp);
+            }
+
+
+        }
+
         if (p instanceof EditTextPreference) {
             EditTextPreference pref = (EditTextPreference)p;            
             String temp;
@@ -65,7 +84,26 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                 temp = pref.getText();
                 pref.setText(temp);
             }
-
+            if (key.compareToIgnoreCase("snap_environment") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
+            if (key.compareToIgnoreCase("snap_export_type") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
+            if (key.compareToIgnoreCase("snap_export_name") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
+            if (key.compareToIgnoreCase("snap_IA_server") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
+            if (key.compareToIgnoreCase("snap_IA_catpureflow") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
             if (key.compareToIgnoreCase("GPREF_SENSOR_LIGHT_VALUE") == 0) {
                 temp = pref.getText();
                 i = CoreHelper.getInteger(temp, 10);

@@ -82,7 +82,8 @@ public class DownloadPDF extends AsyncTask {
     }
 
     public DownloadPDF(Context context) {
-        dialog = new ProgressDialog(context);
+        dialog = new ProgressDialog(context,AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
+        dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         this.context = context;
         //Start the Request Queue
         HttpsTrustManager.allowAllSSL();

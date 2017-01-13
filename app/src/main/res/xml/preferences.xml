@@ -31,6 +31,13 @@
             android:summary="@string/SNAP_SUBSCRIPTION_SUMMARY"
             android:defaultValue=""
             android:inputType="text"/>
+        <ListPreference
+            android:key="@string/snap_environment"
+            android:title="@string/snap_environment"
+            android:summary="@string/snap_environment_summary"
+            android:entries="@array/listEnvArray"
+            android:entryValues="@array/listEnvValues"
+            android:defaultValue="D"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/snap_profiles"
@@ -45,6 +52,27 @@
             android:title="@string/SNAP_RECOGNITION_PROJECT_TITLE"
             android:summary="@string/SNAP_RECOGNITION_PROJECT_SUMMARY"
             android:defaultValue="Default" />
+        <ListPreference
+            android:key="@string/snap_export_type"
+            android:title="@string/snap_export_type"
+            android:summary="@string/snap_export_type_summary"
+            android:entries="@array/listExpTypesArray"
+            android:entryValues="@array/listExpTypesValues" />
+        <EditTextPreference
+            android:key="@string/snap_export_name"
+            android:title="@string/snap_export_name"
+            android:summary="@string/snap_export_name_summary"
+            android:defaultValue="" />
+        <EditTextPreference
+        android:key="@string/snap_IA_server"
+        android:title="@string/snap_IA_server"
+        android:summary="@string/snap_IA_server_summary"
+        android:defaultValue="" />
+        <EditTextPreference
+            android:key="@string/snap_IA_catpureflow"
+            android:title="@string/snap_IA_catpureflow"
+            android:summary="@string/snap_IA_catpureflow_summary"
+            android:defaultValue="" />
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/GPREF_CAPTURE_GROUP"

@@ -25,7 +25,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/appicon"
+        android:icon="@drawable/snap"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
@@ -67,7 +67,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SnapResults" />
-        <activity android:name=".GridActivity"></activity>
+        <activity android:name=".GridActivity" />
     </application>
 
 </manifest>

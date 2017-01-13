@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listExpTypesArray">
+        <item>Custom</item>
+        <item>Captiva Server</item>
+    </string-array>
+    <string-array name="listExpTypesValues">
+        <item>Custom</item>
+        <item>IAServer</item>
+    </string-array>
+    <string-array name="listEnvArray">
+        <item>Development</item>
+        <item>Test</item>
+        <item>Production</item>
+    </string-array>
+    <string-array name="listEnvValues">
+        <item>D</item>
+        <item>T</item>
+        <item>P</item>
+    </string-array>
+</resources>
