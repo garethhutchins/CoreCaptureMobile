@@ -25,27 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02a3c1fa-2b79-42d8-b9b6-8804630fcd1b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/CaptivaMobileSdk.aar" afterPath="$PROJECT_DIR$/app/libs/CaptivaMobileSdk.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/emc/captiva/mobile/sdk/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/emc/captiva/mobile/sdk/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/DownloadPDF.java" afterPath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/DownloadPDF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/EnhanceImageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/EnhanceImageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/FirstScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/FirstScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/PostToSnap.java" afterPath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/PostToSnap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/SnapResults.java" afterPath="$PROJECT_DIR$/app/src/main/java/emc/captiva/mobile/snapmobilewip/SnapResults.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_first_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_first_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="SnapMobileWIP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2835,7 +2815,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484329654333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated UI&#10;Better memory management&#10;Back press behaviour">
+      <created>1484749398234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484749398234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2898,7 +2885,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Export and new UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Export and new UI" />
+    <MESSAGE value="Updated UI&#10;Better memory management&#10;Back press behaviour" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated UI&#10;Better memory management&#10;Back press behaviour" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
