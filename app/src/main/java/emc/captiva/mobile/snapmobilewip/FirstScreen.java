@@ -30,6 +30,7 @@ public class FirstScreen extends Activity implements PictureCallback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(null);
         setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_first_screen);
         //License the Application
@@ -43,32 +44,29 @@ public class FirstScreen extends Activity implements PictureCallback {
                 onTakePictureClick(v);
             }
         });
+        //Settings
         FloatingActionButton settings = (FloatingActionButton) findViewById(R.id.floatSettings);
         settings.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 onSettingsClick(v);
             }
         });
-
-        //Button _takepicture = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_takepicture);
-
-       //* _takepicture.setOnClickListener(new View.OnClickListener(){
-       //     public void onClick(View v){
-        //        onTakePictureClick(v);
-         //   }
-        //});
-
-        //Add a listener for the settings
-        /**
-        Button _settings = (Button) findViewById(emc.captiva.mobile.snapmobilewip.R.id.btn_settings);
-
-        _settings.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                onSettingsClick(v);
+        //Gallery
+        FloatingActionButton gallery = (FloatingActionButton) findViewById(R.id.floatingGallery);
+        gallery.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                onGalleryClick(v);
             }
         });
-*/
+
+    }
+    public void onGalleryClick(View view) {
+
+
+        Intent galleryIntent = new Intent(
+                Intent.ACTION_PICK,
+                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        startActivityForResult(galleryIntent , CHOOSE_IMAGE );
     }
 
     public void onTakePictureClick(View view) {
@@ -183,6 +181,7 @@ public class FirstScreen extends Activity implements PictureCallback {
             intent.putExtra("Filename", filepath);
             _newLoad = true;
             startActivity(intent);
+            finish();
         }
     }
 

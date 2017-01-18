@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="550dfe727c54e02eb85fd909cf6d679a4cb81c3e">
+        sha1="e16e0f1d2b05d9e34042cc58732f3c9118ff21b2">
         <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ae2ce344b7d43c337aecc5f026250f4a8d1fd52c\classes.dex" />
     </item>
     <item
@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="5863973b0ade57b97583e98fcd80532d1206aea7">
+        sha1="2fedf07b079c9e6b4b41b0519d0fea6567425f4b">
         <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b89a27dfc159df4a35f258fa634e5fc29926eca9\classes.dex" />
     </item>
     <item

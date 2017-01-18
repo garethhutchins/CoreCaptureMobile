@@ -36,6 +36,7 @@ public class SnapResults extends Activity {
     private JSONArray DocValues;
     private String UIMDocType;
     private int NumValues = 0;
+    private String filename;
 
 
     @Override
@@ -45,7 +46,7 @@ public class SnapResults extends Activity {
         Bundle bundle = getIntent().getExtras();
         String FileName = bundle.getString("FileName");
         UIMString = bundle.getString("UIM");
-
+        filename = bundle.getString("fnURI");
 
         _ticket = bundle.getString("Ticket");
         fileID = bundle.getString("fileID");
@@ -207,5 +208,17 @@ public class SnapResults extends Activity {
         Log.d("Finish","Finish Clicked");
         Intent FScreen = new Intent(this,FirstScreen.class);
         startActivity(FScreen);
+        finish();
+    }
+    @Override
+    public void onBackPressed() {
+        //Go back to the image enhancement screen
+
+        Intent intent = new Intent(this, EnhanceImageActivity.class);
+        intent.putExtra("Filename", filename);
+        boolean _newLoad = true;
+        _newLoad = true;
+        startActivity(intent);
+        finish();
     }
 }

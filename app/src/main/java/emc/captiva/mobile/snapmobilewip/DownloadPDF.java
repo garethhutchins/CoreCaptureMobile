@@ -199,12 +199,12 @@ public class DownloadPDF extends AsyncTask {
         RequestItem.files[0] = POSTFile;
 
         serviceProps engine = new serviceProps();
-        engine.name = "OcrEngineName";
-        engine.value = "Nuance";
+        engine.name = "AutoRotate";
+        engine.value = "False";
 
         serviceProps env = new serviceProps();
         env.name = "Env";
-        env.value = "D";
+        env.value = gprefs.getString("Snap Environment","");
 
         FullPageOCRRequest FullPageOCRRequest = new FullPageOCRRequest();
         FullPageOCRRequest.serviceProps[0] = engine;
@@ -249,7 +249,6 @@ public class DownloadPDF extends AsyncTask {
                                 e1.printStackTrace();
                             }
                         }
-
                     }
                 }, new Response.ErrorListener() {
             @Override

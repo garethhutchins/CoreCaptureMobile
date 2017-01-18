@@ -251,7 +251,7 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 	public void onSendToSnap(View view) {
 
 		PostToSnap Snap = new PostToSnap(this);
-
+		Snap.OriginalImage = _filename;
 
 		// If the image has not been edited, then leave without saving.
 		if (!_imgEdited)
@@ -319,7 +319,9 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
 		 // If the image has not been edited, then leave without saving.
 		 if (!_imgEdited)
 		 {
-			finish();
+			 Intent FScreen = new Intent(this,FirstScreen.class);
+			 startActivity(FScreen);
+			 finish();
 			return;
 		 }
 
@@ -339,6 +341,8 @@ public class EnhanceImageActivity extends Activity implements QuadrilateralCropC
             }
             
             // Finish this activity and return the result.
+			 Intent FScreen = new Intent(this,FirstScreen.class);
+			 startActivity(FScreen);
 	        completeAndReturn(RESULT_OK);                
 	    }
 	    catch (CaptureException e) {

@@ -1,6 +1,7 @@
 package emc.captiva.mobile.snapmobilewip;
 
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
@@ -37,6 +38,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.WeakReference;
+import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -52,8 +54,9 @@ public class PostToSnap extends AsyncTask {
     private String _ticket;
     public String FileName;
     private WeakReference<SnapResults> SnapResultsWeakReference;
-
-
+    private String OriginalFileID;
+    private String OriginalContentType;
+    public String OriginalImage;
 
     private class loginRequest {
         public String culture = "en-US";
@@ -95,7 +98,19 @@ public class PostToSnap extends AsyncTask {
         public serviceProps serviceProps[] = new serviceProps[2];
         public requestItems requestItems[] = new requestItems[1];
     }
+    private class PostFile {
+        public String data;
+        public String contentType;
+    }
+    private class PostFileResponse {
+        public returnStatus returnStatus;
+        public String id;
+        public String contentType;
+        public URI src;
+        public String updated;
+    }
     private RequestQueue queue;
+    String filename;
 
 
     public PostToSnap(Context context) {
@@ -144,7 +159,7 @@ public class PostToSnap extends AsyncTask {
                             loginResponse LoginResponse = gsonResponse.fromJson(StrResponse, loginResponse.class);
                             _ticket = LoginResponse.ticket;
                             //Now call the Image Upload
-                            ProcessImage();
+                            UploadFile();
                         }
                     }, new Response.ErrorListener() {
                 @Override
@@ -166,7 +181,6 @@ public class PostToSnap extends AsyncTask {
                             Log.d("Login Error",json);
                             ShowDialog("Login Error",json);
                             //Go back to Image Enhancement
-
                     }
                 }
             }});
@@ -174,39 +188,22 @@ public class PostToSnap extends AsyncTask {
         queue.add(req);
 
     }
-
-    private void ProcessImage()     {
+    private void UploadFile() {
+        //This time we'll upload the file first so we can export the colour image
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
-        ProcessImageRequest processImageRequest = new ProcessImageRequest();
-        dialog.setMessage("Posting & Enhancing Image");
-        //Set the Profile
-        serviceProps Profile = new serviceProps();
-        Profile.name = "Profile";
-        Profile.value = gprefs.getString("Capture Profile","");
-        processImageRequest.serviceProps[0] = Profile;
-
-        //Set the Environment
-        serviceProps Env = new serviceProps();
-        Env.name = "Env";
-        Env.value = "D";
-        processImageRequest.serviceProps[1] = Env;
-
-        //Set the request Item
-        requestItems requestItem = new requestItems();
-        requestItem.nodeID = 1;
-        files uploadfile = new files();
-
+        dialog.setMessage("Uploading Image");
+        PostFile PF = new PostFile();
+        //Convert the file to Base64
         InputStream inputStream;
         String encodedString = "";
-        String filename = "";
         String mime = "";
+
         try {
             inputStream = new FileInputStream(FileName);
             byte[] bytes;
             File file = new File(FileName);
             filename = file.getName();
             Uri uri = Uri.fromFile(file);
-
             mime = getMimeType(uri);
             byte[] buffer = new byte[(int) file.length()];
             int bytesRead;
@@ -219,19 +216,127 @@ public class PostToSnap extends AsyncTask {
                 e.printStackTrace();
             }
             bytes = output.toByteArray();
-            //String str = new String(bytes, "UTF-8");
-
             encodedString = Base64.encodeToString(bytes, Base64.DEFAULT);
-            //encodedString = str;
 
         } catch (FileNotFoundException e1) {
             // TODO Auto-generated catch block
             e1.printStackTrace();
         }
 
-        uploadfile.value = encodedString;
+        PF.contentType = mime;
+        PF.data = encodedString;
+
+        //Now make the post
+        String url = gprefs.getString("Snap URL", "");
+        url = url + "/cp-rest/session/files";
+
+        Gson gson = new Gson();
+        String json = gson.toJson(PF);
+        Log.d("JSONString",json);
+        JSONObject JImage = null;
+        try {
+            JImage = new JSONObject(json);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        JsonObjectRequest Imgreq = new JsonObjectRequest(url, JImage,
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        // handle response
+                        Log.d("Upload OK",response.toString());
+                        //Get the response back
+                        try {
+                            //Now pass the fileID to EnhanceImage
+                            String FileID = response.getString("id");
+                            OriginalFileID = FileID;
+                            String contentType = response.getString("contentType");
+                            OriginalContentType = contentType;
+                            ProcessImage(FileID, contentType);
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            //Look for error if the configuration isn't found
+                            Log.d("Image Processing Error",response.toString());
+                            try {
+                                JSONObject JSONError = response.getJSONArray("resultItems").getJSONObject(0);
+                                String ErrorMSG = JSONError.getString("errorMessage");
+                                ShowDialog("Image Processing Error",ErrorMSG);
+                            } catch (JSONException e1) {
+                                e1.printStackTrace();
+                            }
+
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.d("Login Error",error.toString());
+                NetworkResponse response = error.networkResponse;
+                if(response != null && response.data != null){
+                    String json = null;
+                    json = new String(response.data);
+                    JSONObject obj = null;
+                    try {
+                        obj = new JSONObject(json);
+                        json = obj.getString("message");
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    if(json != null) {
+                        Log.d("Post File Error",json);
+                        ShowDialog("Prost File Error",json);
+                        //Go back to Image Enhancement
+                    }
+                } }
+        })
+
+        {
+            @Override
+            public String getBodyContentType()
+            {
+                return "application/vnd.emc.captiva+json; charset=utf-8";
+            }
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                HashMap<String, String> headers = new HashMap<String, String>();
+                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                return headers;
+            }
+        };
+        int socketTimeout = 30000;//30 seconds - change to what you want
+        RetryPolicy policy = new DefaultRetryPolicy(socketTimeout, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+        Imgreq.setRetryPolicy(policy);
+        queue.add(Imgreq);
+
+    }
+
+    private void ProcessImage(String Fileid, String contentType)     {
+        SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
+        ProcessImageRequest processImageRequest = new ProcessImageRequest();
+        dialog.setMessage("Enhancing Image");
+        //Set the Profile
+        serviceProps Profile = new serviceProps();
+        Profile.name = "Profile";
+        Profile.value = gprefs.getString("Capture Profile","");
+        processImageRequest.serviceProps[0] = Profile;
+
+        //Set the Environment
+        serviceProps Env = new serviceProps();
+        Env.name = "Env";
+        Env.value = gprefs.getString("Snap Environment","");;
+        processImageRequest.serviceProps[1] = Env;
+
+        //Set the request Item
+        requestItems requestItem = new requestItems();
+        requestItem.nodeID = 1;
+        files uploadfile = new files();
+
+        uploadfile.value = Fileid;
         uploadfile.name = filename;
-        uploadfile.contentType = mime;
+        uploadfile.contentType = contentType;
 
         requestItem.files[0] = uploadfile;
         processImageRequest.requestItems[0] = requestItem;
@@ -352,7 +457,7 @@ public class PostToSnap extends AsyncTask {
         //env
         serviceProps Env = new serviceProps();
         Env.name = "Env";
-        Env.value = "D";
+        Env.value = gprefs.getString("Snap Environment","");;;
         ceRequest.serviceProps[0] = Project;
         ceRequest.serviceProps[1] = Env;
         requestItems requestItem = new requestItems();
@@ -397,10 +502,13 @@ public class PostToSnap extends AsyncTask {
                             ViewSnapRestuls.putExtra("FileName",FileName);
                             ViewSnapRestuls.putExtra("UIM",uimObject.toString());
                             ViewSnapRestuls.putExtra("Ticket",_ticket);
-                            ViewSnapRestuls.putExtra("fileID",fileID);
+                            ViewSnapRestuls.putExtra("fileID",OriginalFileID);
                             ViewSnapRestuls.putExtra("SnapFileName",name);
-                            ViewSnapRestuls.putExtra("contentType",contentType);
+                            ViewSnapRestuls.putExtra("contentType",OriginalContentType);
+                            ViewSnapRestuls.putExtra("fnURI",OriginalImage);
                             context.startActivity(ViewSnapRestuls);
+                            Activity activity = (Activity) context;
+                            activity.finish();
                         } catch (JSONException e) {
                             e.printStackTrace();
                             //If it fails look for the error message
@@ -463,6 +571,7 @@ public class PostToSnap extends AsyncTask {
         //if (dialog.isShowing()) {
         //    dialog.dismiss();
        // }
+
 
     }
 

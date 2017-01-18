@@ -28,12 +28,12 @@
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobileWIP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
