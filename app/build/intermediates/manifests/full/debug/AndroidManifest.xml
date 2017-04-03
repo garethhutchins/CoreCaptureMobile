@@ -17,36 +17,35 @@
         android:required="true" />
     <uses-feature
         android:name="android.hardware.camera.flash"
-        android:required="false" />
+        android:required="true" />
     <uses-feature
         android:name="android.hardware.sensor.accelerometer"
         android:required="true" />
     <uses-feature
         android:name="android.hardware.sensor.light"
-        android:required="false" />
+        android:required="true" />
     <!-- The capitalization of the permission values is intentional and follows the Android docs -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/leapsnap"
+        android:icon="@drawable/snaphr"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="emc.captiva.mobile.snapmobilewip.MainActivity"
+            android:name="otmobile.MainActivity"
             android:label="@string/MainPage_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.snapmobilewip.EnhanceImageActivity"
+            android:name="otmobile.EnhanceImageActivity"
             android:label="@string/EnhanceImage_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.snapmobilewip.EnhanceImageCropActivity"
+            android:name="otmobile.EnhanceImageCropActivity"
             android:label="@string/EnhanceImageCrop_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
@@ -59,15 +58,15 @@
             android:configChanges="orientation|screenSize"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.snapmobilewip.ImageInfoActivity"
+            android:name="otmobile.ImageInfoActivity"
             android:label="@string/ImageInfo_Title"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.snapmobilewip.SettingsActivity"
+            android:name="otmobile.SettingsActivity"
             android:label="@string/MainPage_Settings"
             android:theme="@android:style/Theme.Holo" />
         <activity
-            android:name="emc.captiva.mobile.snapmobilewip.FirstScreen"
+            android:name="otmobile.FirstScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -75,8 +74,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="emc.captiva.mobile.snapmobilewip.SnapResults" />
-        <activity android:name="emc.captiva.mobile.snapmobilewip.GridActivity" />
+        <activity android:name="otmobile.SnapResults" />
+        <activity android:name="otmobile.GridActivity" />
     </application>
 
 </manifest>

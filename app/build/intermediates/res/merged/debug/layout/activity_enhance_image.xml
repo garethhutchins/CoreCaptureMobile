@@ -4,13 +4,13 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".EnhanceImageActivity"
+    tools:context="otmobile.EnhanceImageActivity"
     android:id="@+id/EnhanceLayout"
     android:background="@android:color/transparent"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <emc.captiva.mobile.snapmobilewip.PZImageView
+    <otmobile.PZImageView
         android:id="@+id/ImageView"
         android:contentDescription="@string/General_Image"
         android:scaleType="centerInside"
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:background="@android:color/holo_green_dark"
+                android:background="#00A388"
                 android:textColor="#FFFFFF"
                 android:padding="10dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -48,7 +48,7 @@
             android:text="Send To Snap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_dark"
+            android:background="#00A388"
             android:textColor="#FFFFFF"
             android:padding="10dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -61,7 +61,7 @@
                 android:text="@string/Button_Undo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-            android:background="@android:color/holo_green_dark"
+            android:background="#00A388"
                 android:textColor="#FFFFFF"
                 android:padding="10dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
