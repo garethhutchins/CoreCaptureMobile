@@ -19,11 +19,14 @@ import android.webkit.MimeTypeMap;
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkResponse;
+import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
+import com.android.volley.Response.Listener;
 import com.android.volley.RetryPolicy;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
@@ -59,17 +62,14 @@ public class PostToSnap extends AsyncTask {
     public String OriginalImage;
 
     private class loginRequest {
-        public String culture = "en-US";
-        public String licenseKey = context.getResources().getString(emc.captiva.mobile.snapmobilewip.R.string.licenseKey);
-        public String deviceId = "Captiva Mobile Demo";
-        public String applicationId = context.getResources().getString(emc.captiva.mobile.snapmobilewip.R.string.applicationId);
         public String username;
         public String password;
         public String subscriptionName;
+        public String grant_type = "password";
     }
     private class loginResponse {
         returnStatus returnStatus;
-        String ticket;
+        String access_token;
     }
     private class returnStatus{
         public Integer status;
@@ -134,12 +134,15 @@ public class PostToSnap extends AsyncTask {
         dialog.setMessage("Logging in to Snap");
 
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
-        loginRequest Login = new loginRequest();
+        final loginRequest Login = new loginRequest();
         Login.username = gprefs.getString("Snap User","");
         Login.password = gprefs.getString("Snap Password","");
         Login.subscriptionName = gprefs.getString("Snap Subscription","");
-        url = gprefs.getString("Snap URL", "");
-        url = url + "/cp-rest/Session";
+        final String client = gprefs.getString("Snap Client","");
+        final String secret = gprefs.getString("Snap Secret","");
+        //url = gprefs.getString("Snap URL", "");
+        //url = url + "/cp-rest/Session";
+        url = "https://authservice.saas.emcond.com/authserver/oauth/token";
         Gson gson = new Gson();
         String Strjson = gson.toJson(Login);
         JSONObject JLogin = null;
@@ -149,18 +152,20 @@ public class PostToSnap extends AsyncTask {
             e.printStackTrace();
         }
 
-        JsonObjectRequest req = new JsonObjectRequest(url, JLogin,
-                    new Response.Listener<JSONObject>() {
+        StringRequest  req = new StringRequest(Request.Method.POST, url,
+                    new Listener<String>()
+                    {
                         @Override
-                        public void onResponse(JSONObject response) {
+                        public void onResponse(String response) {
                             String StrResponse = "";
                             StrResponse = response.toString();
                             Gson gsonResponse = new Gson();
                             loginResponse LoginResponse = gsonResponse.fromJson(StrResponse, loginResponse.class);
-                            _ticket = LoginResponse.ticket;
+                            _ticket = LoginResponse.access_token;
                             //Now call the Image Upload
                             UploadFile();
                         }
+
                     }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
@@ -183,7 +188,36 @@ public class PostToSnap extends AsyncTask {
                             //Go back to Image Enhancement
                     }
                 }
-            }});
+
+            }
+           }
+
+        ){
+            @Override
+            public String getBodyContentType()
+            {
+                return "application/x-www-form-urlencoded";
+            }
+            @Override
+            protected Map<String, String> getParams()
+            {
+                Map<String, String>  params = new HashMap<String, String>();
+                params.put("grant_type", "password");
+                params.put("username", Login.username);
+                params.put("password", Login.password);
+                params.put("subscriptionName",Login.subscriptionName);
+                return params;
+            }
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                HashMap<String, String> headers = new HashMap<String, String>();
+                String creds = String.format("%s:%s",client,secret);
+                String auth = "Basic " + Base64.encodeToString(creds.getBytes(), Base64.DEFAULT);
+                headers.put("Authorization", auth);
+                return headers;
+            }
+        }
+                ;
 
         queue.add(req);
 
@@ -242,7 +276,7 @@ public class PostToSnap extends AsyncTask {
         }
 
         JsonObjectRequest Imgreq = new JsonObjectRequest(url, JImage,
-                new Response.Listener<JSONObject>() {
+                new Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         // handle response
@@ -301,7 +335,7 @@ public class PostToSnap extends AsyncTask {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Authorization","Bearer " + _ticket);
                 headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
                 return headers;
             }
@@ -358,7 +392,7 @@ public class PostToSnap extends AsyncTask {
         }
 
         JsonObjectRequest Imgreq = new JsonObjectRequest(url, JImage,
-                new Response.Listener<JSONObject>() {
+                new Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         // handle response
@@ -419,7 +453,7 @@ public class PostToSnap extends AsyncTask {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Authorization","Bearer " + _ticket);
                 headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
                 return headers;
             }
@@ -487,7 +521,7 @@ public class PostToSnap extends AsyncTask {
         }
 
         JsonObjectRequest Classreq = new JsonObjectRequest(url, JImage,
-                new Response.Listener<JSONObject>() {
+                new Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         // handle response
@@ -554,7 +588,7 @@ public class PostToSnap extends AsyncTask {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Authorization","Bearer " + _ticket);
                 headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
                 return headers;
             }

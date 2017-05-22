@@ -3,7 +3,8 @@
     Copyright (c) 2013-2015 EMC Corporation.  All rights reserved.
 </Copyright>
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/PreferencesTheme">
+
     <PreferenceCategory
         android:key="@string/snap_settings"
         android:title="@string/snap_settings">
@@ -38,6 +39,17 @@
             android:entries="@array/listEnvArray"
             android:entryValues="@array/listEnvValues"
             android:defaultValue="D"/>
+        <EditTextPreference
+            android:key="@string/SNAP_CLIENT"
+            android:title="@string/SNAP_CLIENT_TITLE"
+            android:summary="@string/SNAP_CLIENT_SUMMARY"
+            android:defaultValue=""
+            android:inputType="text"/><EditTextPreference
+        android:key="@string/SNAP_SECRET"
+        android:title="@string/SNAP_SECRET_TITLE"
+        android:summary="@string/SNAP_SECRET_SUMMARY"
+        android:defaultValue=""
+        android:inputType="text"/>
     </PreferenceCategory>
     <PreferenceCategory
         android:key="@string/snap_profiles"

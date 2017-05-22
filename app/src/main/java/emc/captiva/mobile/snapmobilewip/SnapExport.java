@@ -9,6 +9,9 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.view.Gravity;
+import android.widget.Button;
+import android.widget.LinearLayout;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -26,6 +29,8 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import static android.R.style.Theme_DeviceDefault_Light_Dialog;
 
 /**
  * Created by hutchg on 12/01/2017.
@@ -166,6 +171,7 @@ public class SnapExport extends AsyncTask {
                             a = a + response.getString("title");
                             a = a;
                             dialog.dismiss();
+                            ShowDialog("","Export Complete");
                         } catch (JSONException e) {
                             e.printStackTrace();
                             //If it fails look for the error message
@@ -209,7 +215,7 @@ public class SnapExport extends AsyncTask {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Authorization","Bearer " + _ticket);
                 headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
                 return headers;
             }
@@ -220,9 +226,10 @@ public class SnapExport extends AsyncTask {
         EXPreq.setRetryPolicy(policy);
         queue.add(EXPreq);
     }
+
     private void ShowDialog (String title, String message) {
         AlertDialog alertDialog = new AlertDialog.Builder(
-                context).create();
+                context,Theme_DeviceDefault_Light_Dialog).create();
 
         // Setting Dialog Title
         alertDialog.setTitle(title);
@@ -231,16 +238,24 @@ public class SnapExport extends AsyncTask {
         alertDialog.setMessage(message);
 
 
+
         // Setting OK Button
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,"OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // Write your code here to execute after dialog closed
                 Intent intent = new Intent(context, FirstScreen.class);
                 context.startActivity(intent);
+
             }
         });
 
         // Showing Alert Message
         alertDialog.show();
+        alertDialog.setIcon(R.drawable.leapsnap);
+        Button btn_OK = alertDialog.getButton(alertDialog.BUTTON_POSITIVE);
+        LinearLayout.LayoutParams positiveButtonLL = (LinearLayout.LayoutParams) btn_OK.getLayoutParams();
+        positiveButtonLL.gravity = Gravity.CENTER;
+
+        btn_OK.setLayoutParams(positiveButtonLL);
     }
 }

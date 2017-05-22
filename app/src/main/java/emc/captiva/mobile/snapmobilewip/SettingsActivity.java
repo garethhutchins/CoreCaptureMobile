@@ -104,6 +104,14 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                 temp = pref.getText();
                 pref.setText(temp);
             }
+            if (key.compareToIgnoreCase("SNAP_CLIENT") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
+            if (key.compareToIgnoreCase("SNAP_SECRET") == 0) {
+                temp = pref.getText();
+                pref.setText(temp);
+            }
             if (key.compareToIgnoreCase("GPREF_SENSOR_LIGHT_VALUE") == 0) {
                 temp = pref.getText();
                 i = CoreHelper.getInteger(temp, 10);

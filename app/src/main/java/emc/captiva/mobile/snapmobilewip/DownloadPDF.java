@@ -280,7 +280,7 @@ public class DownloadPDF extends AsyncTask {
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("CPTV-TICKET", _ticket);
+                headers.put("Authorization","Bearer " + _ticket);
                 headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
                 return headers;
             }

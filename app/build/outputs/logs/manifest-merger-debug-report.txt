@@ -1,194 +1,194 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-75:12
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:2:1-75:12
 	package
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:5:5-7:35
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:12:5-14:35
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:5:5-7:35
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:12:5-14:35
 	android:required
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:6:9-47
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:6:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:9:5-11:36
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:15:5-17:35
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:9:5-11:36
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:15:5-17:35
 	android:required
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:11:9-33
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:11:9-33
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:10:9-57
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:10:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:13:5-15:36
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:18:5-20:36
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:13:5-15:36
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:18:5-20:36
 	android:required
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:15:9-33
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:15:9-33
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:14:9-53
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:14:9-53
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:16:5-18:35
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:21:5-23:36
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:16:5-18:35
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:18:9-32
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:17:9-61
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:17:9-61
 uses-feature#android.hardware.sensor.light
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:19:5-21:36
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:24:5-26:36
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:19:5-21:36
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:21:9-33
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:21:9-33
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:20:9-53
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:20:9-53
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:23:22-64
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:24:5-65
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:28:5-65
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:24:5-65
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:28:5-65
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:24:22-62
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:24:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:25:5-81
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:29:5-81
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:25:5-81
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:29:5-81
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:25:22-78
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:25:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:26:5-79
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:26:22-76
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:26:22-76
 application
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:28:5-73:19
-MERGED from [com.android.support:design:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:28:5-73:19
+MERGED from [com.android.support:design:25.1.0] C:\Users\hutchg\.android\build-cache\8af62dcf57d6eec1e1e8e524a933a2082d497a1a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hutchg\.android\build-cache\3d00f3805afb6a8b148ad8100d4e3626db018f32\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\hutchg\.android\build-cache\5aa8cdad563d7107076a02b3a9d2e4e2a513d546\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\hutchg\.android\build-cache\d3876316818673e39506319ccfb5c397ef4bd736\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\hutchg\.android\build-cache\4e535a4f1c013260b6e1dda489343c9c491d6827\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\hutchg\.android\build-cache\b292c3f7fae6bca3306a9cdfa6d803f8ed43de15\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\hutchg\.android\build-cache\240ba0bb448670a2798f9d8998e9deabc60d2d6c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\hutchg\.android\build-cache\2a206ca7ea66f7ef6b7b32d7311c58bf5a11ac6c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\hutchg\.android\build-cache\a7a540df6043ac212013cb98ffcff3a6f10c7a67\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\hutchg\.android\build-cache\5c0fecc768d4bc9f3ca6ed4f1e95ce2bfd80b6da\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\hutchg\.android\build-cache\b8f7e0e17a0bc23e8793001fbdd7c5baca69ce00\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:31:9-41
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:31:9-41
 	android:allowBackup
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:29:9-35
 	android:icon
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:30:9-42
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:30:9-42
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:32:9-40
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:32:9-40
 activity#emc.captiva.mobile.snapmobilewip.MainActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:33:9-36:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:33:9-36:57
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:35:13-51
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:35:13-51
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:36:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:36:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:34:13-41
 activity#emc.captiva.mobile.snapmobilewip.EnhanceImageActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:37:9-40:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:37:9-40:57
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:39:13-55
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:39:13-55
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:40:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:40:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:38:13-49
 activity#emc.captiva.mobile.snapmobilewip.EnhanceImageCropActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:41:9-44:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:41:9-44:57
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:43:13-59
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:43:13-59
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:44:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:44:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:42:13-53
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:42:13-53
 activity#emc.captiva.mobile.sdk.QuadrilateralCropActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:45:9-48:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:45:9-48:57
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:47:13-63
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:47:13-63
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:48:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:48:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:46:13-76
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:46:13-76
 activity#emc.captiva.mobile.sdk.CameraActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:50:9-53:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:50:9-53:57
 	android:configChanges
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:52:13-59
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:52:13-59
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:53:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:53:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:51:13-65
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:51:13-65
 activity#emc.captiva.mobile.snapmobilewip.ImageInfoActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:54:9-57:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:54:9-57:57
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:56:13-52
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:56:13-52
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:57:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:57:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:55:13-46
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:55:13-46
 activity#emc.captiva.mobile.snapmobilewip.SettingsActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:58:9-61:57
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:58:9-61:57
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:60:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:60:13-54
 	android:theme
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:61:13-54
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:61:13-54
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:59:13-45
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:59:13-45
 activity#emc.captiva.mobile.snapmobilewip.FirstScreen
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:62:9-70:20
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:62:9-70:20
 	android:label
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:64:13-45
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:64:13-45
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:63:13-40
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:63:13-40
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:65:13-69:29
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:65:13-69:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:66:17-69
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:66:25-66
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:66:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:68:17-77
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:68:17-77
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:68:27-74
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:68:27-74
 activity#emc.captiva.mobile.snapmobilewip.SnapResults
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:71:9-49
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:71:9-49
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:71:19-46
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:71:19-46
 activity#emc.captiva.mobile.snapmobilewip.GridActivity
-ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:72:9-50
+ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:72:9-50
 	android:name
-		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:72:19-47
+		ADDED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:72:19-47
 uses-sdk
-INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [SnapMobileWIP:captivamobilesdk:unspecified] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\SnapMobileWIP\captivamobilesdk\unspecified\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:transition:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [SnapMobile:captivamobilesdk:unspecified] C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.1.0] C:\Users\hutchg\.android\build-cache\8af62dcf57d6eec1e1e8e524a933a2082d497a1a\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\hutchg\.android\build-cache\3d00f3805afb6a8b148ad8100d4e3626db018f32\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\hutchg\.android\build-cache\5aa8cdad563d7107076a02b3a9d2e4e2a513d546\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\hutchg\.android\build-cache\d3876316818673e39506319ccfb5c397ef4bd736\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\hutchg\.android\build-cache\4e535a4f1c013260b6e1dda489343c9c491d6827\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\hutchg\.android\build-cache\b292c3f7fae6bca3306a9cdfa6d803f8ed43de15\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\hutchg\.android\build-cache\240ba0bb448670a2798f9d8998e9deabc60d2d6c\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\hutchg\.android\build-cache\2a206ca7ea66f7ef6b7b32d7311c58bf5a11ac6c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\hutchg\.android\build-cache\a7a540df6043ac212013cb98ffcff3a6f10c7a67\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\hutchg\.android\build-cache\a9f33a890f19bf3d0232dee43c74c0b25121ee44\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\hutchg\.android\build-cache\5c0fecc768d4bc9f3ca6ed4f1e95ce2bfd80b6da\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\hutchg\.android\build-cache\b8f7e0e17a0bc23e8793001fbdd7c5baca69ce00\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.0] C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.0] C:\Users\hutchg\.android\build-cache\8af62dcf57d6eec1e1e8e524a933a2082d497a1a\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-75:12 reason: emc.captiva.mobile.sdk requested WRITE_EXTERNAL_STORAGE
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\src\main\AndroidManifest.xml:2:1-75:12 reason: emc.captiva.mobile.sdk requested WRITE_EXTERNAL_STORAGE
