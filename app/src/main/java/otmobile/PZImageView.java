@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.snapmobilewip;
+package otmobile;
 
 import android.content.Context;
 import android.graphics.Bitmap;

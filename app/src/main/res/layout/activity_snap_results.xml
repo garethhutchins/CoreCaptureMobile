@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".SnapResults"
+    tools:context="otmobile.SnapResults"
     android:id="@+id/ResultsLayout">
 
     <LinearLayout
@@ -56,7 +56,7 @@
         android:layout_gravity="left"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:background="@android:color/holo_green_dark"
+        android:background="#00A388"
         android:textColor="#FFFFFF"
         android:height="40dp"
         android:width="100dp" />
@@ -69,7 +69,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_alignTop="@+id/btnPDF"
-        android:background="@android:color/holo_green_dark"
+        android:background="#00A388"
         android:textColor="#FFFFFF"
         android:width="100dp" />
 
@@ -79,7 +79,7 @@
         android:text="Export"
         android:id="@+id/btn_export"
         android:layout_gravity="right"
-        android:background="@android:color/holo_green_dark"
+        android:background="#00A388"
         android:textColor="#FFFFFF"
         android:width="100dp"
         android:layout_alignParentBottom="true"

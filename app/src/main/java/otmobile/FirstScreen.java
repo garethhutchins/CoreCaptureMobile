@@ -1,4 +1,4 @@
-package emc.captiva.mobile.snapmobilewip;
+package otmobile;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -32,7 +32,7 @@ public class FirstScreen extends Activity implements PictureCallback {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(null);
-        setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_first_screen);
+        setContentView(otmobile.R.layout.activity_first_screen);
         //License the Application
         CoreHelper.license(this);
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -77,8 +77,8 @@ public class FirstScreen extends Activity implements PictureCallback {
 
         // Get the preference for CaptureWindow
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String capWndNone = CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
-        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
+        String capWndNone = CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
+        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
 
         if (capWndPref.compareToIgnoreCase(capWndNone) != 0) {
             // Assign a custom CaptureWindow if specified by the prefs.

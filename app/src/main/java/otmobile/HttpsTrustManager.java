@@ -1,4 +1,4 @@
-package emc.captiva.mobile.snapmobilewip;
+package otmobile;
 
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;

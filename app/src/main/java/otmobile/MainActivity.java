@@ -2,7 +2,7 @@
  * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  ---------------------------------------------------------------------------- */
 
-package emc.captiva.mobile.snapmobilewip;
+package otmobile;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -45,7 +45,7 @@ public class MainActivity extends Activity implements PictureCallback, Continuou
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(emc.captiva.mobile.snapmobilewip.R.layout.activity_main);
+        setContentView(otmobile.R.layout.activity_main);
         
         // License the application
         CoreHelper.license(this);
@@ -65,8 +65,8 @@ public class MainActivity extends Activity implements PictureCallback, Continuou
 
         // Get the preference for CaptureWindow
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String capWndNone = CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
-        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
+        String capWndNone = CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
+        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
 
         if (capWndPref.compareToIgnoreCase(capWndNone) != 0) {
             // Assign a custom CaptureWindow if specified by the prefs.
@@ -152,8 +152,8 @@ public class MainActivity extends Activity implements PictureCallback, Continuou
 
         // Get the preference for CaptureWindow
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String capWndNone = CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
-        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
+        String capWndNone = CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS_NONE);
+        String capWndPref = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURE_CUSTOM_OPTIONS), capWndNone);
 
         if (capWndPref.compareToIgnoreCase(capWndNone) != 0) {
             // Assign a custom CaptureWindow if specified by the prefs.
@@ -192,9 +192,9 @@ public class MainActivity extends Activity implements PictureCallback, Continuou
 
         // Get the similarity and count threshold values.
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURESIMILARITY), "50");
+        String temp = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURESIMILARITY), "50");
         float similarityThresholdFromSettings = CoreHelper.getFloat(temp, 50f);
-        temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_CAPTURECOUNT), "2");
+        temp = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_CAPTURECOUNT), "2");
         int captureCountLimit = CoreHelper.getInteger(temp, 2);
 
         // Only examine images that are different enough from the previous image that they could be
@@ -219,13 +219,13 @@ public class MainActivity extends Activity implements PictureCallback, Continuou
                 // Save cropped image
                 // Build the parameter map for saving the image.
                 HashMap<String, Object> parameters = new HashMap<>();
-                temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_DPIX), "72");
+                temp = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_DPIX), "72");
                 int saveDpix = CoreHelper.getInteger(temp, 72);
                 parameters.put(CaptureImage.SAVE_DPIX, saveDpix);
-                temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_DPIY), "72");
+                temp = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_DPIY), "72");
                 int saveDpiy = CoreHelper.getInteger(temp, 72);
                 parameters.put(CaptureImage.SAVE_DPIY, saveDpiy);
-                temp = gprefs.getString(CoreHelper.getStringResource(this, emc.captiva.mobile.snapmobilewip.R.string.GPREF_JPGQUALITY), "95");
+                temp = gprefs.getString(CoreHelper.getStringResource(this, otmobile.R.string.GPREF_JPGQUALITY), "95");
                 int jpgQuality = CoreHelper.getInteger(temp, 95);
                 parameters.put(CaptureImage.SAVE_JPG_QUALITY, jpgQuality);
 
