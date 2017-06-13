@@ -3,21 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\hutchg\.android\build-cache\656ba0aecf2023ed667ae13a841e1012f6c2f625\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="72b719f17b41194530d615ba7b92191ab2afd286">
-        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\build\intermediates\pre-dexed\debug\classes_3b61efd3309b544b696a133d0f6cc010af5ddfda.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\libs\volley.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\build\intermediates\pre-dexed\debug\volley_a297ed50de4bf19f5a6e2a682817429953bc4f84.jar" />
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\build\intermediates\pre-dexed\release\volley_a297ed50de4bf19f5a6e2a682817429953bc4f84.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,7 +17,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\build\intermediates\pre-dexed\debug\gson-2.6.2_8ffec0fb97220d1b46d14f3b5b9a670f212d0013.jar" />
+        <dex dex="C:\Users\hutchg\Documents\Android Studio Projects\SnapMobile\app\build\intermediates\pre-dexed\release\gson-2.6.2_8ffec0fb97220d1b46d14f3b5b9a670f212d0013.jar" />
     </item>
 
 </items>

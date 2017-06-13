@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobile\\app\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobile\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobile\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "C:\\Users\\hutchg\\Documents\\Android Studio Projects\\SnapMobile\\app\\src\\main\\res\\xml\\preferences.xml"
     }

@@ -1,4 +1,4 @@
-package emc.captiva.mobile.snapmobilewip;
+package otmobile;
 
 
 import android.app.Activity;
