@@ -2,6 +2,7 @@
 * Copyright 2013-2016 EMC Corporation.  All rights reserved.
  -->
 <resources>
+    <string name="snap_dc">Snap Data Centre</string>
     <string name="snap_environment">Snap Environment</string>
     <string name="snap_environment_summary">Enter Your Snap Environment</string>
     <string name="snap_export_type">Snap Export Type</string>

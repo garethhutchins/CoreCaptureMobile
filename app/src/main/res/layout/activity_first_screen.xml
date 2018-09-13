@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstScreenRl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:elevation="1dp"
@@ -24,39 +25,39 @@
         android:id="@+id/floatSettings"
         android:layout_width="72dp"
         android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginBottom="32dp"
+        android:layout_marginEnd="7dp"
         android:background="@android:color/holo_green_dark"
         android:clickable="true"
         android:scaleType="fitCenter"
-        android:src="@android:drawable/ic_menu_preferences"
-        android:layout_marginEnd="7dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:src="@android:drawable/ic_menu_preferences" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingGallery"
         android:layout_width="72dp"
         android:layout_height="72dp"
+        android:layout_above="@+id/floatSettings"
+        android:layout_alignStart="@+id/floatSettings"
         android:layout_marginBottom="19dp"
         android:background="@android:color/holo_green_dark"
         android:clickable="true"
         android:scaleType="fitCenter"
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_above="@+id/floatSettings"
-        android:layout_alignStart="@+id/floatSettings" />
+        android:src="@android:drawable/ic_menu_gallery" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingCamera"
         android:layout_width="72dp"
         android:layout_height="72dp"
+        android:layout_above="@+id/floatingGallery"
+        android:layout_alignStart="@+id/floatingGallery"
         android:layout_marginBottom="13dp"
         android:background="@android:color/holo_green_dark"
         android:clickable="true"
-        android:scaleType="fitCenter"
-        android:src="@android:drawable/ic_menu_camera"
 
-        android:layout_above="@+id/floatingGallery"
-        android:layout_alignStart="@+id/floatingGallery" />
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_camera" />
 
     <TextView
         android:id="@+id/textView"

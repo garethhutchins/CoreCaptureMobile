@@ -51,6 +51,10 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
                 L.setValue(temp);
             }
 
+            if (key.compareToIgnoreCase("Snap Data Center") == 0) {
+                temp = L.getValue();
+                L.setValue(temp);
+            }
 
         }
 

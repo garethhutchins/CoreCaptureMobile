@@ -146,7 +146,14 @@ public class SnapExport extends AsyncTask {
         ER.env = gprefs.getString("Snap Environment","");
 
         //Now create the post
-        String url = gprefs.getString("Snap URL", "");
+        String url = "";
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://snap.leap.opentext.com";
+        }
+        else {
+            url = "https://snap.leap.opentext.eu";
+        }
         url = url + "/cp-rest/session/batches";
         Gson gson = new Gson();
         String json = gson.toJson(ER);

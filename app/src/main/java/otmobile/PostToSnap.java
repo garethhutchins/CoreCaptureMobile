@@ -140,9 +140,15 @@ public class PostToSnap extends AsyncTask {
         Login.subscriptionName = gprefs.getString("Snap Subscription","");
         final String client = gprefs.getString("Snap Client","");
         final String secret = gprefs.getString("Snap Secret","");
-        //url = gprefs.getString("Snap URL", "");
-        //url = url + "/cp-rest/Session";
-        url = "https://authservice.saas.emcond.com/authserver/oauth/token";
+        //Need to add a new setting to swtich data centers
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://authservice.leap.opentext.com/authserver/oauth/token";
+        }
+        else {
+            url = "https://authservice.leap.opentext.eu/authserver/oauth/token";
+        }
+
         Gson gson = new Gson();
         String Strjson = gson.toJson(Login);
         JSONObject JLogin = null;
@@ -259,9 +265,16 @@ public class PostToSnap extends AsyncTask {
 
         PF.contentType = mime;
         PF.data = encodedString;
-
+        String url = "";
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://snap.leap.opentext.com";
+        }
+        else {
+            url = "https://snap.leap.opentext.eu";
+        }
         //Now make the post
-        String url = gprefs.getString("Snap URL", "");
+
         url = url + "/cp-rest/session/files";
 
         Gson gson = new Gson();
@@ -377,7 +390,14 @@ public class PostToSnap extends AsyncTask {
 
         //Now do the posting
 
-        String url = gprefs.getString("Snap URL", "");
+        String url = "";
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://snap.leap.opentext.com";
+        }
+        else {
+            url = "https://snap.leap.opentext.eu";
+        }
         url = url + "/cp-rest/session/services/processimage";
 
         Gson gson = new Gson();
@@ -487,7 +507,8 @@ public class PostToSnap extends AsyncTask {
         serviceProps Project = new serviceProps();
         //project
         Project.name = "Project";
-        Project.value = gprefs.getString("Recognition Project","");
+        // not uses anymore Project.value = gprefs.getString("Recognition Project","");
+        Project.value = "Default";
         //env
         serviceProps Env = new serviceProps();
         Env.name = "Env";
@@ -506,7 +527,14 @@ public class PostToSnap extends AsyncTask {
         ceRequest.requestItems[0] = requestItem;
 
         //Now do the posting
-        String url = gprefs.getString("Snap URL", "");
+        String url = "";
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://snap.leap.opentext.com";
+        }
+        else {
+            url = "https://snap.leap.opentext.eu";
+        }
         url = url + "/cp-rest/session/services/classifyextractpage";
 
         Gson gson = new Gson();

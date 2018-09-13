@@ -8,6 +8,13 @@
     <PreferenceCategory
         android:key="@string/snap_settings"
         android:title="@string/snap_settings">
+        <ListPreference
+            android:key="@string/snap_dc"
+            android:title="@string/snap_dc"
+            android:summary="@string/snap_dc"
+            android:entries="@array/listDCArray"
+            android:entryValues="@array/listDCArray"
+            android:defaultValue="US"/>
         <EditTextPreference
             android:key="@string/SNAP_USER"
             android:title="@string/SNAP_USER_TITLE"
@@ -20,12 +27,7 @@
             android:summary="@string/SNAP_PASSWORD_SUMMARY"
             android:defaultValue=""
             android:inputType="textPassword"/>
-        <EditTextPreference
-            android:key="@string/SNAP_URL"
-            android:title="@string/SNAP_URL_TITLE"
-            android:summary="@string/SNAP_URL_SUMMARY"
-            android:defaultValue=""
-            android:inputType="textUri"/>
+
         <EditTextPreference
             android:key="@string/SNAP_SUBSCRIPTION"
             android:title="@string/SNAP_SUBSCRIPTION_TITLE"

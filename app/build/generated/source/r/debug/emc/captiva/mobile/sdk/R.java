@@ -21,22 +21,22 @@ public final class R {
         public static final int quadcrop = 0x7f080080;
     }
     public static final class id {
-        public static final int BottomBar = 0x7f090012;
-        public static final int CropBackButton = 0x7f090013;
-        public static final int CropButtonSpace = 0x7f090014;
-        public static final int CropSubmitButton = 0x7f090015;
-        public static final int ImageBar = 0x7f090019;
-        public static final int ImageView = 0x7f09001a;
-        public static final int QuadrilateralCropLayout = 0x7f09001d;
-        public static final int QuadrilateralCropView = 0x7f09001e;
-        public static final int id_buttonlayout = 0x7f09006b;
-        public static final int id_capturebutton = 0x7f09006c;
-        public static final int id_centerspace = 0x7f09006d;
-        public static final int id_guidelinesview = 0x7f09006e;
-        public static final int id_quadcropbackbutton = 0x7f09006f;
-        public static final int id_quadcropbuttonspace = 0x7f090070;
-        public static final int id_quadcropcropbutton = 0x7f090071;
-        public static final int id_quadcropview = 0x7f090072;
+        public static final int BottomBar = 0x7f090013;
+        public static final int CropBackButton = 0x7f090015;
+        public static final int CropButtonSpace = 0x7f090016;
+        public static final int CropSubmitButton = 0x7f090017;
+        public static final int ImageBar = 0x7f09001c;
+        public static final int ImageView = 0x7f09001d;
+        public static final int QuadrilateralCropLayout = 0x7f090021;
+        public static final int QuadrilateralCropView = 0x7f090022;
+        public static final int id_buttonlayout = 0x7f090078;
+        public static final int id_capturebutton = 0x7f090079;
+        public static final int id_centerspace = 0x7f09007a;
+        public static final int id_guidelinesview = 0x7f09007b;
+        public static final int id_quadcropbackbutton = 0x7f09007c;
+        public static final int id_quadcropbuttonspace = 0x7f09007d;
+        public static final int id_quadcropcropbutton = 0x7f09007e;
+        public static final int id_quadcropview = 0x7f09007f;
     }
     public static final class layout {
         public static final int activity_quadrilateral_crop = 0x7f0b0020;

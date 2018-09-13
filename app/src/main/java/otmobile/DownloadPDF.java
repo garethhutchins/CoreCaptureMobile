@@ -110,7 +110,14 @@ public class DownloadPDF extends AsyncTask {
     private void Download() {
         dialog.setMessage("Downloading PDF");
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
-        String url = gprefs.getString("Snap URL", "");
+        String url = "";
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://snap.leap.opentext.com";
+        }
+        else {
+            url = "https://snap.leap.opentext.eu";
+        }
         url = url + "/cp-rest/session/files/" + _PDFFileID;
         Log.d("Requesting File",url);
 
@@ -169,7 +176,14 @@ public class DownloadPDF extends AsyncTask {
     private void Convert() {
         //First get the URL from the preferences
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
-        String url = gprefs.getString("Snap URL", "");
+        String url = "";
+        String Datacentre = gprefs.getString("Snap Data Center","");
+        if (Datacentre.equals("US")) {
+            url = "https://snap.leap.opentext.com";
+        }
+        else {
+            url = "https://snap.leap.opentext.eu";
+        }
         url = url + "/cp-rest/session/services/fullpageocr";
 
         // Build the request
