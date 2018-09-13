@@ -78,7 +78,6 @@
             </intent-filter>
         </activity>
         <activity android:name="otmobile.SnapResults" />
-        <activity android:name="otmobile.GridActivity" />
     </application>
 
 </manifest>
