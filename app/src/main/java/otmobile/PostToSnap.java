@@ -507,7 +507,7 @@ public class PostToSnap extends AsyncTask {
         serviceProps Project = new serviceProps();
         //project
         Project.name = "Project";
-        // not uses anymore Project.value = gprefs.getString("Recognition Project","");
+        // not used anymore Project.value = gprefs.getString("Recognition Project","");
         Project.value = "Default";
         //env
         serviceProps Env = new serviceProps();
@@ -554,15 +554,20 @@ public class PostToSnap extends AsyncTask {
                     public void onResponse(JSONObject response) {
                         // handle response
                         Log.d("Classify OK",response.toString());
-                        //Get the response back
+                        Intent ViewSnapRestuls = new Intent(context,SnapResults.class);
+                        ViewSnapRestuls.putExtra("UIM","");
                         try {
                             //First get the JSON Object for the UIM Data
-                            JSONObject uimObject= response.getJSONArray("resultItems").getJSONObject(0).getJSONArray("values").getJSONObject(3).getJSONObject("value");
-                            Log.d("UIM Object",uimObject.toString());
-                            //Pass the UIM Data to a new Activity
-                            Intent ViewSnapRestuls = new Intent(context,SnapResults.class);
+                            JSONArray values = response.getJSONArray("resultItems").getJSONObject(0).getJSONArray("values");
+                            for (int i =0; i < values.length();i++) {
+                                JSONObject name = values.getJSONObject(i);
+                                if (name.getString("name").equals("UimData")) {
+                                    JSONObject uimObject =name.getJSONObject("value");
+                                    Log.d("UIM Object",uimObject.toString());
+                                    ViewSnapRestuls.putExtra("UIM",uimObject.toString());
+                                }
+                            }
                             ViewSnapRestuls.putExtra("FileName",FileName);
-                            ViewSnapRestuls.putExtra("UIM",uimObject.toString());
                             ViewSnapRestuls.putExtra("Ticket",_ticket);
                             ViewSnapRestuls.putExtra("fileID",OriginalFileID);
                             ViewSnapRestuls.putExtra("SnapFileName",name);

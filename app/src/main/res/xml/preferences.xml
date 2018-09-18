@@ -61,11 +61,6 @@
             android:title="@string/SNAP_CAPTURE_PROFILE_TITLE"
             android:summary="@string/SNAP_CAPTURE_PROFILE_SUMMARY"
             android:defaultValue="EMCWorld" />
-        <EditTextPreference
-            android:key="@string/SNAP_RECOGNITION_PROJECT"
-            android:title="@string/SNAP_RECOGNITION_PROJECT_TITLE"
-            android:summary="@string/SNAP_RECOGNITION_PROJECT_SUMMARY"
-            android:defaultValue="Default" />
         <ListPreference
             android:key="@string/snap_export_type"
             android:title="@string/snap_export_type"

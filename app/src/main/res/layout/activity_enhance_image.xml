@@ -8,7 +8,8 @@
     android:id="@+id/EnhanceLayout"
     android:background="@android:color/transparent"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
 
     <otmobile.PZImageView
         android:id="@+id/ImageView"
