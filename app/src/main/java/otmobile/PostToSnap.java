@@ -141,7 +141,7 @@ public class PostToSnap extends AsyncTask {
         final String client = gprefs.getString("Snap Client","");
         final String secret = gprefs.getString("Snap Secret","");
         //Need to add a new setting to swtich data centers
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Snap Data Centre","");
         if (Datacentre.equals("US")) {
             url = "https://authservice.leap.opentext.com/authserver/oauth/token";
         }
@@ -266,7 +266,7 @@ public class PostToSnap extends AsyncTask {
         PF.contentType = mime;
         PF.data = encodedString;
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Snap Data Centre","");
         if (Datacentre.equals("US")) {
             url = "https://snap.leap.opentext.com";
         }
@@ -391,7 +391,7 @@ public class PostToSnap extends AsyncTask {
         //Now do the posting
 
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Snap Data Centre","");
         if (Datacentre.equals("US")) {
             url = "https://snap.leap.opentext.com";
         }
@@ -528,7 +528,7 @@ public class PostToSnap extends AsyncTask {
 
         //Now do the posting
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Snap Data Centre","");
         if (Datacentre.equals("US")) {
             url = "https://snap.leap.opentext.com";
         }

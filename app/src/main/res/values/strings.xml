@@ -42,7 +42,7 @@
     <string name="SNAP_SECRET_TITLE">Your Snap Secret</string>
     <string name="SNAP_SECRET_SUMMARY">Enter Your Snap Secret</string>
 
-    <string name="app_name">Gareth\'s Mobile Capture</string>
+    <string name="app_name">Core Capture Mobile</string>
     <string name="AppCopyright">Copyright 2013&#8211;2016 by EMC Corporation</string>
     <string name="MainPage_Title">EMC World Mobile</string>
     <string name="MainPage_TakePicture">Take Picture</string>
