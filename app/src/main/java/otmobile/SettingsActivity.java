@@ -42,16 +42,16 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
             String temp;
             Integer i;
             Float f;
-            if (key.compareToIgnoreCase("Snap Environment") == 0) {
+            if (key.compareToIgnoreCase("Core Capture Environment") == 0) {
                 temp = L.getValue();
                 L.setValue(temp);
             }
-            if (key.compareToIgnoreCase("Snap Export Type") == 0) {
+            if (key.compareToIgnoreCase("Core Capture Export Type") == 0) {
                 temp = L.getValue();
                 L.setValue(temp);
             }
 
-            if (key.compareToIgnoreCase("Snap Data Centre") == 0) {
+            if (key.compareToIgnoreCase("Core Capture Data Centre") == 0) {
                 temp = L.getValue();
                 L.setValue(temp);
             }
@@ -63,56 +63,56 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
             String temp;
             Integer i;
             Float f;
-            //Save the Snap Settings
-            if (key.compareToIgnoreCase("SNAP_USER") == 0) {
+            //Save the Core Capture Settings
+            if (key.compareToIgnoreCase("CORECAPTURE_USER") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_PASSWORD") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_PASSWORD") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_URL") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_URL") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_SUBSCRIPTION") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_SUBSCRIPTION") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_CAPTURE_PROFILE") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_CAPTURE_PROFILE") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_RECOGNITION_PROJECT") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_RECOGNITION_PROJECT") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("snap_environment") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_environment") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("snap_export_type") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_export_type") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("snap_export_name") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_export_name") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("snap_IA_server") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_IA_server") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("snap_IA_catpureflow") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_IA_catpureflow") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_CLIENT") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_CLIENT") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }
-            if (key.compareToIgnoreCase("SNAP_SECRET") == 0) {
+            if (key.compareToIgnoreCase("CORECAPTURE_SECRET") == 0) {
                 temp = pref.getText();
                 pref.setText(temp);
             }

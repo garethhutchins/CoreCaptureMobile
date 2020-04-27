@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:captivamobilesdk:unspecified@jar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/306c71b39770e649e0d7769ba5fd493e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/306c71b39770e649e0d7769ba5fd493e/res" />
+      <root url="jar://$PROJECT_DIR$/captivamobilesdk/build/.transforms/cdfe51acbb35aa53e35035d9868f540b/captivamobilesdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/captivamobilesdk/build/.transforms/cdfe51acbb35aa53e35035d9868f540b/captivamobilesdk/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -6,81 +6,81 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/PreferencesTheme">
 
     <PreferenceCategory
-        android:key="@string/snap_settings"
-        android:title="@string/snap_settings">
+        android:key="@string/corecapture_settings"
+        android:title="@string/corecapture_settings">
         <ListPreference
-            android:key="@string/snap_dc"
-            android:title="@string/snap_dc"
-            android:summary="@string/snap_dc"
+            android:key="@string/corecapture_dc"
+            android:title="@string/corecapture_dc"
+            android:summary="@string/corecapture_dc"
             android:entries="@array/listDCArray"
             android:entryValues="@array/listDCArray"
             android:defaultValue="US"/>
         <EditTextPreference
-            android:key="@string/SNAP_USER"
-            android:title="@string/SNAP_USER_TITLE"
-            android:summary="@string/SNAP_USER_SUMMARY"
+            android:key="@string/corecapture_USER"
+            android:title="@string/corecapture_USER_TITLE"
+            android:summary="@string/corecapture_USER_SUMMARY"
             android:defaultValue="Gareth.Hutchins@emc.com"
             android:inputType="textEmailAddress"/>
         <EditTextPreference
-            android:key="@string/SNAP_PASSWORD"
-            android:title="@string/SNAP_PASSWORD_TITLE"
-            android:summary="@string/SNAP_PASSWORD_SUMMARY"
+            android:key="@string/corecapture_PASSWORD"
+            android:title="@string/corecapture_PASSWORD_TITLE"
+            android:summary="@string/corecapture_PASSWORD_SUMMARY"
             android:defaultValue=""
             android:inputType="textPassword"/>
 
         <EditTextPreference
-            android:key="@string/SNAP_SUBSCRIPTION"
-            android:title="@string/SNAP_SUBSCRIPTION_TITLE"
-            android:summary="@string/SNAP_SUBSCRIPTION_SUMMARY"
+            android:key="@string/corecapture_SUBSCRIPTION"
+            android:title="@string/corecapture_SUBSCRIPTION_TITLE"
+            android:summary="@string/corecapture_SUBSCRIPTION_SUMMARY"
             android:defaultValue=""
             android:inputType="text"/>
         <ListPreference
-            android:key="@string/snap_environment"
-            android:title="@string/snap_environment"
-            android:summary="@string/snap_environment_summary"
+            android:key="@string/corecapture_environment"
+            android:title="@string/corecapture_environment"
+            android:summary="@string/corecapture_environment_summary"
             android:entries="@array/listEnvArray"
             android:entryValues="@array/listEnvValues"
             android:defaultValue="D"/>
         <EditTextPreference
-            android:key="@string/SNAP_CLIENT"
-            android:title="@string/SNAP_CLIENT_TITLE"
-            android:summary="@string/SNAP_CLIENT_SUMMARY"
+            android:key="@string/corecapture_CLIENT"
+            android:title="@string/corecapture_CLIENT_TITLE"
+            android:summary="@string/corecapture_CLIENT_SUMMARY"
             android:defaultValue=""
             android:inputType="text"/><EditTextPreference
-        android:key="@string/SNAP_SECRET"
-        android:title="@string/SNAP_SECRET_TITLE"
-        android:summary="@string/SNAP_SECRET_SUMMARY"
+        android:key="@string/corecapture_SECRET"
+        android:title="@string/corecapture_SECRET_TITLE"
+        android:summary="@string/corecapture_SECRET_SUMMARY"
         android:defaultValue=""
         android:inputType="text"/>
     </PreferenceCategory>
     <PreferenceCategory
-        android:key="@string/snap_profiles"
-        android:title="@string/snap_profiles">
+        android:key="@string/corecapture_profiles"
+        android:title="@string/corecapture_profiles">
         <EditTextPreference
-            android:key="@string/SNAP_CAPTURE_PROFILE"
-            android:title="@string/SNAP_CAPTURE_PROFILE_TITLE"
-            android:summary="@string/SNAP_CAPTURE_PROFILE_SUMMARY"
+            android:key="@string/corecapture_CAPTURE_PROFILE"
+            android:title="@string/corecapture_CAPTURE_PROFILE_TITLE"
+            android:summary="@string/corecapture_CAPTURE_PROFILE_SUMMARY"
             android:defaultValue="EMCWorld" />
         <ListPreference
-            android:key="@string/snap_export_type"
-            android:title="@string/snap_export_type"
-            android:summary="@string/snap_export_type_summary"
+            android:key="@string/corecapture_export_type"
+            android:title="@string/corecapture_export_type"
+            android:summary="@string/corecapture_export_type_summary"
             android:entries="@array/listExpTypesArray"
             android:entryValues="@array/listExpTypesValues" />
         <EditTextPreference
-            android:key="@string/snap_export_name"
-            android:title="@string/snap_export_name"
-            android:summary="@string/snap_export_name_summary"
+            android:key="@string/corecapture_export_name"
+            android:title="@string/corecapture_export_name"
+            android:summary="@string/corecapture_export_name_summary"
             android:defaultValue="" />
         <EditTextPreference
-        android:key="@string/snap_IA_server"
-        android:title="@string/snap_IA_server"
-        android:summary="@string/snap_IA_server_summary"
+        android:key="@string/corecapture_IA_server"
+        android:title="@string/corecapture_IA_server"
+        android:summary="@string/corecapture_IA_server_summary"
         android:defaultValue="" />
         <EditTextPreference
-            android:key="@string/snap_IA_catpureflow"
-            android:title="@string/snap_IA_catpureflow"
-            android:summary="@string/snap_IA_catpureflow_summary"
+            android:key="@string/corecapture_IA_catpureflow"
+            android:title="@string/corecapture_IA_catpureflow"
+            android:summary="@string/corecapture_IA_catpureflow_summary"
             android:defaultValue="" />
     </PreferenceCategory>
     <PreferenceCategory

@@ -1,253 +1,309 @@
 -- Merging decision tree log ---
 provider#android.support.v4.content.FileProvider
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:33:9-41:20
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:grantUriPermissions
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:37:13-47
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:37:13-47
 	android:authorities
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:35:13-60
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:35:13-60
 	android:exported
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:34:13-67
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:34:13-67
 manifest
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:3:1-31:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\d74ddbf40aca631d8707f675b8757699\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\8b62c1d71ebbb3a1c8ba8b9b92cff31f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\00de0eb3de15f59b8ab9d494293d2d99\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b1be3b74a31f198a141c5681521e1380\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\445cae9b85bab304dadfbdfc6455643d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9740449c9dad082c8576cf5ef651d943\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f2c832a97fe60ae632b5108f732194ed\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\1193e7c648e39a64729ea2a6c5a82139\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\941a276ecb00d54929312edd1c98a1d4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fcdebc27d5bb2d2f96fe50f6c9bec256\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\60fa9b793131eeac36007e066b7bb86c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\136bb96c292bc0f3a4f1a9b3d37bcfeb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b809f2869bed60c737ed7d4405de5b38\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9c33b1ce589efc1ab542a27b95a07e5c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\4e387e1317be1e7390c72667cf3c91b8\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\7aa668d5939707f1b04ee95088cfc60a\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cf839bbfa1028a161843089b1986521b\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\77a93753076b9f3bf6b7921e3bb1ad58\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\10d14bf2fdd27add456af6e8df3001f6\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e83468088593accba3cf58b55eb8964b\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:3:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\364489e9c7df5b27ddd4c5587497594b\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\8bdfad7e07e40cb22e8741ce1ef5fa31\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fb2a2d11f829b33f009285b741af1a2f\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\1964e27cd626d82f1f68da12af3faf08\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\ca3ec6b43f557b9c9fa3387a7465f577\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\a38d372d79d017bebda0dbd4c4c0ad71\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\287ab7920917df54a03463f6274d2fa6\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f9d674eaf6b853e6a27bf843971b0531\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b01f3a6b7c5be78fcdf08c5b780f4ccf\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\dd1204b854c009912b1ec72073074766\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f64b6a631c902a54d9d7f9ee5d01231e\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cedbeb5a6f0ccf272ef561853bc2a140\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\91945d2376b8541f7a2b4d6b4d439929\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fa556222e27490c28b10feafc694743c\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\51b4c484d7b9605cc91a44b76df368a4\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0afe2f522ef770c256ea822f4578054c\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e96c233b9cbeda7e38289723f34c3d57\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\88efc4ee4f34ff99e113f5291079b715\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0e8eab2945b4d64c64dd6547a6d5ee81\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b5229703b39576e58a56d8e388a83947\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\52392666878565afed65772c7731c0b3\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\bf6072649b6da0b4b7b26ce6a1ebae07\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\30ba5970c6848f5745c95695f8757d6e\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\7bffb607984d27523f533c6c1520b804\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9bd795034eece87a4db7ca3289e28bfb\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\085f3060b64e25185d28f46f8598a2eb\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fd578264dd355d7051ccddb2c89011b9\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\c05f18e44289bef762017866af19cc6e\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
 	package
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:3:5-23
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:3:5-23
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:5:5-7:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:12:5-14:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:12:5-14:35
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:5:5-7:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:12:5-14:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:12:5-14:35
 	android:required
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:6:9-47
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:6:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:9:5-11:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:15:5-17:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:15:5-17:35
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:9:5-11:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:15:5-17:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:15:5-17:35
 	android:required
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:11:9-32
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:11:9-32
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:10:9-57
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:10:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:13:5-15:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:18:5-20:36
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:18:5-20:36
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:13:5-15:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:18:5-20:36
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:18:5-20:36
 	android:required
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:15:9-32
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:15:9-32
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:14:9-53
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:14:9-53
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:16:5-18:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:21:5-23:36
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:21:5-23:36
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:16:5-18:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:21:5-23:36
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:18:9-32
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:17:9-61
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:17:9-61
 uses-feature#android.hardware.sensor.light
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:19:5-21:35
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:24:5-26:36
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:24:5-26:36
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:19:5-21:35
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:24:5-26:36
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:21:9-32
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:21:9-32
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:20:9-53
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:20:9-53
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:23:22-64
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:24:5-65
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:28:5-65
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:28:5-65
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:24:5-65
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:28:5-65
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:28:5-65
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:24:22-62
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:24:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:25:5-81
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:29:5-81
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:29:5-81
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:25:5-81
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:29:5-81
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:29:5-81
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:25:22-78
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:25:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:26:5-79
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:26:22-76
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:26:22-76
 application
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:28:5-81:19
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:28:5-81:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cf839bbfa1028a161843089b1986521b\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cf839bbfa1028a161843089b1986521b\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0afe2f522ef770c256ea822f4578054c\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0afe2f522ef770c256ea822f4578054c\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e96c233b9cbeda7e38289723f34c3d57\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e96c233b9cbeda7e38289723f34c3d57\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0afe2f522ef770c256ea822f4578054c\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:31:9-41
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:31:9-41
 	android:icon
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:30:9-49
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:30:9-49
 	android:allowBackup
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:29:9-35
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:32:9-40
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:32:9-40
 activity#otmobile.MainActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:42:9-45:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:42:9-45:57
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:44:13-51
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:44:13-51
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:45:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:45:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:43:13-49
 activity#otmobile.EnhanceImageActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:46:9-49:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:46:9-49:57
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:48:13-55
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:48:13-55
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:49:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:49:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:47:13-57
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:47:13-57
 activity#otmobile.EnhanceImageCropActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:50:9-53:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:50:9-53:57
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:52:13-59
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:52:13-59
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:53:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:53:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:51:13-61
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:51:13-61
 activity#emc.captiva.mobile.sdk.QuadrilateralCropActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:54:9-57:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:54:9-57:57
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:56:13-63
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:56:13-63
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:57:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:57:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:55:13-76
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:55:13-76
 activity#emc.captiva.mobile.sdk.CameraActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:59:9-62:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:59:9-62:57
 	android:configChanges
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:61:13-59
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:61:13-59
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:62:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:62:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:60:13-65
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:60:13-65
 activity#otmobile.ImageInfoActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:63:9-66:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:63:9-66:57
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:65:13-52
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:65:13-52
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:66:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:66:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:64:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:64:13-54
 activity#otmobile.SettingsActivity
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:67:9-70:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:67:9-70:57
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:69:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:69:13-54
 	android:theme
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:70:13-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:70:13-54
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:68:13-53
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:68:13-53
 activity#otmobile.FirstScreen
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:71:9-79:20
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:71:9-79:20
 	android:label
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:73:13-45
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:73:13-45
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:72:13-48
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:72:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:74:13-78:29
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:74:13-78:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:75:17-69
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:75:17-69
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:75:25-66
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:75:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:77:17-77
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:77:17-77
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:77:27-74
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:77:27-74
 activity#otmobile.SnapResults
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:80:9-57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:80:9-57
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:80:19-54
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:80:19-54
 uses-sdk
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:8:5-10:41
-MERGED from [:captivamobilesdk] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\306c71b39770e649e0d7769ba5fd493e\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\d74ddbf40aca631d8707f675b8757699\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\d74ddbf40aca631d8707f675b8757699\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\8b62c1d71ebbb3a1c8ba8b9b92cff31f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\8b62c1d71ebbb3a1c8ba8b9b92cff31f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\00de0eb3de15f59b8ab9d494293d2d99\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\00de0eb3de15f59b8ab9d494293d2d99\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b1be3b74a31f198a141c5681521e1380\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b1be3b74a31f198a141c5681521e1380\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\445cae9b85bab304dadfbdfc6455643d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\445cae9b85bab304dadfbdfc6455643d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9740449c9dad082c8576cf5ef651d943\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9740449c9dad082c8576cf5ef651d943\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f2c832a97fe60ae632b5108f732194ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f2c832a97fe60ae632b5108f732194ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\1193e7c648e39a64729ea2a6c5a82139\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\1193e7c648e39a64729ea2a6c5a82139\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\941a276ecb00d54929312edd1c98a1d4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\941a276ecb00d54929312edd1c98a1d4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fcdebc27d5bb2d2f96fe50f6c9bec256\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fcdebc27d5bb2d2f96fe50f6c9bec256\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\60fa9b793131eeac36007e066b7bb86c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\60fa9b793131eeac36007e066b7bb86c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\136bb96c292bc0f3a4f1a9b3d37bcfeb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\136bb96c292bc0f3a4f1a9b3d37bcfeb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b809f2869bed60c737ed7d4405de5b38\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b809f2869bed60c737ed7d4405de5b38\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9c33b1ce589efc1ab542a27b95a07e5c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9c33b1ce589efc1ab542a27b95a07e5c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\4e387e1317be1e7390c72667cf3c91b8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\4e387e1317be1e7390c72667cf3c91b8\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\7aa668d5939707f1b04ee95088cfc60a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\7aa668d5939707f1b04ee95088cfc60a\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cf839bbfa1028a161843089b1986521b\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cf839bbfa1028a161843089b1986521b\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\77a93753076b9f3bf6b7921e3bb1ad58\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\77a93753076b9f3bf6b7921e3bb1ad58\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\10d14bf2fdd27add456af6e8df3001f6\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\10d14bf2fdd27add456af6e8df3001f6\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e83468088593accba3cf58b55eb8964b\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e83468088593accba3cf58b55eb8964b\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:8:5-10:41
+MERGED from [:captivamobilesdk] C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\captivamobilesdk\build\.transforms\cdfe51acbb35aa53e35035d9868f540b\captivamobilesdk\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\364489e9c7df5b27ddd4c5587497594b\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\364489e9c7df5b27ddd4c5587497594b\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\8bdfad7e07e40cb22e8741ce1ef5fa31\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\8bdfad7e07e40cb22e8741ce1ef5fa31\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fb2a2d11f829b33f009285b741af1a2f\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fb2a2d11f829b33f009285b741af1a2f\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\1964e27cd626d82f1f68da12af3faf08\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\1964e27cd626d82f1f68da12af3faf08\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\ca3ec6b43f557b9c9fa3387a7465f577\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\ca3ec6b43f557b9c9fa3387a7465f577\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\a38d372d79d017bebda0dbd4c4c0ad71\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\a38d372d79d017bebda0dbd4c4c0ad71\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\287ab7920917df54a03463f6274d2fa6\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\287ab7920917df54a03463f6274d2fa6\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f9d674eaf6b853e6a27bf843971b0531\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f9d674eaf6b853e6a27bf843971b0531\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b01f3a6b7c5be78fcdf08c5b780f4ccf\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b01f3a6b7c5be78fcdf08c5b780f4ccf\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\dd1204b854c009912b1ec72073074766\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\dd1204b854c009912b1ec72073074766\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f64b6a631c902a54d9d7f9ee5d01231e\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\f64b6a631c902a54d9d7f9ee5d01231e\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cedbeb5a6f0ccf272ef561853bc2a140\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\cedbeb5a6f0ccf272ef561853bc2a140\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\91945d2376b8541f7a2b4d6b4d439929\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\91945d2376b8541f7a2b4d6b4d439929\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fa556222e27490c28b10feafc694743c\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fa556222e27490c28b10feafc694743c\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\51b4c484d7b9605cc91a44b76df368a4\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\51b4c484d7b9605cc91a44b76df368a4\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0afe2f522ef770c256ea822f4578054c\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0afe2f522ef770c256ea822f4578054c\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e96c233b9cbeda7e38289723f34c3d57\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\e96c233b9cbeda7e38289723f34c3d57\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\88efc4ee4f34ff99e113f5291079b715\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\88efc4ee4f34ff99e113f5291079b715\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0e8eab2945b4d64c64dd6547a6d5ee81\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\0e8eab2945b4d64c64dd6547a6d5ee81\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b5229703b39576e58a56d8e388a83947\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\b5229703b39576e58a56d8e388a83947\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\52392666878565afed65772c7731c0b3\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\52392666878565afed65772c7731c0b3\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\bf6072649b6da0b4b7b26ce6a1ebae07\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\bf6072649b6da0b4b7b26ce6a1ebae07\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\30ba5970c6848f5745c95695f8757d6e\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\30ba5970c6848f5745c95695f8757d6e\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\7bffb607984d27523f533c6c1520b804\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\7bffb607984d27523f533c6c1520b804\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9bd795034eece87a4db7ca3289e28bfb\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\9bd795034eece87a4db7ca3289e28bfb\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\085f3060b64e25185d28f46f8598a2eb\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\085f3060b64e25185d28f46f8598a2eb\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fd578264dd355d7051ccddb2c89011b9\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\fd578264dd355d7051ccddb2c89011b9\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\c05f18e44289bef762017866af19cc6e\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\ghutchin\.gradle\caches\transforms-2\files-2.1\c05f18e44289bef762017866af19cc6e\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:38:13-40:57
+ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:38:13-40:57
 	android:resource
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:40:17-55
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:40:17-55
 	android:name
-		ADDED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:39:17-67
+		ADDED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:39:17-67
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\ghutchin\StudioProjects\SnapMobileWIP\app\src\main\AndroidManifest.xml:2:1-83:12 reason: emc.captiva.mobile.sdk requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\ghutchin\StudioProjects\CoreCaptureMobile\app\src\main\AndroidManifest.xml:2:1-83:12 reason: emc.captiva.mobile.sdk requested WRITE_EXTERNAL_STORAGE

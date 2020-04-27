@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SnapMobileWIP.iml" filepath="$PROJECT_DIR$/SnapMobileWIP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/captivamobilesdk/captivamobilesdk.iml" filepath="$PROJECT_DIR$/captivamobilesdk/captivamobilesdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreCaptureMobile.iml" filepath="$PROJECT_DIR$/CoreCaptureMobile.iml" group="CoreCaptureMobile" />
+      <module fileurl="file://$PROJECT_DIR$/captivamobilesdk/CoreCaptureMobile-captivamobilesdk.iml" filepath="$PROJECT_DIR$/captivamobilesdk/CoreCaptureMobile-captivamobilesdk.iml" group="CoreCaptureMobile/captivamobilesdk" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CoreCaptureMobile/app" />
+      <module fileurl="file://$PROJECT_DIR$/captivamobilesdk/captivamobilesdk.iml" filepath="$PROJECT_DIR$/captivamobilesdk/captivamobilesdk.iml" group="CoreCaptureMobile/captivamobilesdk" />
     </modules>
   </component>
 </project>

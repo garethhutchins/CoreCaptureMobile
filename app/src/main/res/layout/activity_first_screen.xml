@@ -27,7 +27,8 @@
         android:clickable="true"
         android:scaleType="fitCenter"
         android:src="@android:drawable/ic_menu_preferences"
-        app:backgroundTint="#00BCD4" />
+        app:backgroundTint="#00BCD4"
+        android:focusable="true" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -37,10 +38,11 @@
         android:adjustViewBounds="true"
         android:background="#40FFFFFF"
         android:scaleType="centerInside"
-        android:src="@drawable/corecapture"
+        android:src="@drawable/leapsnap"
         android:visibility="visible"
-        app:srcCompat="@drawable/corecapture"
-        tools:srcCompat="@drawable/corecapture" />
+        app:srcCompat="@drawable/leapsnap"
+        tools:srcCompat="@drawable/leapsnap"
+        android:contentDescription="TODO" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingGallery"
@@ -53,7 +55,8 @@
         android:clickable="true"
         android:scaleType="fitCenter"
         android:src="@android:drawable/ic_menu_gallery"
-        app:backgroundTint="#3F51B5" />
+        app:backgroundTint="#3F51B5"
+        android:focusable="true" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingCamera"
@@ -67,6 +70,7 @@
 
         android:scaleType="fitCenter"
         android:src="@android:drawable/ic_menu_camera"
-        app:backgroundTint="#9C27B0" />
+        app:backgroundTint="#9C27B0"
+        android:focusable="true" />
 
 </RelativeLayout>
