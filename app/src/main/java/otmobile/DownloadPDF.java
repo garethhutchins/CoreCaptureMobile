@@ -111,12 +111,12 @@ public class DownloadPDF extends AsyncTask {
         dialog.setMessage("Downloading PDF");
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Core Capture Data Center","");
         if (Datacentre.equals("US")) {
-            url = "https://snap.leap.opentext.com";
+            url = "https://capture.ot2.opentext.com";
         }
         else {
-            url = "https://snap.leap.opentext.eu";
+            url = "https://capture.ot2.opentext.eu";
         }
         url = url + "/cp-rest/session/files/" + _PDFFileID;
         Log.d("Requesting File",url);
@@ -177,12 +177,12 @@ public class DownloadPDF extends AsyncTask {
         //First get the URL from the preferences
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Core Capture Data Center","");
         if (Datacentre.equals("US")) {
-            url = "https://snap.leap.opentext.com";
+            url = "https://capture.ot2.opentext.com";
         }
         else {
-            url = "https://snap.leap.opentext.eu";
+            url = "https://capture.ot2.opentext.eu";
         }
         url = url + "/cp-rest/session/services/fullpageocr";
 
@@ -284,13 +284,13 @@ public class DownloadPDF extends AsyncTask {
             @Override
             public String getBodyContentType()
             {
-                return "application/vnd.emc.captiva+json; charset=utf-8";
+                return "application/hal+json; charset=utf-8";
             }
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
                 headers.put("Authorization","Bearer " + _ticket);
-                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                headers.put("Content-Type", "application/hal+json; charset=utf-8");
                 return headers;
             }
         };

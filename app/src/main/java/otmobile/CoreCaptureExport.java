@@ -36,7 +36,7 @@ import static android.R.style.Theme_DeviceDefault_Light_Dialog;
  * Created by hutchg on 12/01/2017.
  */
 
-public class SnapExport extends AsyncTask {
+public class CoreCaptureExport extends AsyncTask {
 
     private Context context;
     private ProgressDialog dialog;
@@ -73,7 +73,7 @@ public class SnapExport extends AsyncTask {
         int offset;
         String fileExtension;
     }
-    public SnapExport(Context context){
+    public CoreCaptureExport(Context context){
         dialog = new ProgressDialog(context,AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         this.context = context;
@@ -141,18 +141,18 @@ public class SnapExport extends AsyncTask {
         //Get the values from the preferences
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         ER.captureFlow = gprefs.getString("Captiva CaptureFlow","");
-        ER.exportType = gprefs.getString("Snap Export Type","");
-        ER.exportProfile = gprefs.getString("Snap Export Profile Name","");
-        ER.env = gprefs.getString("Snap Environment","");
+        ER.exportType = gprefs.getString("Core Capture Export Type","");
+        ER.exportProfile = gprefs.getString("Core Capture Export Profile Name","");
+        ER.env = gprefs.getString("Core Capture Environment","");
 
         //Now create the post
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Center","");
+        String Datacentre = gprefs.getString("Core Capture Data Center","");
         if (Datacentre.equals("US")) {
-            url = "https://snap.leap.opentext.com";
+            url = "https://capture.ot2.opentext.eu";
         }
         else {
-            url = "https://snap.leap.opentext.eu";
+            url = "https://capture.ot2.opentext.eu";
         }
         url = url + "/cp-rest/session/batches";
         Gson gson = new Gson();
@@ -217,13 +217,13 @@ public class SnapExport extends AsyncTask {
             @Override
             public String getBodyContentType()
             {
-                return "application/vnd.emc.captiva+json; charset=utf-8";
+                return "application/hal+json; charset=utf-8";
             }
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
                 headers.put("Authorization","Bearer " + _ticket);
-                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                headers.put("Content-Type", "application/hal+json; charset=utf-8");
                 return headers;
             }
         };

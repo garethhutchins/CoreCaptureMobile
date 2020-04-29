@@ -51,12 +51,12 @@ import static android.R.style.Theme_DeviceDefault_Light_Dialog;
 /**
  * Created by hutchg on 08/04/2016.
  */
-public class PostToSnap extends AsyncTask {
+class PostToCoreCapture extends AsyncTask {
     private Context context;
     private ProgressDialog dialog;
     private String _ticket;
     public String FileName;
-    private WeakReference<SnapResults> SnapResultsWeakReference;
+    private WeakReference<CoreCaptureResults> SnapResultsWeakReference;
     private String OriginalFileID;
     private String OriginalContentType;
     public String OriginalImage;
@@ -65,7 +65,7 @@ public class PostToSnap extends AsyncTask {
         public String username;
         public String password;
         public String subscriptionName;
-        public String grant_type = "password";
+        public String grant_type = "client_credentials";
     }
     private class loginResponse {
         returnStatus returnStatus;
@@ -113,7 +113,7 @@ public class PostToSnap extends AsyncTask {
     String filename;
 
 
-    public PostToSnap(Context context) {
+    public PostToCoreCapture(Context context) {
 
         dialog = new ProgressDialog(context, Theme_DeviceDefault_Light_Dialog);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
@@ -131,22 +131,22 @@ public class PostToSnap extends AsyncTask {
     private void login() {
         String url;
 
-        dialog.setMessage("Logging in to Snap");
+        dialog.setMessage("Logging in to Core Capture");
 
         SharedPreferences gprefs = PreferenceManager.getDefaultSharedPreferences(context);
         final loginRequest Login = new loginRequest();
-        Login.username = gprefs.getString("Snap User","");
-        Login.password = gprefs.getString("Snap Password","");
-        Login.subscriptionName = gprefs.getString("Snap Subscription","");
-        final String client = gprefs.getString("Snap Client","");
-        final String secret = gprefs.getString("Snap Secret","");
+        Login.username = gprefs.getString("Core Capture User","");
+        Login.password = gprefs.getString("Core Capture Password","");
+        Login.subscriptionName = gprefs.getString("Core Capture Subscription","");
+        final String client = gprefs.getString("Core Capture Client","");
+        final String secret = gprefs.getString("Core Capture Secret","");
         //Need to add a new setting to swtich data centers
-        String Datacentre = gprefs.getString("Snap Data Centre","");
+        String Datacentre = gprefs.getString("Core Capture Data Centre","");
         if (Datacentre.equals("US")) {
-            url = "https://authservice.leap.opentext.com/authserver/oauth/token";
+            url = "https://otdsauth.ot2.opentext.com/oauth2/token";
         }
         else {
-            url = "https://authservice.leap.opentext.eu/authserver/oauth/token";
+            url = "https://otdsauth.ot2.opentext.eu/oauth2/token";
         }
 
         Gson gson = new Gson();
@@ -266,12 +266,12 @@ public class PostToSnap extends AsyncTask {
         PF.contentType = mime;
         PF.data = encodedString;
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Centre","");
+        String Datacentre = gprefs.getString("Core Capture Data Centre","");
         if (Datacentre.equals("US")) {
-            url = "https://snap.leap.opentext.com";
+            url = "https://capture.ot2.opentext.com";
         }
         else {
-            url = "https://snap.leap.opentext.eu";
+            url = "https://capture.ot2.opentext.eu";
         }
         //Now make the post
 
@@ -333,7 +333,7 @@ public class PostToSnap extends AsyncTask {
                     }
                     if(json != null) {
                         Log.d("Post File Error",json);
-                        ShowDialog("Prost File Error",json);
+                        ShowDialog("Post File Error",json);
                         //Go back to Image Enhancement
                     }
                 } }
@@ -343,13 +343,13 @@ public class PostToSnap extends AsyncTask {
             @Override
             public String getBodyContentType()
             {
-                return "application/vnd.emc.captiva+json; charset=utf-8";
+                return "application/hal+json; charset=utf-8";
             }
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
                 headers.put("Authorization","Bearer " + _ticket);
-                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                headers.put("Content-Type", "application/hal+json; charset=utf-8");
                 return headers;
             }
         };
@@ -373,7 +373,7 @@ public class PostToSnap extends AsyncTask {
         //Set the Environment
         serviceProps Env = new serviceProps();
         Env.name = "Env";
-        Env.value = gprefs.getString("Snap Environment","");;
+        Env.value = gprefs.getString("Core Capture Environment","");;
         processImageRequest.serviceProps[1] = Env;
 
         //Set the request Item
@@ -391,12 +391,12 @@ public class PostToSnap extends AsyncTask {
         //Now do the posting
 
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Centre","");
+        String Datacentre = gprefs.getString("Core Capture Data Centre","");
         if (Datacentre.equals("US")) {
-            url = "https://snap.leap.opentext.com";
+            url = "https://capture.ot2.opentext.eu";
         }
         else {
-            url = "https://snap.leap.opentext.eu";
+            url = "https://capture.ot2.opentext.eu";
         }
         url = url + "/cp-rest/session/services/processimage";
 
@@ -468,13 +468,13 @@ public class PostToSnap extends AsyncTask {
             @Override
             public String getBodyContentType()
             {
-                return "application/vnd.emc.captiva+json; charset=utf-8";
+                return "application/hal+json; charset=utf-8; charset=utf-8";
             }
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
                 headers.put("Authorization","Bearer " + _ticket);
-                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                headers.put("Content-Type", "application/hal+json; charset=utf-8; charset=utf-8");
                 return headers;
             }
         };
@@ -512,7 +512,7 @@ public class PostToSnap extends AsyncTask {
         //env
         serviceProps Env = new serviceProps();
         Env.name = "Env";
-        Env.value = gprefs.getString("Snap Environment","");;;
+        Env.value = gprefs.getString("Core Capture Environment","");;;
         ceRequest.serviceProps[0] = Project;
         ceRequest.serviceProps[1] = Env;
         requestItems requestItem = new requestItems();
@@ -528,12 +528,12 @@ public class PostToSnap extends AsyncTask {
 
         //Now do the posting
         String url = "";
-        String Datacentre = gprefs.getString("Snap Data Centre","");
+        String Datacentre = gprefs.getString("Core Capture Data Centre","");
         if (Datacentre.equals("US")) {
-            url = "https://snap.leap.opentext.com";
+            url = "https://capture.ot2.opentext.com";
         }
         else {
-            url = "https://snap.leap.opentext.eu";
+            url = "https://capture.ot2.opentext.eu";
         }
         url = url + "/cp-rest/session/services/classifyextractpage";
 
@@ -554,7 +554,7 @@ public class PostToSnap extends AsyncTask {
                     public void onResponse(JSONObject response) {
                         // handle response
                         Log.d("Classify OK",response.toString());
-                        Intent ViewSnapRestuls = new Intent(context,SnapResults.class);
+                        Intent ViewSnapRestuls = new Intent(context,CoreCaptureResults.class);
                         ViewSnapRestuls.putExtra("UIM","");
                         try {
                             //First get the JSON Object for the UIM Data
@@ -616,13 +616,13 @@ public class PostToSnap extends AsyncTask {
             @Override
             public String getBodyContentType()
             {
-                return "application/vnd.emc.captiva+json; charset=utf-8";
+                return "application/hal+json; charset=utf-8; charset=utf-8";
             }
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String, String> headers = new HashMap<String, String>();
                 headers.put("Authorization","Bearer " + _ticket);
-                headers.put("Content-Type", "application/vnd.emc.captiva+json; charset=utf-8");
+                headers.put("Content-Type", "application/hal+json; charset=utf-8; charset=utf-8");
                 return headers;
             }
         };

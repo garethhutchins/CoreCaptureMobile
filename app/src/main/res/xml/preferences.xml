@@ -19,7 +19,7 @@
             android:key="@string/corecapture_USER"
             android:title="@string/corecapture_USER_TITLE"
             android:summary="@string/corecapture_USER_SUMMARY"
-            android:defaultValue="Gareth.Hutchins@emc.com"
+            android:defaultValue="ghutchin@opentext.com"
             android:inputType="textEmailAddress"/>
         <EditTextPreference
             android:key="@string/corecapture_PASSWORD"

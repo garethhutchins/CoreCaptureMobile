@@ -25,7 +25,7 @@ import org.json.JSONObject;
 
 import java.io.File;
 
-public class SnapResults extends Activity {
+public class CoreCaptureResults extends Activity {
     public String _ticket = "";
     private Context context;
     private String fileID;
@@ -91,7 +91,7 @@ public class SnapResults extends Activity {
     }
     private void onExportClick(View view) {
         //Create the export Object
-        SnapExport SE = new SnapExport(this);
+        CoreCaptureExport SE = new CoreCaptureExport(this);
         SE.FileID = fileID;
         SE.SnapFileName = SnapFileName;
         SE.UIMDocType = UIMDocType;
